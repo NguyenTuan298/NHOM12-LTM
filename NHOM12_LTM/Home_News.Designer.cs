@@ -28,225 +28,293 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home_News));
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pic1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.btnTrangChu = new System.Windows.Forms.Button();
+            this.btnTheGioi = new System.Windows.Forms.Button();
+            this.btnXaHoi = new System.Windows.Forms.Button();
+            this.btnChinhTri = new System.Windows.Forms.Button();
+            this.btnPhapLuat = new System.Windows.Forms.Button();
+            this.btnGiaoDuc = new System.Windows.Forms.Button();
+            this.btnCongNghe = new System.Windows.Forms.Button();
+            this.btnTheThao = new System.Windows.Forms.Button();
+            this.btnGiaiTri = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lblBaiViet = new System.Windows.Forms.Label();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.splitter1 = new System.Windows.Forms.Splitter();
+            this.splitter2 = new System.Windows.Forms.Splitter();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnX = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(-1, -3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(961, 130);
+            this.label1.Size = new System.Drawing.Size(1065, 102);
             this.label1.TabIndex = 0;
             this.label1.Text = "BÁO HAY 24H";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // pic1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(645, 522);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Location = new System.Drawing.Point(140, 436);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(240, 108);
-            this.webBrowser1.TabIndex = 2;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(645, 593);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(645, 451);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
+            this.pic1.BackColor = System.Drawing.Color.White;
+            this.pic1.Location = new System.Drawing.Point(26, 24);
+            this.pic1.Name = "pic1";
+            this.pic1.Size = new System.Drawing.Size(988, 297);
+            this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic1.TabIndex = 1;
+            this.pic1.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.AutoSize = true;
             this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
-            this.flowLayoutPanel1.Controls.Add(this.button4);
-            this.flowLayoutPanel1.Controls.Add(this.button5);
-            this.flowLayoutPanel1.Controls.Add(this.button6);
-            this.flowLayoutPanel1.Controls.Add(this.button7);
-            this.flowLayoutPanel1.Controls.Add(this.button8);
-            this.flowLayoutPanel1.Controls.Add(this.button9);
-            this.flowLayoutPanel1.Controls.Add(this.button10);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 130);
+            this.flowLayoutPanel1.Controls.Add(this.btnTrangChu);
+            this.flowLayoutPanel1.Controls.Add(this.btnTheGioi);
+            this.flowLayoutPanel1.Controls.Add(this.btnXaHoi);
+            this.flowLayoutPanel1.Controls.Add(this.btnChinhTri);
+            this.flowLayoutPanel1.Controls.Add(this.btnPhapLuat);
+            this.flowLayoutPanel1.Controls.Add(this.btnGiaoDuc);
+            this.flowLayoutPanel1.Controls.Add(this.btnCongNghe);
+            this.flowLayoutPanel1.Controls.Add(this.btnTheThao);
+            this.flowLayoutPanel1.Controls.Add(this.btnGiaiTri);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(38, 99);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(890, 42);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1026, 42);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
-            // button1
+            // btnTrangChu
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(83, 36);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnTrangChu.BackColor = System.Drawing.Color.White;
+            this.btnTrangChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTrangChu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnTrangChu.Location = new System.Drawing.Point(3, 3);
+            this.btnTrangChu.Name = "btnTrangChu";
+            this.btnTrangChu.Size = new System.Drawing.Size(113, 36);
+            this.btnTrangChu.TabIndex = 0;
+            this.btnTrangChu.Text = "Trang Chủ";
+            this.btnTrangChu.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnTheGioi
             // 
-            this.button2.Location = new System.Drawing.Point(92, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(83, 36);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnTheGioi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTheGioi.Location = new System.Drawing.Point(122, 3);
+            this.btnTheGioi.Name = "btnTheGioi";
+            this.btnTheGioi.Size = new System.Drawing.Size(103, 36);
+            this.btnTheGioi.TabIndex = 1;
+            this.btnTheGioi.Text = "Thế Giới";
+            this.btnTheGioi.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnXaHoi
             // 
-            this.button3.Location = new System.Drawing.Point(181, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(83, 36);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnXaHoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXaHoi.Location = new System.Drawing.Point(231, 3);
+            this.btnXaHoi.Name = "btnXaHoi";
+            this.btnXaHoi.Size = new System.Drawing.Size(83, 36);
+            this.btnXaHoi.TabIndex = 2;
+            this.btnXaHoi.Text = "Xã Hội";
+            this.btnXaHoi.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnChinhTri
             // 
-            this.button4.Location = new System.Drawing.Point(270, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(83, 36);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnChinhTri.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChinhTri.Location = new System.Drawing.Point(320, 3);
+            this.btnChinhTri.Name = "btnChinhTri";
+            this.btnChinhTri.Size = new System.Drawing.Size(108, 36);
+            this.btnChinhTri.TabIndex = 6;
+            this.btnChinhTri.Text = "Chính Trị";
+            this.btnChinhTri.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnPhapLuat
             // 
-            this.button5.Location = new System.Drawing.Point(359, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(83, 36);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnPhapLuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhapLuat.Location = new System.Drawing.Point(434, 3);
+            this.btnPhapLuat.Name = "btnPhapLuat";
+            this.btnPhapLuat.Size = new System.Drawing.Size(112, 36);
+            this.btnPhapLuat.TabIndex = 9;
+            this.btnPhapLuat.Text = "Pháp Luật ";
+            this.btnPhapLuat.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnGiaoDuc
             // 
-            this.button6.Location = new System.Drawing.Point(448, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(83, 36);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnGiaoDuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGiaoDuc.Location = new System.Drawing.Point(552, 3);
+            this.btnGiaoDuc.Name = "btnGiaoDuc";
+            this.btnGiaoDuc.Size = new System.Drawing.Size(111, 36);
+            this.btnGiaoDuc.TabIndex = 4;
+            this.btnGiaoDuc.Text = "Giáo Dục";
+            this.btnGiaoDuc.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnCongNghe
             // 
-            this.button7.Location = new System.Drawing.Point(537, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(83, 36);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnCongNghe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCongNghe.Location = new System.Drawing.Point(669, 3);
+            this.btnCongNghe.Name = "btnCongNghe";
+            this.btnCongNghe.Size = new System.Drawing.Size(126, 36);
+            this.btnCongNghe.TabIndex = 5;
+            this.btnCongNghe.Text = "Công Nghệ";
+            this.btnCongNghe.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnTheThao
             // 
-            this.button8.Location = new System.Drawing.Point(626, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(83, 36);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnTheThao.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTheThao.Location = new System.Drawing.Point(801, 3);
+            this.btnTheThao.Name = "btnTheThao";
+            this.btnTheThao.Size = new System.Drawing.Size(106, 36);
+            this.btnTheThao.TabIndex = 7;
+            this.btnTheThao.Text = "Thể Thao";
+            this.btnTheThao.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnGiaiTri
             // 
-            this.button9.Location = new System.Drawing.Point(715, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(83, 36);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnGiaiTri.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGiaiTri.Location = new System.Drawing.Point(913, 3);
+            this.btnGiaiTri.Name = "btnGiaiTri";
+            this.btnGiaiTri.Size = new System.Drawing.Size(107, 36);
+            this.btnGiaiTri.TabIndex = 8;
+            this.btnGiaiTri.Text = "Giải Trí";
+            this.btnGiaiTri.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // timer1
             // 
-            this.button10.Location = new System.Drawing.Point(804, 3);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(83, 36);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // lblBaiViet
+            // 
+            this.lblBaiViet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lblBaiViet.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.lblBaiViet.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBaiViet.ForeColor = System.Drawing.Color.Black;
+            this.lblBaiViet.Location = new System.Drawing.Point(129, 252);
+            this.lblBaiViet.Name = "lblBaiViet";
+            this.lblBaiViet.Size = new System.Drawing.Size(761, 44);
+            this.lblBaiViet.TabIndex = 2;
+            this.lblBaiViet.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.splitter1);
+            this.flowLayoutPanel2.Controls.Add(this.splitter2);
+            this.flowLayoutPanel2.Controls.Add(this.panel1);
+            this.flowLayoutPanel2.Controls.Add(this.label2);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(16, 144);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1040, 887);
+            this.flowLayoutPanel2.TabIndex = 13;
+            // 
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(3, 3);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(3, 0);
+            this.splitter1.TabIndex = 0;
+            this.splitter1.TabStop = false;
+            // 
+            // splitter2
+            // 
+            this.splitter2.Location = new System.Drawing.Point(12, 3);
+            this.splitter2.Name = "splitter2";
+            this.splitter2.Size = new System.Drawing.Size(3, 0);
+            this.splitter2.TabIndex = 1;
+            this.splitter2.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.DarkGray;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel1.Controls.Add(this.lblBaiViet);
+            this.panel1.Controls.Add(this.pic1);
+            this.panel1.Location = new System.Drawing.Point(3, 9);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1040, 342);
+            this.panel1.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label2.Location = new System.Drawing.Point(3, 354);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(139, 45);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Tin Hot";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // btnX
+            // 
+            this.btnX.BackColor = System.Drawing.Color.White;
+            this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnX.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnX.Image = ((System.Drawing.Image)(resources.GetObject("btnX.Image")));
+            this.btnX.Location = new System.Drawing.Point(1020, -3);
+            this.btnX.Name = "btnX";
+            this.btnX.Size = new System.Drawing.Size(44, 43);
+            this.btnX.TabIndex = 10;
+            this.btnX.UseVisualStyleBackColor = false;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
             // Home_News
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(915, 792);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1068, 1050);
+            this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.btnX);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.webBrowser1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home_News";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home_News";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.Load += new System.EventHandler(this.Home_News_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.PictureBox pic1;
+        private System.Windows.Forms.Button btnTrangChu;
+        private System.Windows.Forms.Button btnTheGioi;
+        private System.Windows.Forms.Button btnXaHoi;
+        private System.Windows.Forms.Button btnGiaoDuc;
+        private System.Windows.Forms.Button btnCongNghe;
+        private System.Windows.Forms.Button btnChinhTri;
+        private System.Windows.Forms.Button btnTheThao;
+        private System.Windows.Forms.Button btnGiaiTri;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button btnPhapLuat;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lblBaiViet;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Splitter splitter1;
+        private System.Windows.Forms.Splitter splitter2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnX;
     }
 }
