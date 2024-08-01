@@ -77,9 +77,9 @@ namespace NHOM12_LTM
             btnTrangChu.BackColor = Color.Yellow;
             timer1.Enabled = true;
 
-            if (imageList.Count > 0)
+            if (imageList.Count > 0 && articleList.Count > 0)
             {
-                pic1.Image = Image.FromFile(imageList[0]);
+                pic1.Image = Image.FromFile(imageList[0]);      
                 lblBaiViet.Text = articleList[0].ToString();
             }
         }
@@ -95,6 +95,11 @@ namespace NHOM12_LTM
                 Close();
             else
                 MessageBox.Show("Mời bạn sử dụng tiếp chương trình");
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
         }
     }
 }

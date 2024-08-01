@@ -44,16 +44,27 @@
             this.btnGiaiTri = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblBaiViet = new System.Windows.Forms.Label();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.splitter1 = new System.Windows.Forms.Splitter();
-            this.splitter2 = new System.Windows.Forms.Splitter();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.btnX = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.thếGiớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xãHộiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chínhTrịToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.phápLuậtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.giáoDụcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.côngNghệToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thểThaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.giáiTríToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -64,7 +75,7 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(-1, -3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1065, 102);
+            this.label1.Size = new System.Drawing.Size(1088, 102);
             this.label1.TabIndex = 0;
             this.label1.Text = "BÁO HAY 24H";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -72,9 +83,9 @@
             // pic1
             // 
             this.pic1.BackColor = System.Drawing.Color.White;
-            this.pic1.Location = new System.Drawing.Point(26, 24);
+            this.pic1.Location = new System.Drawing.Point(18, 14);
             this.pic1.Name = "pic1";
-            this.pic1.Size = new System.Drawing.Size(988, 297);
+            this.pic1.Size = new System.Drawing.Size(1005, 315);
             this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic1.TabIndex = 1;
             this.pic1.TabStop = false;
@@ -92,7 +103,7 @@
             this.flowLayoutPanel1.Controls.Add(this.btnCongNghe);
             this.flowLayoutPanel1.Controls.Add(this.btnTheThao);
             this.flowLayoutPanel1.Controls.Add(this.btnGiaiTri);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(38, 99);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(50, 102);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1026, 42);
             this.flowLayoutPanel1.TabIndex = 5;
@@ -200,38 +211,11 @@
             this.lblBaiViet.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblBaiViet.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBaiViet.ForeColor = System.Drawing.Color.Black;
-            this.lblBaiViet.Location = new System.Drawing.Point(129, 252);
+            this.lblBaiViet.Location = new System.Drawing.Point(134, 272);
             this.lblBaiViet.Name = "lblBaiViet";
             this.lblBaiViet.Size = new System.Drawing.Size(761, 44);
             this.lblBaiViet.TabIndex = 2;
             this.lblBaiViet.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.splitter1);
-            this.flowLayoutPanel2.Controls.Add(this.splitter2);
-            this.flowLayoutPanel2.Controls.Add(this.panel1);
-            this.flowLayoutPanel2.Controls.Add(this.label2);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(16, 144);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1040, 887);
-            this.flowLayoutPanel2.TabIndex = 13;
-            // 
-            // splitter1
-            // 
-            this.splitter1.Location = new System.Drawing.Point(3, 3);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 0);
-            this.splitter1.TabIndex = 0;
-            this.splitter1.TabStop = false;
-            // 
-            // splitter2
-            // 
-            this.splitter2.Location = new System.Drawing.Point(12, 3);
-            this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(3, 0);
-            this.splitter2.TabIndex = 1;
-            this.splitter2.TabStop = false;
             // 
             // panel1
             // 
@@ -239,7 +223,7 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.lblBaiViet);
             this.panel1.Controls.Add(this.pic1);
-            this.panel1.Location = new System.Drawing.Point(3, 9);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1040, 342);
             this.panel1.TabIndex = 12;
@@ -250,7 +234,7 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label2.Location = new System.Drawing.Point(3, 354);
+            this.label2.Location = new System.Drawing.Point(3, 348);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 45);
             this.label2.TabIndex = 13;
@@ -264,20 +248,132 @@
             this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnX.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnX.Image = ((System.Drawing.Image)(resources.GetObject("btnX.Image")));
-            this.btnX.Location = new System.Drawing.Point(1020, -3);
+            this.btnX.Location = new System.Drawing.Point(1040, -3);
             this.btnX.Name = "btnX";
             this.btnX.Size = new System.Drawing.Size(44, 43);
             this.btnX.TabIndex = 10;
             this.btnX.UseVisualStyleBackColor = false;
             this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(294, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(75, 63);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.ContextMenuStrip = this.contextMenuStrip1;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(-1, 102);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(48, 46);
+            this.button1.TabIndex = 14;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thếGiớiToolStripMenuItem,
+            this.xãHộiToolStripMenuItem,
+            this.chínhTrịToolStripMenuItem,
+            this.phápLuậtToolStripMenuItem,
+            this.giáoDụcToolStripMenuItem,
+            this.côngNghệToolStripMenuItem,
+            this.thểThaoToolStripMenuItem,
+            this.giáiTríToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(249, 309);
+            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
+            // 
+            // thếGiớiToolStripMenuItem
+            // 
+            this.thếGiớiToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thếGiớiToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thếGiớiToolStripMenuItem.Image")));
+            this.thếGiớiToolStripMenuItem.Name = "thếGiớiToolStripMenuItem";
+            this.thếGiớiToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
+            this.thếGiớiToolStripMenuItem.Text = "Thế Giới";
+            // 
+            // xãHộiToolStripMenuItem
+            // 
+            this.xãHộiToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xãHộiToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("xãHộiToolStripMenuItem.Image")));
+            this.xãHộiToolStripMenuItem.Name = "xãHộiToolStripMenuItem";
+            this.xãHộiToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
+            this.xãHộiToolStripMenuItem.Text = "Xã Hội";
+            // 
+            // chínhTrịToolStripMenuItem
+            // 
+            this.chínhTrịToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chínhTrịToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("chínhTrịToolStripMenuItem.Image")));
+            this.chínhTrịToolStripMenuItem.Name = "chínhTrịToolStripMenuItem";
+            this.chínhTrịToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
+            this.chínhTrịToolStripMenuItem.Text = "Chính Trị";
+            // 
+            // phápLuậtToolStripMenuItem
+            // 
+            this.phápLuậtToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phápLuậtToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("phápLuậtToolStripMenuItem.Image")));
+            this.phápLuậtToolStripMenuItem.Name = "phápLuậtToolStripMenuItem";
+            this.phápLuậtToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
+            this.phápLuậtToolStripMenuItem.Text = "Pháp Luật";
+            // 
+            // giáoDụcToolStripMenuItem
+            // 
+            this.giáoDụcToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.giáoDụcToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("giáoDụcToolStripMenuItem.Image")));
+            this.giáoDụcToolStripMenuItem.Name = "giáoDụcToolStripMenuItem";
+            this.giáoDụcToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
+            this.giáoDụcToolStripMenuItem.Text = "Giáo Dục";
+            // 
+            // côngNghệToolStripMenuItem
+            // 
+            this.côngNghệToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.côngNghệToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("côngNghệToolStripMenuItem.Image")));
+            this.côngNghệToolStripMenuItem.Name = "côngNghệToolStripMenuItem";
+            this.côngNghệToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
+            this.côngNghệToolStripMenuItem.Text = "Công Nghệ";
+            // 
+            // thểThaoToolStripMenuItem
+            // 
+            this.thểThaoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thểThaoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thểThaoToolStripMenuItem.Image")));
+            this.thểThaoToolStripMenuItem.Name = "thểThaoToolStripMenuItem";
+            this.thểThaoToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
+            this.thểThaoToolStripMenuItem.Text = "Thể Thao";
+            // 
+            // giáiTríToolStripMenuItem
+            // 
+            this.giáiTríToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.giáiTríToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("giáiTríToolStripMenuItem.Image")));
+            this.giáiTríToolStripMenuItem.Name = "giáiTríToolStripMenuItem";
+            this.giáiTríToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
+            this.giáiTríToolStripMenuItem.Text = "Giải Trí";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Location = new System.Drawing.Point(23, 150);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1047, 884);
+            this.panel2.TabIndex = 16;
+            // 
             // Home_News
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1068, 1050);
-            this.Controls.Add(this.flowLayoutPanel2);
+            this.ClientSize = new System.Drawing.Size(1089, 1050);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label1);
@@ -288,15 +384,15 @@
             this.Load += new System.EventHandler(this.Home_News_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pic1;
         private System.Windows.Forms.Button btnTrangChu;
         private System.Windows.Forms.Button btnTheGioi;
@@ -310,11 +406,21 @@
         private System.Windows.Forms.Button btnPhapLuat;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lblBaiViet;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Splitter splitter1;
-        private System.Windows.Forms.Splitter splitter2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnX;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem thếGiớiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xãHộiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem chínhTrịToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem phápLuậtToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem giáoDụcToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem côngNghệToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thểThaoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem giáiTríToolStripMenuItem;
+        private System.Windows.Forms.Panel panel2;
     }
 }

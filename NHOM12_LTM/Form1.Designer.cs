@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnX = new System.Windows.Forms.Button();
             this.btnLoGin = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
@@ -41,7 +42,6 @@
             this.lbl2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.btnX = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +63,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(467, 551);
             this.panel1.TabIndex = 0;
+            // 
+            // btnX
+            // 
+            this.btnX.BackColor = System.Drawing.Color.White;
+            this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnX.ForeColor = System.Drawing.Color.Red;
+            this.btnX.Image = ((System.Drawing.Image)(resources.GetObject("btnX.Image")));
+            this.btnX.Location = new System.Drawing.Point(423, 0);
+            this.btnX.Name = "btnX";
+            this.btnX.Size = new System.Drawing.Size(44, 43);
+            this.btnX.TabIndex = 9;
+            this.btnX.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnX.UseVisualStyleBackColor = false;
+            this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
             // btnLoGin
             // 
@@ -95,7 +110,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(188, 239);
+            this.txtPassword.Location = new System.Drawing.Point(187, 262);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
@@ -104,7 +119,7 @@
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(188, 161);
+            this.txtUserName.Location = new System.Drawing.Point(187, 184);
             this.txtUserName.Multiline = true;
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(238, 32);
@@ -112,20 +127,23 @@
             // 
             // btnClear
             // 
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.Red;
-            this.btnClear.Location = new System.Drawing.Point(177, 466);
+            this.btnClear.Image = ((System.Drawing.Image)(resources.GetObject("btnClear.Image")));
+            this.btnClear.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnClear.Location = new System.Drawing.Point(177, 464);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(114, 40);
+            this.btnClear.Size = new System.Drawing.Size(128, 52);
             this.btnClear.TabIndex = 3;
             this.btnClear.Text = "Clear";
+            this.btnClear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // chkShowPassWord
             // 
             this.chkShowPassWord.AutoSize = true;
-            this.chkShowPassWord.Location = new System.Drawing.Point(188, 286);
+            this.chkShowPassWord.Location = new System.Drawing.Point(187, 309);
             this.chkShowPassWord.Name = "chkShowPassWord";
             this.chkShowPassWord.Size = new System.Drawing.Size(144, 24);
             this.chkShowPassWord.TabIndex = 2;
@@ -138,7 +156,7 @@
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.Image = ((System.Drawing.Image)(resources.GetObject("lbl1.Image")));
             this.lbl1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl1.Location = new System.Drawing.Point(3, 229);
+            this.lbl1.Location = new System.Drawing.Point(2, 252);
             this.lbl1.Name = "lbl1";
             this.lbl1.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
             this.lbl1.Size = new System.Drawing.Size(179, 55);
@@ -151,7 +169,7 @@
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2.Image = ((System.Drawing.Image)(resources.GetObject("lbl2.Image")));
             this.lbl2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbl2.Location = new System.Drawing.Point(0, 151);
+            this.lbl2.Location = new System.Drawing.Point(-1, 174);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(182, 55);
             this.lbl2.TabIndex = 0;
@@ -172,21 +190,6 @@
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
-            // 
-            // btnX
-            // 
-            this.btnX.BackColor = System.Drawing.Color.White;
-            this.btnX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnX.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnX.ForeColor = System.Drawing.Color.Red;
-            this.btnX.Image = ((System.Drawing.Image)(resources.GetObject("btnX.Image")));
-            this.btnX.Location = new System.Drawing.Point(423, 0);
-            this.btnX.Name = "btnX";
-            this.btnX.Size = new System.Drawing.Size(44, 43);
-            this.btnX.TabIndex = 9;
-            this.btnX.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnX.UseVisualStyleBackColor = false;
-            this.btnX.Click += new System.EventHandler(this.btnX_Click);
             // 
             // Form1
             // 
