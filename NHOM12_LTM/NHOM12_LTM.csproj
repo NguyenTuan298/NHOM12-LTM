@@ -47,11 +47,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Chinh_Tri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Chinh_Tri.Designer.cs">
+      <DependentUpon>Chinh_Tri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cong_Nghe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cong_Nghe.Designer.cs">
+      <DependentUpon>Cong_Nghe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giai_Tri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giai_Tri.Designer.cs">
+      <DependentUpon>Giai_Tri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giao_Duc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giao_Duc.Designer.cs">
+      <DependentUpon>Giao_Duc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phap_Luat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phap_Luat.Designer.cs">
+      <DependentUpon>Phap_Luat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="The_Gioi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The_Gioi.Designer.cs">
+      <DependentUpon>The_Gioi.cs</DependentUpon>
     </Compile>
     <Compile Include="Home_News.cs">
       <SubType>Form</SubType>
@@ -61,8 +97,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="The_Thao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The_Thao.Designer.cs">
+      <DependentUpon>The_Thao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trang_Chu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trang_Chu.Designer.cs">
+      <DependentUpon>Trang_Chu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xa_Hoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xa_Hoi.Designer.cs">
+      <DependentUpon>Xa_Hoi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Chinh_Tri.resx">
+      <DependentUpon>Chinh_Tri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cong_Nghe.resx">
+      <DependentUpon>Cong_Nghe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giai_Tri.resx">
+      <DependentUpon>Giai_Tri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giao_Duc.resx">
+      <DependentUpon>Giao_Duc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phap_Luat.resx">
+      <DependentUpon>Phap_Luat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The_Gioi.resx">
+      <DependentUpon>The_Gioi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home_News.resx">
       <DependentUpon>Home_News.cs</DependentUpon>
@@ -76,6 +148,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="The_Thao.resx">
+      <DependentUpon>The_Thao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trang_Chu.resx">
+      <DependentUpon>Trang_Chu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xa_Hoi.resx">
+      <DependentUpon>Xa_Hoi.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,6 +175,9 @@
     <Content Include="picture\picture2.jpg" />
     <Content Include="picture\picture3.jpg" />
     <Content Include="picture\picture4.jpg" />
+    <Content Include="picture\picture5.jpg" />
+    <Content Include="picture\picture6.jpg" />
+    <Content Include="picture\picture7.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
