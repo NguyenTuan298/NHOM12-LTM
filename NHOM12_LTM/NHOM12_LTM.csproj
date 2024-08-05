@@ -47,6 +47,258 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT1.Designer.cs">
+      <DependentUpon>PictureCT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT2.Designer.cs">
+      <DependentUpon>PictureCT2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT3.Designer.cs">
+      <DependentUpon>PictureCT3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT4.Designer.cs">
+      <DependentUpon>PictureCT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Chinh_Tri\PictureCT5.Designer.cs">
+      <DependentUpon>PictureCT5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN1.Designer.cs">
+      <DependentUpon>PictureCN1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN2.Designer.cs">
+      <DependentUpon>PictureCN2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN3.Designer.cs">
+      <DependentUpon>PictureCN3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN4.Designer.cs">
+      <DependentUpon>PictureCN4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Cong_Nghe\PictureCN5.Designer.cs">
+      <DependentUpon>PictureCN5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT1.Designer.cs">
+      <DependentUpon>PictureGT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT2.Designer.cs">
+      <DependentUpon>PictureGT2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT3.Designer.cs">
+      <DependentUpon>PictureGT3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT4.Designer.cs">
+      <DependentUpon>PictureGT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giai_Tri\PictureGT5.Designer.cs">
+      <DependentUpon>PictureGT5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD1.Designer.cs">
+      <DependentUpon>PictureGD1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD2.Designer.cs">
+      <DependentUpon>PictureGD2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD3.Designer.cs">
+      <DependentUpon>PictureGD3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD4.Designer.cs">
+      <DependentUpon>PictureGD4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Giao_Duc\PictureGD5.Designer.cs">
+      <DependentUpon>PictureGD5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL1.Designer.cs">
+      <DependentUpon>PicturePL1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL2.Designer.cs">
+      <DependentUpon>PicturePL2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL3.Designer.cs">
+      <DependentUpon>PicturePL3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL4.Designer.cs">
+      <DependentUpon>PicturePL4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Phap_Luat\PicturePL5.Designer.cs">
+      <DependentUpon>PicturePL5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG1.Designer.cs">
+      <DependentUpon>PictureTG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG2.Designer.cs">
+      <DependentUpon>PictureTG2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG3.Designer.cs">
+      <DependentUpon>PictureTG3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG4.Designer.cs">
+      <DependentUpon>PictureTG4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Gioi\PictureTG5.Designer.cs">
+      <DependentUpon>PictureTG5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH1.Designer.cs">
+      <DependentUpon>PictureTTH1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH2.Designer.cs">
+      <DependentUpon>PictureTTH2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH3.Designer.cs">
+      <DependentUpon>PictureTTH3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH4.Designer.cs">
+      <DependentUpon>PictureTTH4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\The_Thao\PictureTTH5.Designer.cs">
+      <DependentUpon>PictureTTH5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture6.Designer.cs">
+      <DependentUpon>Picture6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture7.Designer.cs">
+      <DependentUpon>Picture7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH1.Designer.cs">
+      <DependentUpon>PictureXH1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH2.Designer.cs">
+      <DependentUpon>PictureXH2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH3.Designer.cs">
+      <DependentUpon>PictureXH3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH4.Designer.cs">
+      <DependentUpon>PictureXH4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Xa_Hoi\PictureXH5.Designer.cs">
+      <DependentUpon>PictureXH5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Chinh_Tri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +334,12 @@
     </Compile>
     <Compile Include="Phap_Luat.Designer.cs">
       <DependentUpon>Phap_Luat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture5.Designer.cs">
+      <DependentUpon>Picture5.cs</DependentUpon>
     </Compile>
     <Compile Include="The_Gioi.cs">
       <SubType>Form</SubType>
@@ -178,6 +436,47 @@
     <Content Include="picture\picture5.jpg" />
     <Content Include="picture\picture6.jpg" />
     <Content Include="picture\picture7.jpg" />
+    <Content Include="picture\PictureCN1.jpg" />
+    <Content Include="picture\PictureCN2.jpg" />
+    <Content Include="picture\PictureCN3.jpg" />
+    <Content Include="picture\PictureCN4.jpg" />
+    <Content Include="picture\PictureCN5.jpg" />
+    <Content Include="picture\PictureCT1.jpg" />
+    <Content Include="picture\PictureCT2.jpg" />
+    <Content Include="picture\PictureCT3.jpg" />
+    <Content Include="picture\PictureCT4.jpg" />
+    <Content Include="picture\PictureCT5.jpg" />
+    <Content Include="picture\PictureGD1.jpg" />
+    <Content Include="picture\PictureGD2.jpg" />
+    <Content Include="picture\PictureGD3.jpg" />
+    <Content Include="picture\PictureGD4.jpg" />
+    <Content Include="picture\PictureGD5.jpg" />
+    <Content Include="picture\PictureGT1.jpg" />
+    <Content Include="picture\PictureGT2.jpg" />
+    <Content Include="picture\PictureGT3.jpg" />
+    <Content Include="picture\PictureGT4.jpg" />
+    <Content Include="picture\PictureGT5.jpg" />
+    <Content Include="picture\PicturePL1.jpg" />
+    <Content Include="picture\PicturePL2.jpg" />
+    <Content Include="picture\PicturePL3.jpg" />
+    <Content Include="picture\PicturePL4.jpg" />
+    <Content Include="picture\PicturePL5.jpg" />
+    <Content Include="picture\PictureTG1.jpg" />
+    <Content Include="picture\PictureTG2.jpg" />
+    <Content Include="picture\PictureTG3.jpg" />
+    <Content Include="picture\PictureTG4.jpg" />
+    <Content Include="picture\PictureTG5.jpg" />
+    <Content Include="picture\PictureTT1.jpg" />
+    <Content Include="picture\PictureTT2.jpg" />
+    <Content Include="picture\Picturett3.jpg" />
+    <Content Include="picture\PictureTT4.jpg" />
+    <Content Include="picture\PictureTT5.jpg" />
+    <Content Include="picture\PictureXH1.jpg" />
+    <Content Include="picture\PictureXH2.jpg" />
+    <Content Include="picture\PictureXH3.jpg" />
+    <Content Include="picture\PictureXH4.jpg" />
+    <Content Include="picture\PictureXH5.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
+using NHOM12_LTM.Article_information;
 
 namespace NHOM12_LTM
 {
@@ -160,6 +161,27 @@ namespace NHOM12_LTM
         {
             Giai_Tri GT = new Giai_Tri();
             GT.Show();
+            this.Hide();
+        }
+
+        private void btnA5_Click(object sender, EventArgs e)
+        {
+            Picture5 PT5 = new Picture5();
+            PT5.Show();
+            this.Hide();
+        }
+
+        private void btnA6_Click(object sender, EventArgs e)
+        {
+            Picture6 PT6 = new Picture6();
+            PT6.Show();
+            this.Hide();
+        }
+
+        private void btnA7_Click(object sender, EventArgs e)
+        {
+            Picture7 PT7 = new Picture7();
+            PT7.Show();
             this.Hide();
         }
     }

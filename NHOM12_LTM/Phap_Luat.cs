@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
+using NHOM12_LTM.Article_information.Phap_Luat;
 
 namespace NHOM12_LTM
 {
@@ -147,6 +148,41 @@ namespace NHOM12_LTM
         {
             Giai_Tri GT = new Giai_Tri();
             GT.Show();
+            this.Hide();
+        }
+
+        private void btnPL1_Click(object sender, EventArgs e)
+        {
+            PicturePL1 pL1 = new PicturePL1();
+            pL1.Show();
+            this.Hide();
+        }
+
+        private void btnPL2_Click(object sender, EventArgs e)
+        {
+            PicturePL2 pL2 = new PicturePL2();
+            pL2.Show();
+            this.Hide();
+        }
+
+        private void btnPL3_Click(object sender, EventArgs e)
+        {
+            PicturePL3 pL3 = new PicturePL3();
+            pL3.Show();
+            this.Hide();
+        }
+
+        private void btnPL4_Click(object sender, EventArgs e)
+        {
+            PicturePL4 pL4 = new PicturePL4();
+            pL4.Show();
+            this.Hide();
+        }
+
+        private void btnPL5_Click(object sender, EventArgs e)
+        {
+            PicturePL5 pL5 = new PicturePL5();
+            pL5.Show();
             this.Hide();
         }
     }

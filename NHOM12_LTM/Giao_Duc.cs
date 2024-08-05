@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
+using NHOM12_LTM.Article_information.Giao_Duc;
 
 namespace NHOM12_LTM
 {
@@ -148,6 +149,41 @@ namespace NHOM12_LTM
         {
             Giai_Tri GT = new Giai_Tri();
             GT.Show();
+            this.Hide();
+        }
+
+        private void btnGD1_Click(object sender, EventArgs e)
+        {
+            PictureGD1 gD1 = new PictureGD1();
+            gD1.Show();
+            this.Hide();
+        }
+
+        private void btnGD2_Click(object sender, EventArgs e)
+        {
+            PictureGD2 gD2 = new PictureGD2();
+            gD2.Show();
+            this.Hide();
+        }
+
+        private void btnGD3_Click(object sender, EventArgs e)
+        {
+            PictureGD3 gD3 = new PictureGD3();
+            gD3.Show();
+            this.Hide();
+        }
+
+        private void btnGD4_Click(object sender, EventArgs e)
+        {
+            PictureGD4 gD4 = new PictureGD4();
+            gD4.Show();
+            this.Hide();
+        }
+
+        private void btnGD5_Click(object sender, EventArgs e)
+        {
+            PictureGD5 gD5 = new PictureGD5();
+            gD5.Show();
             this.Hide();
         }
     }

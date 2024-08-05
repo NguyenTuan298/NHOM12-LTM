@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
+using NHOM12_LTM.Article_information.The_Thao;
 
 namespace NHOM12_LTM
 {
@@ -147,6 +148,41 @@ namespace NHOM12_LTM
         {
             Giai_Tri GT = new Giai_Tri();
             GT.Show();
+            this.Hide();
+        }
+
+        private void btnTTH1_Click(object sender, EventArgs e)
+        {
+            PictureTTH1 tTH1 = new PictureTTH1();
+            tTH1.Show();
+            this.Hide();
+        }
+
+        private void btnTTH2_Click(object sender, EventArgs e)
+        {
+            PictureTTH2 tTH2 = new PictureTTH2();
+            tTH2.Show();
+            this.Hide();
+        }
+
+        private void btnTTH3_Click(object sender, EventArgs e)
+        {
+            PictureTTH3 tTH3 = new PictureTTH3();
+            tTH3.Show();
+            this.Hide();
+        }
+
+        private void btnTTH4_Click(object sender, EventArgs e)
+        {
+            PictureTTH4 tTH4 = new PictureTTH4();
+            tTH4.Show();
+            this.Hide();
+        }
+
+        private void btnTTH5_Click(object sender, EventArgs e)
+        {
+            PictureTTH5 tTH5 = new PictureTTH5();
+            tTH5.Show();
             this.Hide();
         }
     }
