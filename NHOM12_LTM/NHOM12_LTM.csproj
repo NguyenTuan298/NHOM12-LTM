@@ -257,6 +257,30 @@
     <Compile Include="Article_information\The_Thao\PictureTTH5.Designer.cs">
       <DependentUpon>PictureTTH5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture1.Designer.cs">
+      <DependentUpon>Picture1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture2.Designer.cs">
+      <DependentUpon>Picture2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture3.Designer.cs">
+      <DependentUpon>Picture3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_information\Trang_Chu\Picture4.Designer.cs">
+      <DependentUpon>Picture4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Article_information\Trang_Chu\Picture6.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -373,6 +397,147 @@
     <Compile Include="Xa_Hoi.Designer.cs">
       <DependentUpon>Xa_Hoi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Article_information\Chinh_Tri\PictureCT1.resx">
+      <DependentUpon>PictureCT1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Chinh_Tri\PictureCT2.resx">
+      <DependentUpon>PictureCT2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Chinh_Tri\PictureCT3.resx">
+      <DependentUpon>PictureCT3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Chinh_Tri\PictureCT4.resx">
+      <DependentUpon>PictureCT4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Chinh_Tri\PictureCT5.resx">
+      <DependentUpon>PictureCT5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Cong_Nghe\PictureCN1.resx">
+      <DependentUpon>PictureCN1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Cong_Nghe\PictureCN2.resx">
+      <DependentUpon>PictureCN2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Cong_Nghe\PictureCN3.resx">
+      <DependentUpon>PictureCN3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Cong_Nghe\PictureCN4.resx">
+      <DependentUpon>PictureCN4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Cong_Nghe\PictureCN5.resx">
+      <DependentUpon>PictureCN5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giai_Tri\PictureGT1.resx">
+      <DependentUpon>PictureGT1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giai_Tri\PictureGT2.resx">
+      <DependentUpon>PictureGT2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giai_Tri\PictureGT3.resx">
+      <DependentUpon>PictureGT3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giai_Tri\PictureGT4.resx">
+      <DependentUpon>PictureGT4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giai_Tri\PictureGT5.resx">
+      <DependentUpon>PictureGT5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giao_Duc\PictureGD1.resx">
+      <DependentUpon>PictureGD1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giao_Duc\PictureGD2.resx">
+      <DependentUpon>PictureGD2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giao_Duc\PictureGD3.resx">
+      <DependentUpon>PictureGD3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giao_Duc\PictureGD4.resx">
+      <DependentUpon>PictureGD4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Giao_Duc\PictureGD5.resx">
+      <DependentUpon>PictureGD5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Phap_Luat\PicturePL1.resx">
+      <DependentUpon>PicturePL1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Phap_Luat\PicturePL2.resx">
+      <DependentUpon>PicturePL2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Phap_Luat\PicturePL3.resx">
+      <DependentUpon>PicturePL3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Phap_Luat\PicturePL4.resx">
+      <DependentUpon>PicturePL4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Phap_Luat\PicturePL5.resx">
+      <DependentUpon>PicturePL5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Gioi\PictureTG1.resx">
+      <DependentUpon>PictureTG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Gioi\PictureTG2.resx">
+      <DependentUpon>PictureTG2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Gioi\PictureTG3.resx">
+      <DependentUpon>PictureTG3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Gioi\PictureTG4.resx">
+      <DependentUpon>PictureTG4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Gioi\PictureTG5.resx">
+      <DependentUpon>PictureTG5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Thao\PictureTTH1.resx">
+      <DependentUpon>PictureTTH1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Thao\PictureTTH2.resx">
+      <DependentUpon>PictureTTH2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Thao\PictureTTH3.resx">
+      <DependentUpon>PictureTTH3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Thao\PictureTTH4.resx">
+      <DependentUpon>PictureTTH4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\The_Thao\PictureTTH5.resx">
+      <DependentUpon>PictureTTH5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Trang_Chu\Picture1.resx">
+      <DependentUpon>Picture1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Trang_Chu\Picture2.resx">
+      <DependentUpon>Picture2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Trang_Chu\Picture3.resx">
+      <DependentUpon>Picture3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Trang_Chu\Picture4.resx">
+      <DependentUpon>Picture4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Trang_Chu\Picture5.resx">
+      <DependentUpon>Picture5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Trang_Chu\Picture6.resx">
+      <DependentUpon>Picture6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Trang_Chu\Picture7.resx">
+      <DependentUpon>Picture7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Xa_Hoi\PictureXH1.resx">
+      <DependentUpon>PictureXH1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Xa_Hoi\PictureXH2.resx">
+      <DependentUpon>PictureXH2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Xa_Hoi\PictureXH3.resx">
+      <DependentUpon>PictureXH3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Xa_Hoi\PictureXH4.resx">
+      <DependentUpon>PictureXH4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_information\Xa_Hoi\PictureXH5.resx">
+      <DependentUpon>PictureXH5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Chinh_Tri.resx">
       <DependentUpon>Chinh_Tri.cs</DependentUpon>
     </EmbeddedResource>

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
 using NHOM12_LTM.Article_information;
+using NHOM12_LTM.Article_information.Trang_Chu;
 
 namespace NHOM12_LTM
 {
@@ -22,7 +23,6 @@ namespace NHOM12_LTM
         private List<string> articleList;
         private int currentAricleIndex = 0;
         private Timer timerAricle;
-
 
         public Home_News()
         {
@@ -67,6 +67,8 @@ namespace NHOM12_LTM
             {
                 currentImageIndex = (currentImageIndex + 1) % imageList.Count;   // Tăng chỉ số hình ảnh hiện tại lên một
                 pic1.Image = Image.FromFile(imageList[currentImageIndex]);      // Tải hình ảnh mới từ đường dẫn và hiển thị nó trong PictureBox.
+                pic1.ImageLocation = imageList[currentImageIndex];              // cập nhật ImageLocation
+
                 currentAricleIndex = (currentAricleIndex + 1) % articleList.Count;
                 lblBaiViet.Text = articleList[currentImageIndex].ToString();
             }
@@ -95,6 +97,66 @@ namespace NHOM12_LTM
                 Close();
             else
                 MessageBox.Show("Mời bạn sử dụng tiếp chương trình");
+        }
+
+        private void pic1_Click(object sender, EventArgs e)
+        {
+            if(imageList.Count > 0)
+            {
+                for(int i = 0; i < imageList.Count; i++)
+                {
+                    if(pic1.ImageLocation == imageList[i])   // so sánh đường dẫn hình ảnh được hiện thị trên pic1 (pictureBox) có bằng với đường dẫn trong ImageList không?
+                    {
+                        switch (i)
+                        {
+                            case 0:
+                                Open_Picture1();
+                                break;
+
+                            case 1:
+                                Open_Picture2();
+                                break;
+
+                            case 2:
+                                Open_Picture3();
+                                break;
+
+                            case 3:
+                                Open_Picture4(); 
+                                break;
+                        }
+                        break;
+                    }
+                }
+            }
+        }
+
+        private void Open_Picture1()
+        {
+            Picture1 picture1 = new Picture1(this);
+            picture1.Show();
+            this.Hide();
+        }
+
+        private void Open_Picture2()
+        {
+            Picture2 picture2 = new Picture2(this);
+            picture2.Show();
+            this.Hide();
+        }
+
+        private void Open_Picture3()
+        {
+            Picture3 picture3 = new Picture3(this);
+            picture3.Show();
+            this.Hide();
+        }
+
+        private void Open_Picture4()
+        {
+            Picture4 picture4 = new Picture4(this);
+            picture4.Show();
+            this.Hide();
         }
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
@@ -166,21 +228,21 @@ namespace NHOM12_LTM
 
         private void btnA5_Click(object sender, EventArgs e)
         {
-            Picture5 PT5 = new Picture5();
+            Picture5 PT5 = new Picture5(this);
             PT5.Show();
             this.Hide();
         }
 
         private void btnA6_Click(object sender, EventArgs e)
         {
-            Picture6 PT6 = new Picture6();
+            Picture6 PT6 = new Picture6(this);
             PT6.Show();
             this.Hide();
         }
 
         private void btnA7_Click(object sender, EventArgs e)
         {
-            Picture7 PT7 = new Picture7();
+            Picture7 PT7 = new Picture7(this);
             PT7.Show();
             this.Hide();
         }

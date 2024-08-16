@@ -362,6 +362,7 @@
             this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic1.TabIndex = 1;
             this.pic1.TabStop = false;
+            this.pic1.Click += new System.EventHandler(this.pic1_Click);
             // 
             // label2
             // 

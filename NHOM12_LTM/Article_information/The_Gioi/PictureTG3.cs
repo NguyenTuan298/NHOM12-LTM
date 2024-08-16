@@ -12,9 +12,29 @@ namespace NHOM12_LTM.Article_information.The_Gioi
 {
     public partial class PictureTG3 : Form
     {
-        public PictureTG3()
+        private Form previousForm;
+        public PictureTG3(Form previousNewsForm)
         {
             InitializeComponent();
+            this.previousForm = previousNewsForm;
+        }
+
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+                    "Bạn có muốn thoát chương trình không?",
+                    "Thông Báo!",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question
+                    );
+            if (result == DialogResult.Yes)
+                Close();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.previousForm.Show();
+            this.Close();
         }
     }
 }

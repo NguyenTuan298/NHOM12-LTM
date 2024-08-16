@@ -12,9 +12,29 @@ namespace NHOM12_LTM.Article_information.Phap_Luat
 {
     public partial class PicturePL3 : Form
     {
-        public PicturePL3()
+        private Form previousForm;
+        public PicturePL3(Form previousNewsForm)
         {
             InitializeComponent();
+            this.previousForm = previousNewsForm;
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.previousForm.Show();
+            this.Close();
+        }
+
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+                    "Bạn có muốn thoát chương trình không?",
+                    "Thông Báo!",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question
+                    );
+            if (result == DialogResult.Yes)
+                Close();
         }
     }
 }

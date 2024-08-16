@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\giai_tri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\giai_tri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\giai_tri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\giai_tri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\trang_chu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\trang_chu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Giai_Tri.cs",
-              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Giai_Tri.cs",
-              "RelativeDocumentMoniker": "NHOM12_LTM\\Giai_Tri.cs",
-              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Giai_Tri.cs",
-              "RelativeToolTip": "NHOM12_LTM\\Giai_Tri.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAADwv7kAAAAYAAAA",
+              "DocumentIndex": 2,
+              "Title": "Trang_Chu.cs [Design]",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Trang_Chu.cs",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Trang_Chu.cs",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Trang_Chu.cs [Design]",
+              "RelativeToolTip": "NHOM12_LTM\\Trang_Chu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T17:22:54.025Z",
+              "WhenOpened": "2024-08-15T15:55:55.023Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home_News.cs",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Home_News.cs",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
+              "RelativeToolTip": "NHOM12_LTM\\Home_News.cs",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:18:55.586Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Picture1.cs",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
+              "RelativeToolTip": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAEwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:02:05.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Giai_Tri.cs [Design]",
-              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Giai_Tri.cs",
-              "RelativeDocumentMoniker": "NHOM12_LTM\\Giai_Tri.cs",
-              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Giai_Tri.cs [Design]",
-              "RelativeToolTip": "NHOM12_LTM\\Giai_Tri.cs [Design]",
+              "Title": "Picture1.cs [Design]",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs [Design]",
+              "RelativeToolTip": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T17:22:46.793Z",
+              "WhenOpened": "2024-08-16T10:02:03.214Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -154,35 +154,35 @@ namespace NHOM12_LTM
 
         private void btnGD1_Click(object sender, EventArgs e)
         {
-            PictureGD1 gD1 = new PictureGD1();
+            PictureGD1 gD1 = new PictureGD1(this);
             gD1.Show();
             this.Hide();
         }
 
         private void btnGD2_Click(object sender, EventArgs e)
         {
-            PictureGD2 gD2 = new PictureGD2();
+            PictureGD2 gD2 = new PictureGD2(this);
             gD2.Show();
             this.Hide();
         }
 
         private void btnGD3_Click(object sender, EventArgs e)
         {
-            PictureGD3 gD3 = new PictureGD3();
+            PictureGD3 gD3 = new PictureGD3(this);
             gD3.Show();
             this.Hide();
         }
 
         private void btnGD4_Click(object sender, EventArgs e)
         {
-            PictureGD4 gD4 = new PictureGD4();
+            PictureGD4 gD4 = new PictureGD4(this);
             gD4.Show();
             this.Hide();
         }
 
         private void btnGD5_Click(object sender, EventArgs e)
         {
-            PictureGD5 gD5 = new PictureGD5();
+            PictureGD5 gD5 = new PictureGD5(this);
             gD5.Show();
             this.Hide();
         }

@@ -153,35 +153,35 @@ namespace NHOM12_LTM
 
         private void btnTTH1_Click(object sender, EventArgs e)
         {
-            PictureTTH1 tTH1 = new PictureTTH1();
+            PictureTTH1 tTH1 = new PictureTTH1(this);
             tTH1.Show();
             this.Hide();
         }
 
         private void btnTTH2_Click(object sender, EventArgs e)
         {
-            PictureTTH2 tTH2 = new PictureTTH2();
+            PictureTTH2 tTH2 = new PictureTTH2(this);
             tTH2.Show();
             this.Hide();
         }
 
         private void btnTTH3_Click(object sender, EventArgs e)
         {
-            PictureTTH3 tTH3 = new PictureTTH3();
+            PictureTTH3 tTH3 = new PictureTTH3(this);
             tTH3.Show();
             this.Hide();
         }
 
         private void btnTTH4_Click(object sender, EventArgs e)
         {
-            PictureTTH4 tTH4 = new PictureTTH4();
+            PictureTTH4 tTH4 = new PictureTTH4(this);
             tTH4.Show();
             this.Hide();
         }
 
         private void btnTTH5_Click(object sender, EventArgs e)
         {
-            PictureTTH5 tTH5 = new PictureTTH5();
+            PictureTTH5 tTH5 = new PictureTTH5(this);
             tTH5.Show();
             this.Hide();
         }

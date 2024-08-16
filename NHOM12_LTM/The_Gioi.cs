@@ -102,6 +102,7 @@ namespace NHOM12_LTM
                 Close();
         }
 
+        // contextMenuTrip
         private void thếGiớiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             The_Gioi TG = new The_Gioi();
@@ -160,35 +161,35 @@ namespace NHOM12_LTM
 
         private void btnTG1_Click(object sender, EventArgs e)
         {
-            PictureTG1 TG1 = new PictureTG1();
+            PictureTG1 TG1 = new PictureTG1(this);
             TG1.Show();
             this.Hide();
         }
 
         private void btnTG2_Click(object sender, EventArgs e)
         {
-            PictureTG2 TG2 = new PictureTG2();
+            PictureTG2 TG2 = new PictureTG2(this);
             TG2.Show();
             this.Hide();
         }
 
         private void btnTG3_Click(object sender, EventArgs e)
         {
-            PictureTG3 TG3 = new PictureTG3();
+            PictureTG3 TG3 = new PictureTG3(this);
             TG3.Show();
             this.Hide();
         }
 
         private void btnTG4_Click(object sender, EventArgs e)
         {
-            PictureTG4 TG4 = new PictureTG4();
+            PictureTG4 TG4 = new PictureTG4(this);
             TG4.Show();
             this.Hide();
         }
 
         private void btnTG5_Click(object sender, EventArgs e)
         {
-            PictureTG5 TG5 = new PictureTG5();
+            PictureTG5 TG5 = new PictureTG5(this);
             TG5.Show();
             this.Hide();
         }
