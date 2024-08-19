@@ -45,26 +45,42 @@ namespace NHOM12_LTM
         {
             errorProvider1.Clear(); // xóa toàn bộ thông báo lỗi khi bắt đầu chạy
             if (txtUserName.Text == "")
+            {
                 errorProvider1.SetError(txtUserName, "Bạn chưa nhập tên đăng nhập");
+            }
 
             int password = 0;
-            if(txtPassword.Text == "")
+            if (txtPassword.Text == "")
             {
-                errorProvider1.SetError(txtPassword,"Bạn chưa nhập mật khẩu");
+                errorProvider1.SetError(txtPassword, "Bạn chưa nhập mật khẩu");
             }
             else if (int.TryParse(txtPassword.Text, out password) == false)
             {
                 errorProvider1.SetError(txtPassword, "sai định dạng password");
             }
-            else
-            {
-                if (password != 112233 )
-                    errorProvider1.SetError(txtPassword, "Bạn nhập sai mật khẩu");
-            }
+            //else
+            //{
+            //    if (password != 112233)
+            //        errorProvider1.SetError(txtPassword, "Bạn nhập sai mật khẩu");
+            //}
 
-            Home_News HN = new Home_News();
-            HN.Show();
-            this.Hide();
+            try
+            {
+                if (txtUserName.Text == "NHOM12LTM" && txtPassword.Text == "112233")
+                {
+                    Home_News HN = new Home_News();
+                    HN.Show();
+                    this.Hide();
+                }
+                else if ( txtUserName.Text != "" && txtPassword.Text != "" && txtUserName.Text != "NHOM12LTM" && txtPassword.Text != "112233")
+                {
+                    MessageBox.Show("Tên đăng nhập hoặc mật khẩu không chính xác","THÔNG BÁO!",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex) 
+            {
+                MessageBox.Show("lỖI:" + ex.Message);
+            }
         }
 
         private void chkShowPassWord_CheckedChanged(object sender, EventArgs e)

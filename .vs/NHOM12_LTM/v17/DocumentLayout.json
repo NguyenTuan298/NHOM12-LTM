@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Home_News.cs [Design]",
               "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
               "RelativeDocumentMoniker": "NHOM12_LTM\\Home_News.cs",
@@ -35,7 +47,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home_News.cs",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Home_News.cs",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
+              "RelativeToolTip": "NHOM12_LTM\\Home_News.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwDsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:22:39.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Login.cs",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Login.cs",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Login.cs",
+              "RelativeToolTip": "NHOM12_LTM\\Login.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAuwEoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:06:19.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Login.cs",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Login.cs",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Login.cs [Design]",
+              "RelativeToolTip": "NHOM12_LTM\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:06:08.575Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Program.cs",
               "RelativeDocumentMoniker": "NHOM12_LTM\\Program.cs",
