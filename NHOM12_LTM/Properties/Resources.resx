@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,1344 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Content_CN1" xml:space="preserve">
+    <value>                ĐỐI MẶT LÀN SỐNG CHỈ TRÍCH, GOOGLE GỠ QUẢNG CÁO TẠO OLYMPIC
+               Google dừng phát sóng quảng cáo về Gemini sau khi nhận hàng loạt chỉ trích của cộng đồng vì lạm dụng AI để giúp bé gái viết thư.
+
+              "Gemini, hãy giúp con gái tôi viết thư nói với Sydney rằng cô ấy đã truyền cảm hứng thế nào cho người hâm mộ", là nội dung quảng cáo của Google phát trên các kênh truyền hình về Olympic Paris 2024 đầu tháng 8. Trong đó, người cha yêu cầu Gemini viết thư cho Sydney McLaughlin-Levrone, vận động viên điền kinh người Mỹ đang thi đấu tại Olympic.
+
+                Google kết thúc video bằng cảnh quay cô bé chạy trên đường đua cùng dòng chữ "A little help from Gemini" (Với một chút trợ giúp từ Gemini).
+
+                Theo CNBC, quảng cáo lập tức vấp phải làn sóng phản ứng dữ dội từ cộng đồng. Khắp các mạng xã hội từ Threads, X, đến LinkedIn, người dùng liên tục đặt câu hỏi: Tại sao Google lại muốn thay thế cảm xúc, sự sáng tạo của một đứa trẻ bằng những từ ngữ do máy tính viết?
+
+                Will Leitch, người sáng lập blog thể thao Deadspin, nhận xét: "Video của Google cho thấy người cha yêu cầu con gái dùng AI thay vì khuyến khích cô bé tự viết ra những gì mình muốn nói với thần tượng. Tôi vô cùng buồn mỗi khi thấy quảng cáo này". Trên Threads, một số người đánh giá đây là quảng cáo AI "đáng xấu hổ".
+ 
+                Giáo sư Shelly Palmer tại Trường Truyền thông Công cộng SI Newhouse - Đại học Syracus (Mỹ) nói với CNN: "Tôi phản đối hoàn toàn tương lai Google đang vẽ ra. Tôi muốn sống trong thế giới đa dạng về văn hóa, nơi mọi người dùng AI để hỗ trợ các kỹ năng chứ không phải lợi dụng AI để giả vờ là con người".
+
+                CNN nhận định quảng cáo đánh dấu sai lầm nghiêm trọng của Google khi định vị Gemini là đối trọng của ChatGPT. Video khoét thêm nỗi sợ của nhiều người về việc AI sẽ cướp đi công việc của con người trong các lĩnh vực sáng tạo.
+
+                Ban đầu, Google cố bảo vệ quảng cáo, cho rằng Gemini có thể hỗ trợ "mở bài" cho một ý tưởng. "Chúng tôi tin AI có thể là công cụ tuyệt vời để nâng cao khả năng sáng tạo của con người", Google nói. Nhưng ngày 3/8, người phát ngôn của công ty thừa nhận: "Quảng cáo đã được kiểm tra kỹ lưỡng nhưng sau khi nhận được nhiều phản hồi, chúng tôi quyết định loại nó khỏi các chương trình phát sóng Olympic".
+
+                Google không phải công ty duy nhất bị phản ứng khi quảng cáo về sự sáng tạo trong kỷ nguyên số. Đầu tháng 5, trong sự kiện ra mắt iPad mới, video Crush mô tả máy tính bảng của Apple có thể "nghiền nát" các dụng cụ âm nhạc, sơn, ống kính máy ảnh, sách, nhân vật điện ảnh, điêu khắc và nhiều vật dụng sáng tạo khác. Ngay lập tức, nhiều người đã chỉ trích hãng không tôn trọng sự sáng tạo của nghệ sĩ. Apple sau đó đã xin lỗi và rút quảng cáo.
+
+</value>
+  </data>
+  <data name="Content_CN2" xml:space="preserve">
+    <value>           VÒNG CỔ AI GÂY TRANH CÃI CỦA CHÀNG TRAI 21 TUỔI BỎ HỌC HARVARD
+                Friend, thiết bị AI đeo cổ, lắng nghe người dùng và trò chuyện với họ khi cô đơn, nhưng gây lo ngại vì có thể bị lợi dụng nghe lén.
+
+                Người đứng sau Friend là Avi Schiffman. Anh từng nổi tiếng trong đại dịch khi tạo website theo dõi Covid-19 phổ biến nhất thế giới với 25 triệu lượt xem mỗi ngày. Anh sống trên đảo Mercer gần Seattle, được truyền thông Mỹ đánh giá là tài năng công nghệ khi tự học lập trình qua Internet và viết phần mềm thành thạo từ khi 7 tuổi. Anh vừa bỏ học Đại học Harvard để tập trung khởi nghiệp.
+
+                 Friend là sản phẩm mới nhất Schiffman, người Mỹ gốc Anh, tạo ra, chuẩn bị bán trong tháng 8 với giá 99 USD. Nói với The Sun, anh cho biết ý tưởng về thiết bị hình thành khi đi du lịch một mình ở Nhật Bản và khao khát có bạn đồng hành.
+
+                 Về cấu tạo, Friend có dạng hình tròn tương tự Apple AirTag nhưng lớn hơn, phía trên có móc đeo dây chuyền. Bên trong, thiết bị có micro, thu âm những gì phát ra xung quanh, hoặc khi chủ nhân muốn trò chuyện với nó, sau đó phân tích bằng AI để đưa ra phản hồi. Schiffman không công bố mô hình AI trong Friend.
+
+                 Khác với smartphone AI như AI Pin đưa ra câu trả lời khi được hỏi, Friend chỉ đơn giản lắng nghe bởi nó không có loa. Việc phản hồi được thực hiện thông qua giao diện ứng dụng cài trên smartphone. Điều này theo Schiffman là nhằm đảm bảo tính riêng tư.
+
+                  Friend sẽ nghe các âm thanh, như câu chuyện giữa những người bạn, hay khi đi một mình trong rừng, sau đó phản hồi qua điện thoại "như hai người bạn đang nói chuyện bí mật với nhau". Theo thời gian, nó sẽ "hiểu" chủ nhân hơn.
+
+                  Tuy nhiên, sau khi xuất hiện trên Internet, Friend không nhận được đánh giá tích cực. "Đây là sản phẩm dành cho kẻ thua cuộc bởi chuyên nghe lén người khác", một tài khoản X bình luận. "Thiết bị AI này khiến tôi không thể vui, vì nó thu thập mọi thứ xung quanh, sau đó 'nói xấu sau lưng' người khác", một tài khoản khác viết. Nhiều người so sánh Friend với một tập phim Black Mirror - bộ phim viễn tưởng kinh dị tâm lý về những mặt trái của công nghệ tương lai.
+
+                   Các bình luận ngày càng gay gắt hơn khi Schiffman thông báo đã huy động được 2,5 triệu USD cho Friend từ Caffeinated Capital, Perplexity AI và Morning Brew. Thay vì dùng tiền tập trung phát triển sản phẩm, anh chi 1,8 triệu USD để mua lại tên miền friend.com.
+
+                   "Mọi người nghĩ thật vô lý khi tôi mua một tên miền như thế, nhưng đây là mục đích của số tiền đầu tư", Schiffmann nói với Business Insider. Anh nhắc đến việc Elon Musk từng chi 11 triệu USD để mua tên miền tesla.com.
+
+                    Schiffmann thừa nhận phản ứng của người dùng với Friend không như mong đợi sau khi tung ra video. "Thành thật mà nói, tôi nghĩ đó là do video quá hay. Có lẽ đó là sai lầm của tôi. Chưa có video nào chất lượng cao như vậy về tình bạn AI kể từ phim Her", anh cho biết.
+
+                    Theo Schiffmann, Friend có hàng loạt ưu điểm mọi người không nhắc đến, cũng như cần có quyền truy cập vào mọi khía cạnh trong cuộc sống của người dùng để có thể hoạt động.
+
+                     "Nếu một trong năm người bạn thân của bạn là AI, đó cũng là điều tốt, đặc biệt nếu bạn sợ bị người khác phán xét. Nó có thể lấp đầy khoảng trống khi bạn đi du lịch, hay muốn nói chuyện với ai đó nhưng đã khuya", Schiffmann nói. "Friend khiến bạn cảm thấy như nó thực sự ở đó với bạn. Thật tuyệt khi ở bên một thực thể có tri giác".
+
+</value>
+  </data>
+  <data name="Content_CN3" xml:space="preserve">
+    <value>                           TRUNG QUỐC THỬ NGHIỆM XÁC THỰC BẰNG "DANH TÍNH ẢO "
+                 Người dùng Internet tại Trung Quốc có thể tạo ID ảo để dùng dịch vụ nhằm tránh lộ thông tin cá nhân, nhưng gây lo ngại nguy cơ bị kiểm soát.
+
+                 Đề xuất về chương trình thử nghiệm danh tính ảo trên không gian mạng - Cyberspace ID được Bộ Công an và Cục Quản lý Không gian mạng Trung Quốc CAC đưa ra cuối tháng 7, nhưng đang sự chú ý sau khi hàng loạt nền tảng lớn tại nước này bắt đầu thử nghiệm và nhận những ý kiến trái chiều từ các chuyên gia.
+
+                 Theo dự thảo, người dùng dịch vụ Internet sẽ thông qua nền tảng Xác thực danh tính mạng quốc gia NNIA của Trung Quốc để tạo một ID ảo, gồm một chuỗi chữ cái và chữ số cùng một "chứng chỉ không gian mạng". Nền tảng sẽ liên kết ID ảo với danh tính thực bằng cách yêu cầu họ quét thẻ căn cước gắn chip, quét khuôn mặt và liên kết tài khoản với số điện thoại.
+
+                  Người dùng sau khi có ID ảo sẽ có thể dùng để xác thực các dịch vụ trực tuyến. Theo cơ quan quản lý, việc này giúp "giảm tình trạng thu thập và lưu trữ quá mức thông tin cá nhân trên các nền tảng Internet". Việc đăng ký sử dụng ID ảo cũng được thực hiện "trên cơ sở tự nguyện".
+
+                  Theo The Register, dự thảo được đưa ra sau gần một thập kỷ các dịch vụ tại Trung Quốc yêu cầu người dùng phải khai báo danh tính thực, tạo ra một lượng dữ liệu lớn. Từ 2017, các nhà cung cấp dịch vụ viễn thông tại đây được yêu cầu thu thập tên thật và số CMND khi khách hàng đăng ký dịch vụ. Người tham gia các trang mạng xã hội như Weibo và WeChat cũng phải xác thực tài khoản bằng giấy tờ tùy thân. Hơn một tỷ người dùng Internet tại nước này đã cung cấp nhiều thông tin cá nhân khác nhau cho các nền tảng trực tuyến lớn.
+
+                   Trang Nikkei dẫn lời Lester Ross, đại diện một công ty luật tại Bắc Kin, rằng dự thảo sẽ cho phép các cơ quan quản lý nhà nước thu thập thông tin cá nhân mà không chia sẻ với các nền tảng Internet. "Việc này giải quyết một số lo ngại phổ biến về tình trạng thu thập dữ liệu quá mức và bảo vệ quyền riêng tư, trong khi cơ quan quản lý nhà nước vẫn có quyền truy cập vào danh tính thực", Ross nói.
+
+                   Một chuyên gia giấu tên cho rằng mục đích của cách làm này có thể là nhằm kiểm soát toàn diện đối với quyền truy cập Internet. Theo đó, thay vì yêu cầu các nền tảng trên mạng cung cấp thông tin về người dùng, cơ quan quản lý có thể tiếp cận trực tiếp vào hoạt động trực tuyến của bất kỳ ai. Một hệ thống giám sát tập trung có thể theo dõi và phân tích toàn diện dấu vết trực tuyến của một cá nhân.
+
+                   Lao Dongyan, giáo sư luật của Đại học Thanh Hoa, phản đối đề xuất này, cho rằng ID ảo sẽ cho phép cơ quan chức năng biết mọi dấu vết mà cá nhân để lại trên Internet, bao gồm cả lịch sử duyệt web. Ngoài ra, bà Dongyan lo ngại chứng chỉ không gian mạng sẽ biến việc sử dụng Internet thành một đặc quyền mà người dùng có thể phải xin được cấp phép.
+
+                   Ngoài ra, cách làm trên cũng tiềm ẩn nguy cơ rò rỉ dữ liệu cá nhân. Theo The Register, tình trạng này từng xảy ra với Aadhar, một chương trình nhận dạng sinh trắc học quốc gia của Ấn Độ, được sử dụng cho nhiều dịch vụ của chính phủ, ngân hàng và mạng di động. Năm 2023, thông tin Aadhar của 815 triệu người Ấn Độ đã được rao bán trên dark web của giới hacker.
+
+                   Dự thảo về ID ảo sẽ được các cơ quan quản lý Trung Quốc thu thập phản hồi của công chúng đến ngày 25/8. Đến nay, hơn 50 ứng dụng tại Trung Quốc đã bắt đầu thử nghiệm chấp nhận ID ảo, như Tencent, Alibaba, ByteDance.
+
+</value>
+  </data>
+  <data name="Content_CN4" xml:space="preserve">
+    <value>                              TRÀN LAN THIẾT BỊ ĐỊNH VỊ GIÁ VÀI CHỤC NGHÌN ĐỒNG
+               Có giá chưa tới 100.000 đồng, các thiết bị định vị tương thích với iPhone dễ mua song chất lượng kém và tiềm ẩn nguy cơ bị lạm dụng
+
+              "Tôi mua 5 chiếc giá 500.000 đồng trên một nhóm Facebook, ban đầu sử dụng thấy hoạt động khá tốt", Trần Tiến (TP HCM) nói. Anh cho biết đang dùng thiết bị làm móc khóa, để trong túi xách, đeo cho thú cưng và gắn trên xe máy để chống trộm.
+
+
+               Vài tháng gần đây, thiết bị định vị với mức giá từ 70.000 đến 150.000 được bán nhiều trên các trang thương mại điện tử hoặc Facebook. Chúng đều từ thương hiệu khá lạ như MMLuck, Momax, Smatrul, Sualio. Chúng kết nối với iPhone, tương thích Apple Find My và không chống nước. Các mẫu tương thích Android và có gắn sim để hoạt động độc lập thường có giá cao hơn.
+
+               Trong khi đó, Apple hiện bán phụ kiện định vị AirTag với giá 800.000 đồng mỗi chiếc, hay Samsung SmartTag khoảng 600.000-800.000 đồng.
+
+              "Giá bằng gần một phần mười hàng chính hãng, trong khi công năng giống nhau khiến thiết bị định vị loại này dễ tiếp cận, nhất là những ai cần theo dõi đồ vật mà không muốn chi nhiều tiền để mua đồ Apple", Hoàng Hải, người chuyên bán thiết bị định vị giá rẻ ở Bắc Ninh, cho biết. "Mỗi ngày, tôi bán được 20-30 chiếc, cao điểm 50 chiếc, chủ yếu qua sàn thương mại điện tử và Facebook. Thiết bị này được nhập từ Trung Quốc dạng sỉ qua nguồn hàng riêng, hoặc trang Taobao hay 1688".
+
+              Thử nghiệm thực tế thiết bị có tên Sualio Tag mua trên Facebook với giá 80.000 đồng, sản phẩm được đóng gói đơn giản, vỏ nhựa, phía trên có một nút bấm, khi nhấn phát tiếng chuông. Khi đặt iPhone ở gần, tính năng Apple Find My lập tức xuất hiện và sẵn sàng kết nối. Khi kết nối thành công, nó có thể hiển thị vị trí thông qua bản đồ Apple.
+
+              Bên trong, thiết bị có cấu tạo gồm chip, một loa và pin CR2032 - loại dùng cho AirTag. Theo anh Quang Định, kỹ thuật viên sửa chữa đồ điện tử tại TP HCM, bảng mạch và kết cấu bên trong có độ hoàn thiện thấp.
+
+              Vài tháng gần đây, thiết bị định vị với mức giá từ 70.000 đến 150.000 được bán nhiều trên các trang thương mại điện tử hoặc Facebook. Chúng đều từ thương hiệu khá lạ như MMLuck, Momax, Smatrul, Sualio. Chúng kết nối với iPhone, tương thích Apple Find My và không chống nước. Các mẫu tương thích Android và có gắn sim để hoạt động độc lập thường có giá cao hơn.
+
+              Trong khi đó, Apple hiện bán phụ kiện định vị AirTag với giá 800.000 đồng mỗi chiếc, hay Samsung SmartTag khoảng 600.000-800.000 đồng.
+
+             "Giá bằng gần một phần mười hàng chính hãng, trong khi công năng giống nhau khiến thiết bị định vị loại này dễ tiếp cận, nhất là những ai cần theo dõi đồ vật mà không muốn chi nhiều tiền để mua đồ Apple", Hoàng Hải, người chuyên bán thiết bị định vị giá rẻ ở Bắc Ninh, cho biết. "Mỗi ngày, tôi bán được 20-30 chiếc, cao điểm 50 chiếc, chủ yếu qua sàn thương mại điện tử và Facebook. Thiết bị này được nhập từ Trung Quốc dạng sỉ qua nguồn hàng riêng, hoặc trang Taobao hay 1688".
+
+             Thử nghiệm thực tế thiết bị có tên Sualio Tag mua trên Facebook với giá 80.000 đồng, sản phẩm được đóng gói đơn giản, vỏ nhựa, phía trên có một nút bấm, khi nhấn phát tiếng chuông. Khi đặt iPhone ở gần, tính năng Apple Find My lập tức xuất hiện và sẵn sàng kết nối. Khi kết nối thành công, nó có thể hiển thị vị trí thông qua bản đồ Apple.
+
+             "Phân tích sơ bộ cho thấy thiết bị lấy lại chip định vị của AirTag hoặc các thiết bị tương tự đã được Apple cho phép tương thích với Find My, sau đó tạo bảng mạch mới với chất lượng thấp. Đây có thể là lý do chúng có giá rất rẻ", anh Định đánh giá.
+
+              Dựa trên quan sát và kinh nghiệm, anh dự đoán thiết bị này nhiều khả năng được tái chế bằng vật liệu kém chất lượng, sử dụng linh kiện từ rác thải điện tử, sau đó bóc tách, làm mới. Một số tìm cách can thiệp bằng phần mềm để thiết bị tương thích với sản phẩm Apple. Điều dễ thấy là thiết bị này hoạt động chập chờn sau thời gian ngắn, nhanh hết pin, dễ hỏng. Do không có khả năng chống hoặc kháng nước, chúng cũng dễ bị hư hại nếu dính mưa hoặc rơi xuống nước.
+
+              Thực tế, sau hơn một tuần sử dụng, anh Tiến nhận ra thiết bị định vị hoạt động không ổn định, hiển thị sai vị trí trong một số trường hợp.
+
+              Một mối nguy khác đối với thiết bị trôi nổi này là quyền riêng tư. Theo ông Võ Đỗ Thắng, Giám đốc Trung tâm đào tạo quản trị và an ninh mạng Athena, do giá rất rẻ và dễ tiếp cận, thiết bị định vị này có thể dùng cho các mục đích bất chính như theo dõi người khác.
+
+             "Chúng có thể âm thầm được đặt vào túi xách, xe máy, xe hơi và phương tiện khác để theo dõi hành trình của mục tiêu", ông nói. "Do chỉ vài chục nghìn đồng, lại rất dễ mua và tâm lý 'bị mất cũng không tiếc' vì không có giá trị như AirTag, kẻ xấu không ngại dùng các thiết bị định vị dạng này".
+
+             Ngoài ra, theo ông Thắng, một nguy cơ khác, dù khả năng xảy ra rất thấp, là thiết bị giá rẻ cài cắm mã độc bên trong trước khi xuất xưởng. Khi kết nối smartphone và thiết bị Internet, nó sẽ tự xâm nhập hoặc được kích hoạt từ xa. Từ đó, kẻ gian có thể đánh cắp dữ liệu, lây nhiễm mã độc tống tiền.
+
+             Ông khuyến cáo, người dùng không nên sử dụng các thiết bị định vị trôi nổi dạng này. Thay vào đó, họ có thể mua các sản phẩm từ thương hiệu uy tín để đảm bảo an toàn.
+ </value>
+  </data>
+  <data name="Content_CN5" xml:space="preserve">
+    <value>                          CÔNG NGHÊ BẤM GIỜ TẠI OLYMPIC ĐÃ THAY ĐỔI NHƯ THẾ NÀO
+                Từ chiếc đồng hồ cơ gắn trên xe đạp, thiết bị bấm giờ tại Olympic tiến hóa mạnh mẽ, hiện cho độ chính xác tới phần triệu giây.
+
+                Thế vận hội hiện đại lần đầu được tổ chức tại Athena, Hy Lạp năm 1896, với việc tính giờ thô sơ. Ví dụ, với môn chạy bộ marathon, vận động viên Spyridon Louis chiến thắng với 2 giờ 58 phút 50 giây. Thời gian được tính thông qua đồng hồ cơ gắn lên xe đạp và chạy trước một quãng ngắn để theo dõi và ghi nhận. Tất nhiên, quá trình này có sai số nhất định. Việc quan sát và bấm giờ như vậy được thực hiện trong vài chục năm tiếp theo ở các môn cần đo thời gian.
+
+                 Năm 1932, tại Olympic lần thứ 10 ở Los Angeles (Mỹ), Omega từ Bienne (Thụy Sĩ) mang tới 30 chiếc đồng hồ bấm giờ đã được chứng nhận để phục vụ thế vận hội này, đánh dấu bước chuyển biến lớn bằng hệ thống đo chính xác. Đây cũng là di sản đời đầu của Omega với tư cách là "người bấm giờ" (Timekeeper) cho thế vận hội.
+
+                 "Lần đầu tiên đồng hồ bấm giờ chuyên dụng được sử dụng tại Thế vận hội để đo kết quả vận động viên. Omega đã thay đổi cuộc chơi", Alain Zobrist, người đứng đầu Swiss Timing - thương hiệu thuộc The Swatch Group cùng với Omega và chuyên cung cấp giải pháp đo thời gian tại các sự kiện thể thao, nói với Sharp Magazine.
+
+                  30 đồng hồ bấm giờ đã ghi lại kết quả của hơn 100 trận đấu thể thao, gồm 17 kỷ lục thế giới. Điều này cũng củng cố thêm danh tiếng của Omega như một nhà sản xuất đồng hồ hàng đầu thế giới.
+
+                  Trong 9 thập kỷ tiếp theo, Omega duy trì vai trò Timekeeper. Đến Thế vận hội mùa đông St. Moritz năm 1948, thương hiệu này giới thiệu công nghệ bấm giờ mang tính đột phá khác: máy chụp ảnh đích. Được ứng dụng tế bào quang điện (photoelectric cell), máy ảnh của Omega sử dụng chùm ánh sáng có độ phản ứng cao để đo kết quả của một cuộc đua trong phạm vi 1/1.000 giây. Đây được xem một cải tiến lớn so với băng đo vạch đích áp dụng trước đó.
+
+                   20 năm sau, tại Olympic Mexico City 1968, hệ thống tính giờ điện tử của Omega được sử dụng chính thức trong tất cả môn thể thao. "Đó là sự khởi đầu của hệ thống điện tử thay thế đồng hồ bấm giờ thủ công", Zobrist nói. "Nó không chỉ giúp cuộc thi trở nên công bằng hơn, mà còn nắm bắt được những khoảnh khắc khác biệt mà con người không thể thấy bằng mắt thường".
+
+                   Công nghệ của Omega ngày càng trở nên tinh vi với độ chính xác cao hơn. Năm 2000, công ty cung cấp kết quả theo thời gian thực qua Internet. Năm 2006, hãng sử dụng chip gắn trên vận động viên trượt băng để đo tốc độ. Năm 2008, họ tiếp tục giới thiệu giải pháp lập bản đồ GPS thời gian thực cho vận động viên marathon.
+
+                   Tại Olympic Tokyo 2020, Omega đã một lần nữa nâng cao tiêu chuẩn của chính mình với Quantum Timer, đồng hồ bấm giờ lượng tử có độ chính xác đến một phần triệu giây. Thiết bị có bộ đếm thời gian và bộ nhớ đệm tích hợp để đảm bảo độ chính xác, dữ liệu được truyền đến máy tính tại chỗ.
+
+                   Với Olympic Paris 2024 đang diễn ra, Omega mang đến hơn 350 tấn thiết bị hiện đại, từ bàn di chuột và camera 4K đến hàng km cáp để chia sẻ kết quả của vận động viên với thế giới tức thì. Quantum Timer tiếp tục được nâng cấp bằng AI cho độ nhạy và khả năng thu thập dữ liệu chuyên sâu hơn.
+
+                   Không chỉ đếm giờ bằng Quantum Timer, công ty cũng bắt đầu dùng công nghệ thị giác máy tính và AI cho các môn thể thao khác nhau, chẳng hạn áp dụng AI để phát hiện động tác xem chúng chính xác và đúng luật không, phân tích hướng bóng, tốc độ vận động viên và hiển thị chỉ số theo thời gian thực. Ngoài ra, công ty lần đầu trang bị máy ảnh đo vạch đích với khả năng chụp 40.000 hình ảnh mỗi giây.
+
+                   "Vai trò của Timekeeper đi kèm với rất nhiều trách nhiệm. Chúng tôi không thể mắc bất kỳ sai lầm nào, cũng không thể nói với những người vừa chạy marathon rằng: 'Xin lỗi, đồng hồ tính sai, hãy chạy lại", Zobrist nói thêm. "Mọi thứ chúng tôi đang làm luôn hướng đến một mục đích: giúp vận động viên chia sẻ ước mơ của mình và ghi lại cảm xúc của chính họ".</value>
+  </data>
+  <data name="Content_CT1" xml:space="preserve">
+    <value>                              TRUNG ƯƠNG CHO THÔI CHỨC MỘT BÍ THƯ, 3 ỦY VIÊN
+         Trung ương đồng ý để ông Lê Minh Khái thôi giữ chức vụ Bí thư Trung ương Đảng, Ủy viên Trung ương Đảng khóa 13; các ông Đặng Quốc Khánh, Nguyễn Xuân Ký, Chẩu Văn Lâm thôi chức Ủy viên Trung ương Đảng khóa 13.
+          Tại thông cáo phát sau hội nghị chiều 3/8, Văn phòng Trung ương Đảng cho biết trên cơ sở báo cáo của Ủy ban Kiểm tra Trung ương và đề nghị của Ban Tổ chức Trung ương, Ban Chấp hành Trung ương Đảng nhận thấy các ông Lê Minh Khái, Bí thư Trung ương Đảng, Phó thủ tướng, nguyên Tổng Thanh tra Chính phủ; Đặng Quốc Khánh, Ủy viên Trung ương Đảng, Bộ trưởng Tài nguyên và Môi trường, nguyên: Bí thư Tỉnh ủy Hà Giang, Trưởng Đoàn đại biểu Quốc hội khóa 15 tỉnh Hà Giang; Nguyễn Xuân Ký, Ủy viên Trung ương Đảng, Bí thư Tỉnh ủy Quảng Ninh, Chủ tịch HĐND tỉnh Quảng Ninh; Chẩu Văn Lâm, Ủy viên Trung ương Đảng, Bí thư Tỉnh ủy Tuyên Quang, Trưởng Đoàn đại biểu Quốc hội khóa 15 tỉnh Tuyên Quang, đã có một số vi phạm.
+
+          Các nhân sự trên được xác định vi phạm các quy định của Đảng trong thực hiện chức trách, nhiệm vụ được giao, vi phạm quy định những điều đảng viên không được làm, trách nhiệm nêu gương và các quy định về phòng, chống tham nhũng, tiêu cực. Nhận thức rõ trách nhiệm trước Đảng và nhân dân, các ông đã có Đơn xin thôi giữ các chức vụ được phân công.
+
+          Ông Lê Minh Khái 60 tuổi, quê ở Bạc Liêu, là Ủy viên Trung ương Đảng khóa 12, 13; Bí thư Trung ương Đảng khóa 13; đại biểu Quốc hội khóa 14. Ông từng là cán bộ kế toán của Liên hiệp Khoa học sản xuất In - LIKSIN, TP HCM; kiểm toán viên, kiểm toán trưởng tại Kiểm toán Nhà nước khu vực phía Nam, Phó tổng Kiểm toán Nhà nước; Phó bí thư Tỉnh ủy, Chủ tịch UBND tỉnh, rồi Bí thư Tỉnh ủy Bạc Liêu.
+
+          Tháng 10/2017, ông trở về Trung ương làm Tổng Thanh tra Chính phủ. Từ tháng 4/2021 đến nay, ông giữ cương vị Phó thủ tướng, được phân công theo dõi, chỉ đạo các lĩnh vực khối kinh tế tổng hợp như kế hoạch, tài chính, giá cả, tiền tệ, ngân hàng, thị trường vốn, chứng khóan, dự báo và chính sách điều hành kinh tế vĩ mô, chi ngân sách nhà nước...
+
+          Chính phủ nhiệm kỳ 2021-2026 hiện có bốn Phó thủ tướng giúp việc cho Thủ tướng Phạm Minh Chính, gồm các ông Lê Minh Khái, Trần Lưu Quang, Trần Hồng Hà và Lê Thành Long.
+
+          Ông Đặng Quốc Khánh 48 tuổi, quê huyện Nghi Xuân, tỉnh Hà Tĩnh; trình độ tiến sĩ chuyên ngành Quản lý đô thị và công trình, kỹ sư xây dựng dân dụng và công nghiệp. Ông là Ủy viên Trung ương Đảng khóa 12 (dự khuyết), 13; đại biểu Quốc hội khóa 14, 15.
+
+          Ông Khánh từng là chuyên viên Phòng thẩm định thuộc Sở Xây dựng tỉnh Hà Tĩnh, sau đó kinh qua nhiều chức vụ ở tỉnh này như Giám đốc Sở Xây dựng, Bí thư huyện Nghi Xuân, Phó chủ tịch tỉnh. Năm 2016, khi nhậm chức Chủ tịch UBND tỉnh Hà Tĩnh ở tuổi 40, ông là chủ tịch tỉnh trẻ nhất nước. Tháng 7/2019, Bộ Chính trị điều động ông giữ chức Bí thư Tỉnh ủy Hà Giang. Tháng 5/2023, ông được Quốc hội phê chuẩn bổ nhiệm làm Bộ trưởng Tài nguyên và Môi trường nhiệm kỳ 2021-2026.
+
+          Ông Nguyễn Xuân Ký 52 tuổi, quê tỉnh Nam Định, Ủy viên Ban Chấp hành Trung ương Đảng khóa 13; Bí thư Tỉnh ủy, Chủ tịch HĐND tỉnh Quảng Ninh. Ông từng giữ nhiều chức vụ ở tỉnh Quảng Ninh, gồm Bí thư Tỉnh đoàn, Chánh văn phòng Tỉnh ủy, Bí thư Thành ủy Móng Cái, Phó chủ tịch HĐND tỉnh, Phó bí thư Tỉnh ủy. Từ tháng 9/2019, ông Ký là Bí thư Tỉnh ủy, Chủ tịch HĐND tỉnh Quảng Ninh.
+
+          Ông Chẩu Văn Lâm 57 tuổi, Ủy viên Trung ương Đảng khóa 13; Bí thư Tỉnh ủy Tuyên Quang; đại biểu Quốc hội khóa 14. Sau 4 năm công tác trong tổ chức đoàn, ông Lâm làm Phó chủ tịch huyện Na Hang khi 29 tuổi. Ông sau đó có nhiều năm công tác tại Tuyên Quang, từng giữ chức vụ Giám đốc Sở Kế hoạch và Đầu tư, Phó chủ tịch, Chủ tịch UBND tỉnh. Từ tháng 5/2015 đến nay, ông giữ cương vị Bí thư Tỉnh ủy, Chủ tịch HĐND tỉnh.
+</value>
+  </data>
+  <data name="Content_CT2" xml:space="preserve">
+    <value>                              LÃNH ĐẠO CÁC NƯỚC CHỨC MỪNG TỔNG BÍ THƯ TÔ LÂM
+           Lãnh đạo Lào, Trung Quốc, Campuchia và Nga gửi điện, thư chúc mừng nhân dịp Chủ tịch nước Tô Lâm được bầu làm Tổng Bí thư.
+          "Thay mặt Ban Chấp hành Trung ương đảng Nhân dân Cách mạng Lào và nhân danh cá nhân, tôi vinh dự và nhiệt liệt chúc mừng đồng chí Tô Lâm đã được bầu giữ chức Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam", Tổng Bí thư, Chủ tịch nước Lào Thongloun Sisoulith cho biết trong điện mừng hôm nay.
+Lãnh đạo Lào tin tưởng dưới sự lãnh đạo của Đảng Cộng sản Việt Nam do Tổng Bí thư Tô Lâm đứng đầu, Việt Nam sẽ tiếp tục đạt được nhiều thành tựu mới, to lớn hơn trong sự nghiệp đổi mới, hoàn thành mục tiêu xây dựng Việt Nam trở thành nước công nghiệp theo hướng hiện đại, dân giàu, nước mạnh, dân chủ, công bằng, văn minh và trở thành nước phát triển theo định hướng xã hội chủ nghĩa.
+
+            Ông Sisoulith khẳng định sẽ sát cánh cùng Tổng Bí thư, Chủ tịch nước Tô Lâm và các lãnh đạo Đảng, nhà nước Việt Nam tiếp tục củng cố, vun đắp mối quan hệ hữu nghị vĩ đại, đoàn kết đặc biệt và hợp tác toàn diện giữa hai nước ngày càng phát triển, mang lại lợi ích thiết thực cho nhân dân hai nước, góp phần vào hòa bình, ổn định, hợp tác và phát triển trong khu vực và trên thế giới.
+
+            Tổng Bí thư, Chủ tịch Trung Quốc Tập Cận Bình cũng gửi điện mừng, tin tưởng rằng dưới sự lãnh đạo của Trung ương Đảng Cộng sản Việt Nam, toàn Đảng và toàn thể nhân dân Việt Nam sẽ thực hiện thắng lợi những mục tiêu và nhiệm vụ mà Đại hội XIII đề ra.
+
+            "Tôi sẵn sàng cùng đồng chí Tổng Bí thư Tô Lâm dẫn dắt xây dựng Cộng đồng chia sẻ tương lai Trung - Việt ngày càng thực chất và đi vào chiều sâu, cùng phát huy tình hữu nghị truyền thống, củng cố tin cậy chính trị, đi sâu trao đổi chiến lược, thúc đẩy hợp tác thực chất, đem lại nhiều hạnh phúc hơn cho nhân dân hai nước, đóng góp tích cực cho sự nghiệp hòa bình và tiến bộ của nhân loại", ông Tập Cận Bình viết.
+
+             Quốc vương Campuchia Norodom Sihamoni gửi thư mừng, tin tưởng Việt Nam sẽ giành được nhiều thắng lợi to lớn và phát triển nhanh trên mọi lĩnh vực, giữ vững vai trò quan trọng trong khu vực và trên thế giới.
+
+            "Tôi tin tưởng quan hệ giữa nhân dân hai nước Việt Nam - Campuchia sẽ ngày càng gắn bó tốt đẹp và tiếp tục duy trì hòa bình, ổn định, hợp tác song phương hữu nghị, đoàn kết và phát triển", bức thư có đoạn.
+Chủ tịch đảng Nhân dân Campuchia Hun Sen gửi điện mừng, cho rằng việc Chủ tịch nước Tô Lâm được bầu làm Tổng Bí thư "thể hiện sự tin tưởng của Đảng Cộng sản Việt Nam và toàn thể nhân dân Việt Nam về năng lực và sự lãnh đạo sáng suốt của đồng chí".
+
+             Ông Hun Sen bày tỏ tin tưởng dưới sự lãnh đạo của ông Tô Lâm, Đảng Cộng sản Việt Nam sẽ tiếp tục thực hiện thành công mục tiêu, bảo đảm ổn định chính trị, phát triển kinh tế - xã hội và duy trì hòa bình, ổn định và thịnh vượng của Việt Nam cũng như trong khu vực.
+
+             Chủ tịch đảng Nhân dân Campuchia tin rằng quan hệ hữu nghị truyền thống, đoàn kết và hợp tác chặt chẽ giữa hai đảng sẽ ngày càng đi vào chiều sâu, vì lợi ích của nhân dân hai nước và hai dân tộc.
+Tổng thống Nga Vladimir Putin gửi thư chúc mừng, cho rằng kết quả của Hội nghị Ban chấp hành Trung ương Đảng khóa 13 đã chứng minh công lao của Tổng Bí thư, Chủ tịch nước Tô Lâm trong đảm bảo phát triển kinh tế xã hội và nâng cao vị thế của đất nước trên trường quốc tế.
+
+             "Chúng tôi đánh giá cao những nỗ lực của đồng chí trong củng cố quan hệ Đối tác Chiến lược Toàn diện giữa hai nước. Tôi hy vọng sẽ tiếp tục có các cuộc đối thoại mang tính xây dựng và phối hợp chung về các vấn đề cấp thiết trong chương trình nghị sự song phương và quốc tế. Điều này chắc chắn sẽ đáp ứng được các lợi ích cốt lõi của hai dân tộc hữu nghị Nga và Việt Nam, góp phần củng cố vững chắc an ninh và ổn định tại khu vực châu Á - Thái Bình Dương", ông Putin viết.
+
+              Chủ tịch nước Tô Lâm được Ban chấp hành Trung ương Đảng khóa 13 bầu làm Tổng Bí thư nhiệm kỳ 2021-2026 sáng 3/8 với 100% phiếu ủng hộ. Ông Tô Lâm, 67 tuổi, quê huyện Văn Giang, tỉnh Hưng Yên. Ông là Ủy viên Trung ương Đảng ba khóa 11, 12, 13; Ủy viên Bộ Chính trị hai khóa 12, 13; đại biểu Quốc hội hai khóa 14, 15. Đầu năm 2019, ông được Tổng Bí thư, Chủ tịch nước Nguyễn Phú Trọng thăng quân hàm lên đại tướng, trở thành người thứ tư trong lịch sử công an nhân dân mang quân hàm cao nhất.
+
+              Đại tướng Tô Lâm, Bộ trưởng Công an, được Quốc hội bầu giữ chức Chủ tịch nước nhiệm kỳ 2021-2026 ngày 22/5. Trên cương vị người đứng đầu Nhà nước, ông đã công du Lào và Campuchia, thể hiện thông điệp "ưu tiên cao nhất" mối quan hệ với hai láng giềng.
+
+              Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam là chức danh lãnh đạo cao nhất của Đảng Cộng sản Việt Nam. Điều lệ Đảng quy định Ban Chấp hành Trung ương bầu Bộ Chính trị và bầu Tổng Bí thư trong số Ủy viên Bộ Chính trị.
+</value>
+  </data>
+  <data name="Content_CT3" xml:space="preserve">
+    <value>                       VIỆT NAM - ẤN ĐỘ PHẤN ĐẤU TĂNG GẤP ĐÔI KIM NGẠCH THƯƠNG MẠI
+            Thủ tướng Phạm Minh Chính hội đàm với người đồng cấp Ấn Độ, nhất trí tăng kim ngạch thương mại, đầu tư hai chiều lên gấp đôi vào năm 2030, cùng các biện pháp tăng cường hợp tác khác.
+Tại hội đàm trưa 1/8 tại New Delhi, Thủ tướng Phạm Minh Chính và Thủ tướng Ấn Độ Narendra Modi đánh giá kể từ khi xác lập quan hệ Đối tác Chiến lược Toàn diện năm 2016 đến nay, hai nước đã có những bước tiến vượt bậc trong hợp tác trên các lĩnh vực.
+
+            Kim ngạch thương mại song phương đã tăng gấp ba lần, từ hơn 5 tỷ USD trong năm 2016 lên 15 tỷ USD năm 2023. Năm 2019, hai nước mở đường bay thẳng, giúp lượng khách Ấn Độ sang Việt Nam tăng 2,5 lần trong 4 năm qua.
+
+            Hai lãnh đạo khẳng định quyết tâm tăng cường và làm sâu sắc hơn quan hệ Việt Nam - Ấn Độ những năm tới, nhất trí triển khai các biện pháp nhằm hướng tới mục tiêu đưa kim ngạch thương mại, đầu tư hai chiều vào năm 2030 tăng gấp đôi so với mức hiện nay. Hai nước sẽ thường xuyên trao đổi để dỡ bỏ các rào cản thương mại cũng như đẩy mạnh các biện pháp xúc tiến thương mại khác.
+
+            Hai bên sẽ mở rộng hợp tác về công nghiệp quốc phòng và an ninh, đẩy mạnh hợp tác về an ninh hàng hải, tin cậy về an ninh mạng, trao đổi thông tin tình báo và chống khủng bố. Ấn Độ tiếp tục hỗ trợ Việt Nam đào tạo, huấn luyện, nâng cao năng lực cho các lực lượng quốc phòng và an ninh.
+
+            Thủ tướng Phạm Minh Chính đề nghị Ấn Độ xem xét đề xuất của các doanh nghiệp Việt Nam về cấp mới, gia hạn giấy chứng nhận Tiêu chuẩn Ấn Độ (BIS) cho các mặt hàng nhập khẩu từ Việt Nam. Ông cũng đề nghị sớm ký Hiệp định về Thương mại điện tử, Hiệp định Thương mại song phương để khai thác tối đa thị trường bán lẻ phù hợp với xu thế mới.
+
+            Người đứng đầu chính phủ Việt Nam khuyến khích các tập đoàn lớn, tỷ phú công nghệ Ấn Độ sang đầu tư, tạo ra những dự án lớn mang tính biểu tượng của hợp tác kinh tế hai nước, đón luồng dịch chuyển chuỗi cung ứng và giúp hai nước tham gia tốt hơn vào chuỗi cung ứng toàn cầu.
+
+            Lĩnh vực khoa học và công nghệ sẽ được mở rộng hợp tác, nhất là công nghệ lõi, chip bán dẫn, trí tuệ nhân tạo, đổi mới sáng tạo, khai thác và chế biến đất hiếm, phát triển và đào tạo nhân lực công nghệ thông tin. Hai nước sẽ sớm lập Diễn đàn đối tác số và ký Hiệp định Đối tác số.
+
+            Hợp tác giáo dục - đào tạo, văn hóa, du lịch cũng được hai nước nhất trí đẩy mạnh, trên cơ sở phát huy những giá trị tương đồng về văn hóa văn minh, lịch sử và tâm linh, trong đó có đạo Phật, yoga. Sau hội đàm, hai lãnh đạo đã chứng kiến lễ trao 9 văn kiện hợp tác trong các lĩnh vực y tế, pháp luật và tư pháp, ngoại giao, đào tạo nguồn nhân lực, khoa học nông nghiệp, phát thanh và truyền hình, du lịch, văn hóa. Hai Thủ tướng cũng ấn nút khai trương Công viên phần mềm quân đội tại Nha Trang. Hai bên cũng thông qua Tuyên bố chung tăng cường quan hệ Đối tác Chiến lược Toàn diện và nhất trí thúc đẩy hợp tác với phương châm "năm hơn".
+
+            Đầu tiên, hai nước sẽ tin cậy chính trị - chiến lược cao hơn, trong đó tăng cường trao đổi và tiếp xúc thường niên giữa hai nước trên kênh Đảng, Nhà nước, Quốc hội và nhân dân. Chương trình hành động giai đoạn 2024-2028 sẽ được triển khai hiệu quả, với trọng tâm là đẩy mạnh toàn diện 11 lĩnh vực hợp tác, đặc biệt là lĩnh vực mới.
+
+            Thứ hai, hai nước hợp tác quốc phòng - an ninh rộng mở, sâu sắc hơn, trong đó triển khai hiệu quả Tuyên bố chung về quan hệ Đối tác Quốc phòng Việt Nam - Ấn Độ đến năm 2030.
+
+            Thứ ba, hai nước sẽ có tầm nhìn, hành động hợp tác kinh tế, thương mại, đầu tư thực chất và hiệu quả hơn, trong đó có tăng gấp đôi kim ngạch thương mại và đầu tư hai chiều trong 3-5 năm tới.
+
+            Thứ tư, hợp tác khoa học và công nghệ, đổi mới sáng tạo sẽ trở thành động lực mạnh mẽ hơn, khai thác tối đa những tiềm năng và lợi thế của hai bên cũng như cuộc cách mạng công nghiệp 4.0 để thúc đẩy hợp tác về nghiên cứu khoa học, năng lượng nguyên tử, đất hiếm, năng lượng tái tạo, công nghệ mới như bán dẫn, trí tuệ nhân tạo, điện toán đám mây...
+
+            Thứ năm, hợp tác văn hóa, du lịch và giao lưu nhân dân sẽ kết nối mật thiết hơn, trong đó đưa những giá trị văn hóa, văn minh, lịch sử, tôn giáo giữa hai nước thành nền tảng, động lực.
+
+            Phát biểu tại họp báo sau hội đàm, Thủ tướng Phạm Minh Chính cho biết hai nước nhất trí tiếp tục ủng hộ lẫn nhau tại diễn đàn đa phương, nhất là Liên Hợp Quốc, ASEAN và các cơ chế do ASEAN dẫn dắt, thúc đẩy hợp tác tiểu vùng Mekong.
+
+            "Việt Nam ủng hộ mạnh mẽ chính sách Hành động hướng Đông của Ấn Độ và ủng hộ vai trò ngày càng quan trọng của nước này trong các thể chế hợp tác quan trọng ở khu vực và toàn cầu", Thủ tướng nói.
+Việt Nam cũng quyết định tham gia Liên minh cơ sở hạ tầng chống chịu thiên tai (CDRI) và sớm hoàn tất thủ tục tham gia Liên minh năng lượng mặt trời quốc tế (ISA) do Ấn Độ đề xướng. Hai bên nhất trí thiết lập Tham vấn về ngoại giao kinh tế cấp Thứ trưởng.
+
+             Hai nước cũng tái khẳng định tầm quan trọng của việc bảo đảm môi trường hòa bình, ổn định, an ninh, an toàn và tự do hàng hải, hàng không tại Biển Đông; giải quyết tranh chấp bằng các biện pháp hòa bình trên cơ sở tôn trọng luật pháp quốc tế, đặc biệt là UNCLOS 1982. Hai Thủ tướng nhất trí trao đổi, chia sẻ thông tin và tăng cường hợp tác, phấn đấu đưa Biển Đông thành vùng biển của hòa bình, ổn định, hữu nghị, hợp tác và phát triển.
+
+            Theo Thủ tướng Modi, tốc độ tăng trưởng trong các lĩnh vực của hai nước đã mở ra nhiều kênh hợp tác mới. Ông nhấn mạnh nông nghiệp và ngư nghiệp là cấu phần quan trọng trong nền kinh tế hai nước, liên quan đến sinh kế và an ninh lương thực, nên sẽ thúc đẩy hợp tác lĩnh vực này.
+
+Ấn Độ sẽ hỗ trợ Việt Nam phục chế khu thánh địa Mỹ Sơn, Quảng Nam. Thủ tướng Ấn Độ cũng gửi lời mời người dân Việt Nam tham gia hành hương về miền đất Phật giáo nước này, bởi Phật giáo là sợi dây quan trọng kết nối tinh thần giữa nhân dân hai nước.
+
+            "Việt Nam là đối tác quan trọng trong Chiến lược hành động hướng Đông của Ấn Độ. Việt Nam và Ấn Độ có chung tầm nhìn, ủng hộ chủ nghĩa phát triển", Thủ tướng Modi nói và kỳ vọng chuyến thăm của Thủ tướng Phạm Minh Chính sẽ mở ra chương mới cho quan hệ hai nước.
+</value>
+  </data>
+  <data name="Content_CT4" xml:space="preserve">
+    <value>                    THÁI LAN TREO CỜ RỦ TƯỚNG NHỚ TỔNG BÍ THƯ NGUYỄN PHÚ TRỌNG
+            Thủ tướng Thái Lan yêu cầu các cơ quan chính phủ, doanh nghiệp nhà nước treo cờ rủ trong ngày 1-2/8 để tưởng nhớ Tổng Bí thư Nguyễn Phú Trọng.
+
+            Chai Wachirang, phát ngôn viên Văn phòng Thủ tướng Thái Lan, cho biết quyết định treo cờ rủ trong hai ngày để tưởng nhớ Tổng Bí thư Nguyễn Phú Trọng được Thủ tướng Settha Thavisin thông qua hôm 31/7.
+
+            Thủ tướng Thavisin hôm 20/7 gửi lời chia buồn sâu sắc, bày tỏ khâm phục về những đóng góp quan trọng, mẫu mực của Tổng Bí thư Nguyễn Phú Trọng trong công cuộc xây dựng và phát triển đất nước, cũng như trong việc tăng cường quan hệ giữa Việt Nam và Thái Lan, đặc biệt là Tuyên bố nâng cấp quan hệ hai nước lên Đối tác Chiến lược năm 2013.
+
+             Ông Thavisin cùng đại diện nhiều bộ, ngành Thái Lan hôm 25/7 đến đại sứ quán Việt Nam tại Bangkok để dâng vòng hoa, viếng Tổng Bí thư Nguyễn Phú Trọng và ghi sổ tang. Thái Lan cũng cử đoàn đến viếng Tổng Bí thư tại Nhà tang lễ Quốc gia ở Hà Nội ngày 26/7.
+
+             Tổng Bí thư Nguyễn Phú Trọng từ trần ngày 19/7 do tuổi cao bệnh nặng, hưởng thọ 80 tuổi. Tang lễ được tổ chức trọng thể theo nghi thức quốc tang trong ngày 25-26/7, sau đó ông được an táng tại Nghĩa trang Mai Dịch.
+
+              Bộ Ngoại giao cho biết lãnh đạo các nước, tổ chức quốc tế, chính đảng và bạn bè quốc tế từ 103 nước, vùng lãnh thổ cùng 32 tổ chức quốc tế đã gửi gần 500 thư, điện, thông điệp chia buồn tới các lãnh đạo cùng nhân dân Việt Nam và gia quyến Tổng Bí thư Nguyễn Phú Trọng.
+
+              100 đoàn khách quốc tế đã tới viếng Tổng Bí thư Nguyễn Phú Trọng tại Nhà tang lễ Quốc gia ở Hà Nội và tại Hội trường Thống nhất, TP HCM. Hơn 3.500 đoàn đến viếng Tổng Bí thư tại các cơ quan đại diện Việt Nam trên khắp thế giới. Cuba và Lào cũng tổ chức quốc tang để tưởng nhớ Tổng Bí thư Nguyễn Phú Trọng.
+</value>
+  </data>
+  <data name="Content_CT5" xml:space="preserve">
+    <value>                                      QUẢNG NGÃI CÓ TÂN CHỦ TỊCH UBND TỈNH 
+            Ông Nguyễn Hoàng Giang, 53 tuổi, tiến sĩ Kinh tế, nguyên Thứ trưởng Bộ Khoa học và Công nghệ, được bầu làm Chủ tịch UBND tỉnh Quảng Ngãi, sáng 2/8.
+
+            Ông Giang được bầu làm Chủ tịch UBND tỉnh Quảng Ngãi nhiệm kỳ 2021-2026 tại kỳ họp thứ 26 của HĐND tỉnh Quảng Ngãi khóa 13; với 45/45 tổng số phiếu bầu, đạt 100% tổng số đại biểu có mặt.
+
+            Phát biểu sau khi nhận nhiệm vụ, tân chủ tịch UBND tỉnh Quảng Ngãi cho biết đây là vinh dự đối với cá nhân, đồng thời cũng là nhiệm vụ, trách nhiệm nặng nề mà Đảng bộ, chính quyền và nhân dân trên địa bàn giao phó. "Tôi sẽ kế thừa và tiếp tục phát huy thành quả của các thế hệ đi trước; nỗ lực học tập, rèn luyện và làm việc với khả năng cao nhất để hoàn thành tốt nhiệm vụ được giao", ông Giang nói và mong muốn tiếp tục nhận được sự quan tâm, chỉ đạo của lãnh đạo Đảng, Nhà nước, Quốc hội, Chính phủ và các Ban, bộ, ngành Trung ương.
+
+            Trước đó, hôm 31/7, ông Nguyễn Hoàng Giang được Phó Ban Tổ chức Trung ương Hoàng Đăng Quang trao quyết định của Ban Bí thư về việc điều động, chỉ định tham gia Ban Chấp hành, Ban Thường vụ và giữ chức Phó bí thư Tỉnh ủy Quảng Ngãi, nhiệm kỳ 2020-2025; giới thiệu để HĐND tỉnh bầu làm chủ tịch UBND tỉnh, nhiệm kỳ 2021-2026.
+
+            Ông Nguyễn Hoàng Giang, 53 tuổi, quê xã Trường Thọ, huyện An Lão, TP Hải Phòng. Ông có học vị tiến sĩ Kinh tế. Tân Chủ tịch UBND tỉnh Quảng Ngãi từng là Phó giám đốc Sở Công Thương Hải Phòng. Sau đó, ông làm Vụ phó Vụ Kinh tế - Văn phòng Trung ương Đảng; Vụ trưởng, Thư ký Ủy viên Bộ Chính trị, Chủ nhiệm Ủy ban Kiểm tra Trung ương. Từ năm 2014, ông Giang làm Phó chủ tịch thường trực UBND tỉnh Thái Bình.
+
+            Giữa năm 2020, ông Nguyễn Hoàng Giang được điều động làm Thứ trưởng Bộ Khoa học và Công nghệ. Trong thời gian công tác tại Bộ, ông được giao chỉ đạo xây dựng, tổ chức thực hiện văn bản pháp luật, cơ chế, chính sách thuộc lĩnh vực khoa học và công nghệ của các địa phương; và phụ trách công tác báo chí, xuất bản.
+
+</value>
+  </data>
+  <data name="Content_GD1" xml:space="preserve">
+    <value>                              HÀNG LOẠT TRƯỜNG MỞ NGÀNH THIẾT KẾ VI MẠCH 
+           Hơn 10 trường đại học thông báo mở chuyên ngành Thiết kế vi mạch, Công nghệ bán dẫn, nhằm đón đầu nhu cầu nhân lực.
+
+           Năm nay là lần đầu tiên Đại học Bách khoa Hà Nội, trường Đại học Công nghệ thông tin và Truyền thông Việt - Hàn và trường Đại học Bách khoa Đà Nẵng, Đại học Cần Thơ, Đại học Quốc tế Sài Gòn (SIU), Phenikaa, FPT tuyển sinh chuyên ngành Thiết kế vi mạch, Vi điện tử - Thiết kế vi mạch. Ngoài ra, Đại học Khoa học và Công nghệ Hà Nội công bố mở ngành Công nghệ vi mạch bán dẫn.
+
+           Trong đó, trường Công nghệ thông tin và Truyền thông Việt - Hàn thu hút thí sinh đăng ký ngành này bằng học bổng 50-100% học phí trong năm đầu. Điều kiện là thí sinh đạt 24 điểm thi tốt nghiệp trở lên, theo tổ hợp xét tuyển.
+
+           Cuối năm ngoái, ba trường thành viên của Đại học Quốc gia TP HCM là Bách khoa, Công nghệ thông tin và Khoa học tự nhiên cũng được phê duyệt mở nhóm ngành Thiết kế vi mạch và công nghệ bán dẫn.
+
+           Dù là chương trình mới, ở nhiều trường, nội dung về Thiết kế vi mạch, bán dẫn đã nằm trong các ngành gần như Điện tử - Viễn thông, Kỹ thuật máy tính, Vật lý kỹ thuật từ nhiều năm nay.
+
+           Các trường cho rằng năm 2024 là thời điểm thích hợp để tách chương trình này thành một chuyên ngành, tiến tới lập ngành riêng, nhằm "bắt" tín hiệu từ cơn khát nhân lực của thị trường và chính sách phát triển công nghiệp bán dẫn của Việt Nam.
+
+           Hiện nay, hơn 50 công ty vi mạch hoạt động tại Việt Nam, tiêu biểu là Intel, Marvel, Synopsys, Ampe Computing (Mỹ), Renesas (Nhật), BridgeTek và Faraday Việt Nam (Đài Loan). Theo Cổng thông tin khoa học và công nghệ quốc gia, đến hết năm 2022, Việt Nam có khoảng 5.000 kỹ sư làm việc trong lĩnh vực thiết kế vi mạch, tập trung tại TP HCM (74%), Hà Nội (10%), Đà Nẵng (8%).
+
+           Số này chỉ đáp ứng 20% nhu cầu nhân lực, Việt Nam cần thêm 50.000 lao động trình độ cao từ nay tới năm 2030. Cộng đồng Vi mạch Việt Nam cho biết, trung bình lương sau thuế trong năm đầu đi làm của kỹ sư thiết kế chip là gần 220 triệu đồng, sau tăng dần. Với 5 năm kinh nghiệm, người làm công việc này có thu nhập trên 330 triệu đồng một năm. Con số này tăng dần lên hơn 800 và 1,3 tỷ đồng nếu có 15-20 năm kinh nghiệm.
+
+           Việc mở chuyên ngành đào tạo Thiết kế vi mạch riêng, theo các trường cũng đã có sự chuẩn bị kỹ lưỡng.
+Tại Đại học Bách khoa TP HCM, đội ngũ 200 giảng viên của khoa Điện - Điện tử, Khoa học và Kỹ thuật máy tính, Công nghệ vật liệu đã xây dựng chương trình và giảng dạy về vi mạch hàng chục năm qua. Họ hầu hết tốt nghiệp tiến sĩ từ các quốc gia có nền công nghiệp vi mạch bán dẫn tiên tiến như: Mỹ, Đức, Pháp, Úc, Nhật, Hàn Quốc.
+
+           Bên cạnh đó, trường đầu tư hệ thống phòng thí nghiệm tiên tiến, chuyên sâu phục vụ thiết kế và đo kiểm vi mạch bán dẫn như: Phòng thí nghiệm Vi mạch và Hệ thống cao tần, Thiết kế vi mạch số, Kỹ thuật siêu cao tần và anten, Kỹ thuật Máy tính, HCMUT-Renesas SuperH Lab, Tính toán nâng cao, Vật liệu năng lượng và ứng dụng, Vật liệu kim loại-hợp kim.
+
+           Đại học Công nghệ thông tin và Truyền thông Việt - Hàn cũng hướng tới chuyên ngành Thiết kế vi mạch từ 3 năm trước, theo TS Trần Thế Sơn, Phó hiệu trưởng. Trường được chính phủ Hàn Quốc hỗ trợ chương trình đào tạo, bồi dưỡng đội ngũ giảng viên và phần mềm. Thời gian tới, giảng viên các ngành gần (Điện – Điện tử, Kỹ thuật máy tính) sẽ sang Hàn Quốc tập huấn, đào tạo chuyên sâu về Thiết kế vi mạch, bán dẫn, tạo nguồn giảng viên lâu dài để mở rộng đào tạo lĩnh vực này.
+
+           Ngoài ra, các trường tận dụng sự hỗ trợ từ doanh nghiệp. Chẳng hạn, tại Đại học Bách khoa, Đại học Đà Nẵng, PGS.TS Nguyễn Hồng Hải, Phó hiệu trưởng trường cho hay từ năm 2022, trường được công ty Renesas (Nhật Bản) và Cadence (Mỹ) tài trợ các phần mềm bản quyền chuyên cho thiết kế vi mạch. Còn hãng Keysight (Mỹ) tài trợ cho trường các bộ thiết bị đo lường điện tử hiện đại cho phòng thí nghiệm.
+
+           Song song đó, chương trình đào tạo Thiết kế vi mạch được cập nhật, tùy trường. Cũng ở Bách khoa Đà Nẵng, trường thêm khối kiến thức liên quan đến vi mạch tích hợp cỡ rất lớn (VLSI), vi mạch tương tự và hỗn hợp, thiết kế vật lý, đóng gói và kiểm thử, hệ thống trên chip (SoC), từ nền tảng của ngành Kỹ thuật Điện tử - Viễn thông.
+
+                                           Các đại học hiện chưa thông báo chỉ tiêu tuyển sinh cụ thể.
+</value>
+  </data>
+  <data name="Content_GD2" xml:space="preserve">
+    <value>                     TỈNH ĐẦU TIÊN CÔNG BỐ PHƯƠNG ÁN THI LỚP 10 NĂM 2025
+               Quảng Nam tổ chức thi ba môn, kết hợp học bạ THCS để tuyển sinh lớp 10, sau 10 năm chỉ xét tuyển.
+Phương án tuyển sinh vào lớp 10 công lập không chuyên từ năm học 2025-2026 vừa được lãnh đạo tỉnh Quảng Nam phê duyệt. Đây là địa phương công bố phương án thi sớm nhất cả nước.
+
+               Theo đó, việc tuyển sinh vào lớp 10 theo thức kết hợp điểm thi ba môn Ngữ Văn, Toán, Tiếng Anh và kết quả học tập, rèn luyện của học sinh trong 4 năm THCS. Thời gian tổ chức thi vào nửa đầu tháng 6 hàng năm.
+
+               Chỉ tiêu tuyển sinh lớp 10 năm học 2025-2026 sẽ không quá 80% số học sinh tốt nghiệp trung học cơ sở. Từ năm học tiếp theo, chỉ tiêu được tỉnh xác định trên cơ sở văn bản chỉ đạo, hướng dẫn của cấp có thẩm quyền.
+
+               Mỗi học sinh được đăng ký tối đa hai nguyện vọng. Trong đó, nguyện vọng 1 bắt buộc vào một trường THPT cùng địa bàn cấp huyện với trường THCS nơi thí sinh theo học. Với nguyện vọng 2, thí sinh được đăng ký bất kỳ.
+
+               Những học sinh muốn thi vào trường chuyên, trường phổ thông dân tộc nội trú tỉnh sẽ có quy định riêng.
+
+               Kỳ thi vào lớp 10 công lập năm học 2025-2026 được quan tâm, do đây là lứa thí sinh đầu tiên hoàn thành chương trình giáo dục phổ thông mới ở bậc THCS. Chương trình được thiết kế theo hướng đánh giá năng lực, một số môn được tích hợp như Khoa học Tự nhiên (Lý, Hóa, Sinh), Khoa học Xã hội (Sử, Địa)...
+
+       Những năm trước, hầu hết địa phương tuyển sinh lớp 10 bằng thi tuyển ba môn Toán, Văn, Tiếng Anh.
+
+</value>
+  </data>
+  <data name="Content_GD3" xml:space="preserve">
+    <value>                      MỘT SỐ BÀI THI LỚP 10 Ở HẢI PHONG 'CÓ DẤU HIỆU BẤT THƯỜNG'
+                    Thanh tra Bộ Giáo dục kết luận một số bài thi vào lớp 10 ở Hải Phòng có dấu hiệu bất thường, còn Sở cho hay chỉ mang tính kỹ thuật và đã được khắc phục.
+
+                    Kết luận thanh tra đột xuất với công tác chấm thi vào lớp 10 của Hải Phòng, được Bộ Giáo dục và Đào tạo công bố ngày 2/8.
+
+                    Cơ quan chức năng nhận định một số giám khảo chưa nắm vững quy chế, để xảy ra sai sót trong quá trình chấm thi. Một số lỗi được liệt kê như ngồi không đúng sơ đồ; ký, ghi điểm số vào bài làm của thí sinh; sử dụng phiếu chấm điểm không đúng; tự thống nhất lại biểu điểm, đáp án (môn Sinh chuyên).
+
+                    Kiểm tra ngẫu nhiên bài thi tự luận môn Hóa, Tiếng Pháp, Lịch sử (chuyên) và Ngữ văn (đại trà) được chấm ngày 12-13/6, đoàn thanh tra nhận thấy giám khảo chưa thực hiện đúng quy trình và một số bài "có dấu hiệu bất thường".
+
+                    Đoàn kiến nghị Sở Giáo dục và Đào tạo Hải Phòng rà soát bài thi môn Lịch sử chuyên và những bài có dấu hiệu bất thường, nhưng không nêu rõ thời điểm thanh tra và chi tiết.
+
+                    Tối qua, ông Trần Tiến Chinh, Chánh văn phòng Sở Giáo dục và Đào tạo Hải Phòng, cho biết nội dung nêu chỉ là hiện tượng thiểu số, mang tính kỹ thuật.
+
+                   "Tất cả đã được tiếp thu, giải trình, khắc phục ngay trong quá trình chấm thi", ông nói.
+
+                     Kỳ thi vào lớp 10 của Hải Phòng diễn ra ngày 4-5/6 có hơn 25.600 thí sinh. Ba bài thi chung là Toán, Văn, Ngoại ngữ. Thí sinh có nguyện vọng vào trường chuyên Trần Phú sẽ làm thêm bài thi môn chuyên và môn ngoại ngữ điều kiện. Sở Giáo dục đã huy động hơn 3.100 giáo viên coi và chấm thi.
+
+</value>
+  </data>
+  <data name="Content_GD4" xml:space="preserve">
+    <value>               ĐƯỜNG ĐẾN HUY CHƯƠNG VÀNG HÓA HỌC QUỐC TẾ CỦA NAM SINH VIÊN TRƯỜNG AMS
+          Được truyền cảm hứng từ những tấm huy chương IChO, Đăng Khôi theo đuổi môn Hóa từ lớp 8 với quyết tâm chinh phục kỳ thi này.
+
+          Trần Đăng Khôi là học sinh lớp Hóa 1, trường THPT Hà Nội - Amsterdam (Ams). Tại Olympic Hóa học quốc tế (IChO) năm nay diễn ra từ ngày 21 đến 30/7 ở Arab Saudi, Khôi giành huy chương vàng, xếp hạng 23 trên hơn 300 thí sinh. Tổng điểm của Khôi là 75,22/100, riêng phần thi lý thuyết đạt 53,5/60 điểm, cao nhất đội Việt Nam.
+
+           "Em khá chắc mình sẽ giành huy chương, nhưng không ngờ là huy chương vàng", Khôi nói. "Phần thi thực hành, em làm chưa được như ý muốn". Thành tích của Khôi góp phần giúp đoàn Việt Nam đồng hạng hai với Mỹ, trong 89 quốc gia và vùng lãnh thổ tham gia, về số huy chương vàng.
+
+            Ngày cấp 2, Khôi học lớp tăng cường Toán ở một trường tư thục, đạt nhiều giải thưởng trong và ngoài nước ở môn này. Dù vậy, Khôi nhận chỉ học được chứ không đam mê Toán.
+
+            Lên lớp 8, Hóa là môn học mới nên nam sinh tò mò. Ngoài học lý thuyết, Khôi được tự tay làm nhiều thí nghiệm, ấn tượng với sự biến đổi màu sắc của các phản ứng hóa học. Thí nghiệm đầu tiên Khôi làm là cho axit và bazo tiếp xúc với giấy quỳ tím rồi quan sát hiển thị màu.
+
+            "Các chất trong suốt khi nhỏ lên giấy quỳ tím lại ra các màu khác nhau, em thấy rất kỳ diệu", Khôi nhớ lại. "Em cũng đặt mục tiêu phải hiểu được vì sao nó đổi màu như thế".
+
+             Bắt đầu thích Hóa cũng là lúc Khôi đọc về các anh, chị đạt giải IChO trên báo. Khôi ngưỡng mộ, mong một ngày có thể giành được huy chương này.
+
+             Kỳ thi đầu tiên mà Khôi tham gia là đợt chọn đội tuyển học sinh giỏi cấp trường, vào cuối lớp 8. Không như kỳ vọng, Khôi trượt đội tuyển, bỏ lỡ kỳ thi học sinh giỏi cấp thành phố lớp 9. Nam sinh nhìn nhận mình thích môn Hóa nhưng chưa học nghiêm túc.
+
+                     "Em buồn, nhưng vực dậy tinh thần ngay để tập trung học và ôn thi chuyên", Khôi nói.
+
+              Theo Đăng Khôi, Hóa là môn học mới, chưa nhiều kiến thức như các môn tự nhiên khác, nên ôn tập thuận lợi hơn. Khôi cũng xác định thi vào Ams, tin rằng đây là môi trường phù hợp để em học tốt và có cơ hội tranh tài ở các cuộc thi về Hóa.
+
+               Từ đó, bên cạnh chăm nghe giảng và làm bài trên lớp, Khôi thường ôn Hóa nâng cao vào buổi tối. Mỗi lần em đều học tập trung, cố gắng nắm bắt nhanh và liên hệ, mở rộng kiến thức. Để vào trường Ams, Khôi cũng chịu khó học tốt cả Toán, Văn và Tiếng Anh.
+
+                Năm 2021, Đăng Khôi thi đỗ như mong muốn, với 9/10 điểm bài chuyên Hóa. Thầy Nguyễn Hồng Hải, giáo viên chủ nhiệm lớp Khôi, nói học trò thể hiện quyết tâm tranh giải ở các kỳ thi Hóa ngay từ đầu.
+"Học online gần như toàn bộ năm học đầu tiên nhưng Khôi luôn nắm chắc kiến thức và làm bài tập chỉn chu. Em nói mục đích là để thi học sinh giỏi quốc gia", thầy nhớ lại.
+
+                Năm học đó, Khôi đạt giải nhất thi học sinh giỏi cấp thành phố và giải khuyến khích quốc gia môn Hóa. Đối với Đăng Khôi, đó là một bước tiến nhỏ nhưng tạo động lực lớn trên con đường chạm đến huy chương IChO.
+
+                Năm lớp 11 và 12, Đăng Khôi tiếp tục đạt giải cao ở các kỳ thi học sinh giỏi. Hồi đầu năm, sau khi giành giải nhất quốc gia, nam sinh vượt qua vòng chọn đội tuyển tham gia Olympic Hóa học quốc tế Mendeleev. Kỳ thi diễn ra tại Thâm Quyến, Trung Quốc, từ ngày 21 đến 26/4. Hơn 150 thí sinh tranh tài ở ba vòng thi cả lý thuyết và thực hành, mỗi vòng 5 tiếng.
+
+                 Tại đây, Khôi giành huy chương bạc, nhưng chưa hài lòng vì vẫn mất điểm ở phần thực hành. Trước đó, điểm thực hành của nam sinh cũng thấp nhất trong bốn thành viên đội tuyển thi IChO. "Còn một kỳ thi quốc tế trước mắt, em tự nhủ phải khắc phục yếu điểm này", Khôi chia sẻ. Trong một tháng ôn tập trung, Khôi quan sát các bạn thực hành, học cách lập kế hoạch từng bước trong đầu trước khi làm thí nghiệm.
+
+                  Song, khi thực hành ở IChO, nam sinh bị áp lực thời gian. Phản ứng oxi hóa HCO2Na bằng KMnO4 diễn ra tương đối chậm nên Khôi thêm hóa chất để đẩy nhanh tốc độ. Tuy nhiên, điều này khiến hóa chất không phản ứng hết, dẫn đến khó quan sát hiện tượng. Khôi cũng không thể làm lại do hết hóa chất và thời gian chỉ còn lại vài phút.
+
+                  "Em kỳ vọng làm được 70% bài thi, song cuối cùng chỉ đạt 50%", Đăng Khôi nói. Đứng thực hành gần như liên tục trong 5 tiếng, nam sinh bị mệt, ngủ ngay khi trở về ký túc xá. Còn bài lý thuyết Khôi làm tốt, vì đã luyện đề IChO các năm trước và nắm được logic ra đề.
+
+                    Bên cạnh Hóa, Khôi có đam mê khác là khám phá văn hóa. Trong 10 ngày thi, em nhớ nhất được đi ngắm thủ đô Riyadh, tham gia lễ hội eSport, thăm thành cổ và trang trại ngựa của vị vua nước này. Còn hồi tập huấn đội tuyển, biết các bạn ở tỉnh chưa đến Hà Nội nhiều, Khôi chủ động làm hướng dẫn viên.
+
+                     "Ban đầu, bọn em rủ nhau đạp xe quanh hồ Tây, cuối cùng lại rong ruổi khắp Hà Nội. Lúc nào mệt, chúng em vào quán cà phê nghỉ chân", Khôi kể.
+
+                     Trở về từ cuộc thi, Đăng Khôi cho biết sẽ tạm nghỉ một năm để đi du lịch, hoạt động ngoại khóa và xác định ngành học mình muốn.</value>
+  </data>
+  <data name="Content_GD5" xml:space="preserve">
+    <value>      THỦ KHOA ĐẦU VÀO ĐH KINH TẾ QUỐC DÂN ĐẠT ĐIỂM SAT GẦN TUYỆT ĐỐI
+                 Với 1590/1600 điểm SAT, Vân Hà trở thành thủ khoa đầu vào Đại học Kinh tế Quốc dân theo diện xét tuyển bằng chứng chỉ SAT/ACT.
+
+                 Đỗ Thị Vân Hà, cựu học sinh lớp chuyên Tiếng Anh, trường THPT chuyên Nguyễn Trãi, Hải Dương, nhận tin hôm 2/8, hai ngày sau khi hết hạn đăng ký xét tuyển đại học. SAT và ACT là bài thi đánh giá năng lực được sử dụng phổ biến trong tuyển sinh đầu vào đại học ở Mỹ và nhiều nước trên thế giớI.
+
+                 Hà đạt 1.590/1.600 SAT ngay trong lần thi đầu tiên hồi đầu tháng 6, tương đương 29,82/30 theo công thức quy đổi của Đại học Kinh tế Quốc dân (NEU). Năm nay, điểm chuẩn ngành này là 28,69. Ngoài ra, nữ sinh còn đạt IELTS 8.5.
+
+        Với việc đặt ngành Phân tích kinh doanh (BA) của trường là nguyện vọng 1, Hà chắc chắn trúng tuyển.
+
+                 Vân Hà cho hay từng trong đội tuyển Toán hồi THCS và được giải khuyến khích cấp tỉnh. Tuy nhiên, Hà thấy mình học Toán không quá giỏi nên tự học tiếng Anh ở nhà, rồi thi vào lớp 10 chuyên Anh.
+
+                 "Có vẻ em có một chút năng khiếu với ngôn ngữ, vì việc học Tiếng Anh với em rất nhẹ nhàng, không có cảm giác gò ép hay áp lực", Hà kể.
+
+                  Theo Hà, học sinh chuyên Anh thường thi IELTS để tận dụng lợi thế về ngoại ngữ khi đăng ký xét tuyển đại học trong nước hoặc du học. Hà cũng thi chứng chỉ này vào tháng 8/2023, ngay trước khi năm học cuối cấp bắt đầu.
+
+                  Nữ sinh không gặp khó với ba kỹ năng Nghe, Đọc và Viết vì đã được luyện tập nhiều trong quá trình ôn thi học sinh giỏi quốc gia. Hà chủ yếu duy trì nhịp độ bằng cách luyện đề, hàng ngày nghe và đọc sách, báo bằng tiếng Anh. Riêng kỹ năng Nói, Hà đăng ký một khóa học ngắn hạn ở trung tâm gần nhà. Em được hướng dẫn về dạng đề, các cách để phát triển một bài nói hoàn chỉnh.
+
+                  Nhận kết quả 8.5 IELTS, Hà ưng ý, nhưng vẫn còn mông lung về định hướng, chưa biết sẽ học ngành nào. Ban đầu, nữ sinh không định chọn Kinh tế Quốc dân vì "nghe kinh tế quá rộng". Khi đã tìm hiểu kỹ, Hà thấy trường "có nhiều ngành chất lượng, liên quan Toán học chứ không chỉ thuần lý thuyết kinh tế", trong đó có Phân tích kinh doanh.
+
+                   "Em thấy đây là ngành triển vọng, thiên về phân tích, tư duy. Chưa kể, chương trình đào tạo bằng tiếng Anh nên cũng giúp em sử dụng ngôn ngữ này thường xuyên", Hà lý giải.
+
+                    Nếu chỉ xét tuyển kết hợp IELTS với điểm thi tốt nghiệp, đánh giá năng lực hoặc đánh giá tư duy. Hà không dự kỳ thi riêng nào, cũng không tự tin đạt trên 8,5 điểm một môn thi tốt nghiệp. Vì vậy, tới giữa tháng 5, nữ sinh quyết định thi SAT để đăng ký xét tuyển độc lập bằng chứng chỉ này.
+
+                    Chỉ có hai tuần ôn tập, Hà cùng bạn đăng ký một khóa học online ngắn hạn. Nữ sinh đánh giá phần Toán của SAT không quá khó, nên chú trọng yếu tố cẩn thận khi làm bài. Trong khi đó, đọc hiểu là thử thách với Hà khi gặp nhiều từ vựng khó, phức tạp. Hà đánh dấu lại những câu chưa ổn, hay làm sai để luyện tập nhiều hơn, đọc tài liệu nước ngoài.
+
+                     Thời gian học hiệu quả của Hà là buổi tối, vì yên tĩnh và dễ tập trung. Ngoài tự học, mấy ngày gần thi, nữ sinh học chung với bạn để cùng sửa và chữa lỗi cho nhau. Biết mình học SAT muộn, Hà chỉ đặt mục tiêu đạt khoảng 1.500 điểm, ngưỡng mà nữ sinh đánh giá là đủ an toàn vì điểm chuẩn năm ngoái của ngành Phân tích Kinh doanh khoảng 1.450 (đã quy đổi từ thang 30).
+
+                         Nhận kết quả 1.590 (Toán 800/800, Đọc hiểu 790) vào giữa tháng 6, Vân Hà bất ngờ.
+                      "Khi thi xong, em khá hài lòng và nghĩ mình đạt điểm tốt, nhưng 1.590 đúng là ngoài mong đợi", Hà nói.
+
+                       Cô Phạm Thị Diệu Thu, giáo viên dạy Tiếng Anh và chủ nhiệm Vân Hà từ năm lớp 10, nhận xét học trò có năng khiếu học ngôn ngữ với khả năng ghi nhớ, phát triển và mở rộng thông tin. Cùng đó, Hà chăm chỉ, học đều cả bốn kỹ năng. Nhờ vậy, nữ sinh từng đạt giải ba quốc gia môn Tiếng Anh.
+
+                        Khi biết Hà ôn và thi SAT trong thời gian ngắn, cô Thu cũng dự đoán học trò có thể đạt từ 1.500 trở lên. Theo cô, ngoài ngoại ngữ, Hà còn hiểu biết về nhiều lĩnh vực, học tốt các môn tự nhiên nên sẽ không quá khó khăn.
+
+                        Hà thấy mình may mắn, vì quyết định mọi thứ khá muộn, thời gian ôn luyện gấp gáp nhưng kết quả đạt được ưng ý. Nữ sinh cho rằng khi ngày càng nhiều bạn có IELTS, học sinh chuyên Anh có thể tận dụng lợi thế ngôn ngữ để thi SAT. Lý do là điểm chuẩn đại học theo chứng chỉ này cũng "chưa quá cao".
+
+                         Hà hiện duy trì học và tạo môi trường sử dụng tiếng Anh cho mình. Nữ sinh có thói quen tra cứu tài liệu bằng tiếng Anh, xem các bài bình luận về lịch sử, xã hội, đôi lúc tự nói chuyện, trả lời một mình.
+"Em không bắt mình phải dành một thời gian cố định để học tiếng Anh. Những việc này giờ như hoạt động giải trí, trở thành một phần cuộc sống của em nên không phải đặt mục tiêu", Hà nói.
+
+                         Vào đại học, Hà định tìm việc làm thêm liên quan tới ngoại ngữ để có thêm thu nhập và kỹ năng tiếng Anh "không bị mai một". Nữ sinh chưa nghĩ xa hơn song cho biết cân nhắc du học nếu có cơ hội.
+</value>
+  </data>
+  <data name="Content_GT1" xml:space="preserve">
+    <value>                                   NOO PHƯƠNG THỊNH BẤT NGỜ HÁT CÙNG CẨM LY
+                     Noo Phước Thịnh bất ngờ xuất hiện trên sân khấu kỷ niệm 30 năm ca hát của Cẩm Ly, cùng hát "Em sẽ là người ra đi".
+
+                      Trong liveshow tối 3/8 tại TP HCM, khi đang hát một vài câu đầu ca khúc do Thái Khang sáng tác, Cẩm Ly ngỡ ngàng khi thấy đàn em bước ra từ phía cánh gà hòa giọng cùng cô bản hit. Khán giả cổ vũ nồng nhiệt cho màn song ca của hai nghệ sĩ. Noo Phước Thịnh nói chính fan của đàn chị mời anh đến với chương trình, không phải từ êkíp hay đạo diễn Minh Vy.
+
+                   Cẩm Ly, Noo Phước Thịnh hát "Em sẽ là người ra đi" trong liveshow "Tự tình quê hương 6". 
+
+                       Noo Phước Thịnh xin phép gọi Cẩm Ly bằng nickname thân mật "chị Tư". "Cẩm Ly là thần tượng, kỷ niệm âm nhạc đẹp trong tôi. Ngày trước, tôi dành dụm tiền mua băng cassette của chị để nghe mỗi ngày. Hôm nay tôi đến đây không phải với tư cách một nghệ sĩ mà là khán giả đi tìm lại ký ức thời thanh xuân", anh nói.
+
+                       Cẩm Ly xúc động, nói lời cảm ơn khi nhận bó hoa ly vàng từ đàn em. Theo ca sĩ, khi công bố thông tin về liveshow kỷ niệm 30 năm ca hát, cô nhận được nhiều câu hỏi từ báo giới về việc kết hợp với ca sĩ trẻ. Ban đầu, cô dự định tìm một người để kết hợp nhưng cuối cùng bỏ ý định vì e dè khoảng cách thế hệ, cũng như sợ khán giả không đón nhận. "Tôi không biết trước việc Noo Phước Thịnh lại xuất hiện trên sân khấu này. Trước giờ, tôi yêu thương em ấy một cách vô điều kiện", Cẩm Ly cho biết.
+
+                        Noo Phước Thịnh nói mong nhận được lời mời tham gia các show diễn tương lai của đàn chị. Anh xin phép khán giả được song ca thêm nhạc phẩm Dấu chôn tình buồn (Quốc Vượng) cùng Cẩm Ly. Anh cũng mong mọi người thông cảm nếu hát chưa trọn vẹn vì không có sự chuẩn bị trước.
+
+                        Khán giả Minh Bảo cho biết: "Tôi bất ngờ trước sự xuất hiện của Noo Phước Thịnh. Phần hát của cả hai rất ăn ý, hòa quyện dù lần đầu kết hợp. Tôi xúc động khi nghe lại hai bản hit gắn liền với Cẩm Ly những năm 2000".
+
+                         Trong bốn giờ, Cẩm Ly thể hiện 22 tiết mục được dàn dựng kỹ lưỡng. Trong đó có những nhạc phẩm quen thuộc với người nghe như Người về cuối phố (Nguyễn Nhất Huy), Vọng cổ buồn (Minh Vy). Một số sáng tác mới lần đầu được ca sĩ trình diễn như Anh về đi, Khi gió đông về, Thím Hai Lúa (Minh Vy). Ngoài solo, cô cũng có màn song ca, tam ca cùng ca sĩ khách mời: Lam Trường, Đan Trường và Quốc Đại. Hơn 2.000 khán giả lấp kín sân khấu nhà hát Hòa Bình TP HCM.
+
+                         Ca sĩ Cẩm Ly, sinh năm 1970, được chú ý khi hát cùng Đan Trường trong album Nếu phôi pha ngày mai vào đầu thập niên 2000. Cô dần nổi tiếng với các bài hát của Nguyễn Nhất Huy: Người về cuối phố, Bờ bến lạ, Thương nhớ người dưng. Cẩm Ly là ca sĩ đầu tiên thực hiện liveshow miễn phí cho sinh viên năm 2003, 2004. Cô cũng thu âm nhiều album nhạc dân ca - trữ tình và thành công với loạt liveshow Tự tình quê hương. Cô và nhạc sĩ Minh Vy kết hôn năm 2004, có hai con gái.
+
+                          Ca sĩ Noo Phước Thịnh, 36 tuổi, đi hát từ cuối thập niên 2000. Sau khi hợp tác ca sĩ Thủy Tiên, Đông Nhi, anh dần gây chú ý qua các bản hit dành cho giới trẻ. Năm 2016, anh đoạt quán quân cuộc thi The Remix (Hòa âm ánh sáng) mùa thứ hai. Anh là huấn luyện viên của các cuộc thi Giọng hát Việt nhí mùa 4 (2016), Giọng hát Việt mùa 4 (2017) và mùa 5 (2018). Anh từng được trao giải Cống hiến - Ca sĩ của năm (2017), Nam ca sĩ nhạc nhẹ được yêu thích nhất của Mai Vàng nhiều năm liền. Năm 2020, anh thực hiện Noo's Chill Night - series âm nhạc định kỳ. Trong mỗi số, anh tự biên tập và hát live các bản tình ca.
+
+</value>
+  </data>
+  <data name="Content_GT2" xml:space="preserve">
+    <value>                                  NGHỆ SĨ TỰ LONG GÂY THÍCH THÚ KHI ĐỌC RAP
+                 NSND Tự Long đọc rap khiến khán giả reo hò trong công diễn hai của "Anh trai vượt ngàn chông gai", tối 3/8.
+
+                 Nghệ sĩ Tự Long cùng các đồng đội nhóm hát Tinh Tú thể hiện nhạc phẩm Chợt nghe bước em về (Quốc Vượng) ở buổi công diễn thứ hai (tập năm cuộc thi). Nhóm lên ý tưởng thực hiện tiết mục truyền tải thông điệp: Thời gian qua là thứ không bao giờ quay trở lại. Mỗi người nên trân quý những gì xảy ra và khoảnh khắc bên người thương.
+
+                  Trên fanpage của chương trình, màn trình diễn của nghệ sĩ Tự Long được hàng chục nghìn lượt yêu thích, hàng trăm lượt chia sẻ của khán giả.
+Theo đó, từng thành viên của nhóm Tinh Tú hóa thành nhân vật trong tiệm đồ chơi gồm: Thần thời gian (Tự Long), Con rối hoàng tử (SOOBIN), Thor (Quốc Thiên), Cướp biển (Đinh Tiến Đạt), Thám tử (Rhymastic), Cao bồi (Cường Seven). Mỗi ngày, họ có một khoảng thời gian được vui chơi với nhau, đúng nửa đêm phải về lại vị trí của mình. Một ngày kia, cô gái xinh đẹp lẻn vào tiệm đồ chơi, vui chơi cùng các nhân vật khiến tất cả quên cả giờ cấm. Thần thời gian - Tự Long - xuất hiện đọc câu thần chú để mọi người trở lại trật tự ban đầu.
+Nghệ sĩ Tự Long khiến người xem bất ngờ, vỗ tay tán thưởng khi xuất hiện ở phần cuối, đọc rap: "Ôi nhân gian kia đan qua đan lại/Trong thời gian luôn một chiều xoay". Anh cho biết Rhymastic là người sáng tác đoạn rap và hướng dẫn anh thể hiện trên sân khấu. "Lúc đầu, tôi muốn đọc rap theo kiểu quen thuộc đó là hát chèo cũng ra rap. Tuy nhiên, Rhymastic đề nghị tôi phải lột xác, thể hiện đúng tinh thần của một rapper", nghệ sĩ cho biết. Trước đó, anh dành hai giờ để tập cách gieo vần của câu rap.
+
+                    Ở công diễn 1, nghệ sĩ Tự Long để lại ấn tượng khi cùng các thành viên nhà Sao sáng làm mới bài Trống cơm. Anh có màn múa cờ, đánh trống hội khiến người xem thích thú. Nghệ sĩ cũng có màn nhảy với khăn tay trong tiết mục Quê hương tuổi thơ tôi - Nếu có yêu tôi (Từ Huy - Trần Duy Đức, thơ: Ngô Tịnh Yên) ở vòng mở màn.
+
+                     Nghệ sĩ Tự Long sinh ra trong gia đình có truyền thống về nghệ thuật sân khấu ở Bắc Ninh. Bố anh là NSƯT Tự Lẫm - từng đảm nhiệm vị trí Trưởng đoàn Quan họ Bắc Ninh, mẹ là nghệ sĩ chèo tại quê hương. Hiện, anh đảm nhận chức vụ Phó Giám đốc Nhà hát Chèo Quân đội.
+
+                     Năm 2000, nghệ sĩ bén duyên với Táo quân, hóa thân vào nhiều vai diễn khác nhau như Táo mạng, Táo môi trường, Táo xã hội. Mỗi vai diễn đều được Tự Long thổi hồn vào bằng khả năng hát chèo, lối diễn hài hước. Ngoài ra, anh được công chúng nhớ đến với vai diễn châm biếm sâu cay trong chương trình Gặp nhau cuối tuần, Thư giãn cuối tuần. Tự Long nhận danh hiệu NSƯT năm 2012, NSND năm 2015. Năm 2020, anh trở thành một trong nghệ sĩ trẻ tuổi nhất được phong quân hàm Đại tá. Anh kết hôn với bà xã Minh Nguyệt năm 2015, có ba con: Hai gái, một trai.
+
+                     Ở tập năm, các nhóm thi tuần trước được ghép thành nhóm liên minh (hai nhóm thành một đội mới), mỗi liên minh trình diễn hai tiết mục gồm vocal và trình diễn. Bốn liên minh được thành lập gồm: Cửu Long (ghép từ nhóm Nhà Hát, Ngũ Hành), KaMe (nhóm Đam Mê, KK), Phát Tài (nhóm Xuân Hạ Thu Đông, Xương Rồng), Tinh Tú (nhóm Sao Sáng, Tái Sinh).
+
+                      Ngoài tiết mục của đội Tinh Tú, liên minh Cửu Long (Jun Phạm, Hà Lê, Kiên Ứng, Trương Thế Vinh, HuyR và BB Trần) thể hiện Tình yêu ngủ quên (Hoàng Tôn) với tạo hình của những hiệp khách. Điểm nhấn của tiết mục là hình ảnh BB Trần đu và xoay tròn trên cao. Phần rap của HuyR và Hà Lê khiến khán giả thích thú.
+
+                      KaMe (Kay Trần, Liên Bỉnh Phát, Nguyễn Trần Duy Nhất, Phan Đinh Tùng, Tăng Phúc, Trọng Hiếu) hát Giàu sang (Rhymastic). Còn Phát Tài (Bằng Kiều, Thanh Duy, Bùi Công Nam, Binz, Duy Khánh và Thiên Minh) trình diễn Dẫu có lỗi lầm (Hồ Hoài Anh). Kết quả, Tinh Tú dẫn đầu với 2.150 điểm, Phát Tài với 1.790 điểm hỏa lực xếp vị trí thứ hai. Đứng ở vị trí ba và tư lần lượt là Cửu Long với 1.480 điểm hỏa lực, KaMe là 1.380 điểm hỏa lực.
+
+                      Tiết mục còn lại của bốn liên minh sẽ phát trong tập sáu của chương trình. Khán giả sẽ bình chọn hai tiết mục yêu thích trong (kết quả được giấu kín tới phòng loại) và bình chọn tối đa cho ba "anh tài" yêu thích nhất. Dựa trên tổng điểm hai tiết mục của mỗi liên minh. Ba thành viên có điểm cá nhân cao nhất được an toàn trong liên minh nguy hiểm, các thành viên còn lại tự thảo luận, quyết định ba người ra về.
+
+                      Chương trình Anh trai vượt ngàn chông gai gồm 15 tập, được Việt hóa từ show truyền hình ăn khách Trung Quốc - Call Me By Fire. Show dành cho 33 gương mặt nam trên 30 tuổi, hoạt động trong showbiz. Thông qua các vòng, người chơi biểu diễn theo nhóm, 17 gương mặt được chấm điểm cao nhất sẽ hội tụ thành "gia tộc toàn năng".</value>
+  </data>
+  <data name="Content_GT3" xml:space="preserve">
+    <value>                                 THÚ VUI NẤU ĂN CỦA TRUNG DŨNG TẠI NHÀ VƯỜN
+                  Trung Dũng - diễn viên "Gạo nếp gạo tẻ" - về nhà vườn ở Vĩnh Long nấu món đồng quê, thư giãn sau những ngày làm việc.
+
+                  Nghệ sĩ cho biết thu xếp công việc từ TP HCM về Vĩnh Long hai tuần một lần để thăm mẹ cũng như nghỉ ngơi. Trung Dũng đam mê nấu ăn từ nhỏ, từng muốn trở thành đầu bếp. Mỗi khi về quê, anh thường nấu những món ăn, cùng người thân quây quần bên mâm cơm.
+
+                  Công việc diễn xuất tạo cơ hội cho anh được đi khắp nơi, thưởng thức nhiều món đặc sản địa phương. Từ đó, diễn viên học công thức, tự nấu theo kinh nghiệm, khẩu vị của bản thân như: bún nước lèo, bún măng vịt, bánh đúc, bánh xèo. Các nguyên liệu chế biến có sẵn trong vườn nhà của Trung Dũng. Mảnh vườn quê của gia đình anh rộng hàng nghìn mét vuông, trồng nhiều loại rau, cây ăn trái, nuôi gà, vịt.
+
+                   Diễn viên cũng sửa lại khu bếp tươm tất hơn, có không gian mở nhìn ra khu vườn. Theo Trung Dũng, nấu ăn mang lại cho anh niềm vui, sự bình yên, có cảm giác sống chậm lại sau những bộn bề của cuộc sống. Anh quay video nấu ăn chia sẻ trên kênh riêng.
+
+               "Mẹ tôi đã hơn 80 tuổi, cần có con cháu bên cạnh. Tôi muốn ghi hình ảnh bên mẹ để sau này                                                                                       nhớ lại", anh cho biết.
+
+                   Trung Dũng, 51 tuổi, được nhiều người biết đến nhờ khuôn mặt nam tính, gai góc và nét diễn cá tính trong nhiều phim truyền hình và điện ảnh. Ngoài ra, anh còn được biết đến với vai trò MC. Trung Dũng nổi tiếng qua các tác phẩm như: Lạc giới, Người đàn bà yếu đuối, Ngọn nến hoàng cung, Nữ cảnh sát tập sự, Gạo nếp gạo tẻ. Anh hiện sống độc thân, từng ly hôn và có một con trai.</value>
+  </data>
+  <data name="Content_GT4" xml:space="preserve">
+    <value>                                   "TRÙM PHIM KIẾM HIỆP" BỊ PHẠT VÌ TIẾT LỘ ĐỜI TƯ VỢ CŨ
+                   Đạo diễn, nhà sản xuất phim Trương Kỷ Trung bị tòa án phạt tiền vì công khai thông tin cá nhân của vợ cũ.
+
+                   Theo trang Caijing ngày 2/8, tòa án Internet Bắc Kinh xử ông Trương thua kiện bà Phàn Hinh Mạn, yêu cầu ông bồi thường tổn thương tinh thần số tiền 20.000 nhân dân tệ (70 triệu đồng) đồng thời chi trả chi phí kiện tụng, tổng 25.000 tệ (87,5 triệu đồng). Trương Kỷ Trung còn bị buộc xin lỗi công khai Phàn Hinh Mạn.
+
+                    Ban đầu, Trương Kỷ Trung không chấp hành bản án theo thời hạn quy định. Tháng trước, ông bị tòa cưỡng chế trả số tiền 25 nghìn tệ. Tuy vậy, đạo diễn chưa xin lỗi vợ cũ.
+
+                    Theo kết luận của tòa án, năm ngoái, vì các mâu thuẫn với Phàn Hinh Mạn, Trương Kỷ Trung đăng trên Weibo thỏa thuận ly hôn của hai người, trong đó có ngày tháng năm sinh, nơi sinh và địa chỉ nhà ở của vợ cũ. Thỏa thuận còn có thông tin về con cái của hai người, việc phân chia tài sản. Phàn Hinh Mạn kiện Trương Kỷ Trung tội xâm phạm quyền riêng tư.
+
+                     Cả hai lục đục nhiều năm trước khi ly hôn năm 2016. Phàn Hinh Mạn từng tố cáo đạo diễn nhiều lần ngoại tình, nuôi nhân tình ở Mỹ. Năm 2017, Trương Kỷ Trung đi bước nữa với Đỗ Tinh Lâm, kém ông 31 tuổi. Con trai đầu lòng của họ hiện năm tuổi, con gái thứ hai bốn tuổi, Tinh Lâm đang mang thai con thứ ba. Trước khi đến với Trương Kỷ Trung, cô có con riêng với bạn trai cũ.
+
+                     Trên trang cá nhân, Tinh Lâm cho biết bằng lòng sinh thêm con ở tuổi tứ tuần, vì tin tưởng chồng và được ông san sẻ công việc. Trương Kỷ Trung chăm sóc cô từng ly từng tí. Khi đang làm việc trên máy tính, nghe Đỗ Tinh Lâm gọi, Trương Kỷ Trung ngừng công việc để xem vợ cần gì. Ông thường gọt trái cây cho Tinh Lâm, massage chân cho vợ.
+
+                     Dù ba con đầu còn bé, công việc bận rộn, Đỗ Tinh Lâm cảm thấy tinh thần thoải mái nhờ vợ chồng thương yêu, chia sẻ mọi việc cùng nhau. Cô thường nghĩ bụng: "Thật tuyệt khi lấy anh làm chồng".
+Ông nổi tiếng ở làng phim Trung Quốc khi chi tiền thực hiện nhiều tác phẩm chuyển thể tiểu thuyết Kim Dung, trong đó có Tiếu ngạo giang hồ (2001), Anh hùng xạ điêu (2003), Thiên Long Bát Bộ (2003), Thần điêu đại hiệp (2006), Ỷ Thiên Đồ Long Ký (2009), Hiệp khách hành (2014).
+
+                      Trương Kỷ Trung đóng nhiều vai phụ trong các phim mình sản xuất, như Vương Nguyên Bá trong Tiếu ngạo giang hồ, Vương Trùng Dương trong Anh hùng xạ điêu... Những năm gần đây, vợ chồng Trương Kỷ Trung đắt show livestream bán hàng.
+ </value>
+  </data>
+  <data name="Content_GT5" xml:space="preserve">
+    <value>                                    NỮ SINH 17 TUỔI ĐĂNG QUANG MISS TEEN USA 2024
+                  Addie Carver - đại diện bang Mississippi - đoạt vương miện Miss Teen USA 2024 sau gần ba tháng kể từ khi hoa hậu tiền nhiệm xin trả danh hiệu.
+
+                  Theo CNN, Addie Carver, 17 tuổi, vượt qua 51 thí sinh để giành ngôi vị cao nhất trong chung kết tại nhà hát Peacock, Los Angeles hôm 1/8. Cô hiện là học sinh trường Trung học Phổ thông Lawrence County, có thành tích tốt trong lớp.
+
+                   Addie Carver học múa từ nhỏ, hiện là trợ giảng chuyên hỗ trợ các học viên từ 3-16 tuổi, đồng thời tham gia đội cổ vũ của trường. Bố của Carver qua đời năm cô 13 tuổi do bệnh ung thư phổi. Kể từ đó, người đẹp gặp vấn đề về tâm lý nhưng khắc phục nhờ tập nhảy. Carver thành lập dự án phi lợi nhuận Dance to Empower với mục tiêu lan tỏa niềm vui nhảy múa.
+
+                    Trong phần trả lời câu hỏi từ ban giám khảo, Addie Carver cho rằng thử thách lớn nhất giới trẻ phải đối mặt hiện nay là sức khỏe tinh thần. Cô nói: "Nếu trở thành Miss Teen USA, tôi muốn biến danh hiệu này trở thành sứ mệnh giúp các bé gái như tôi không phải chống chọi các vấn đề tâm lý một mình".
+
+                    Người trao vương miện cho Carver không phải hoa hậu năm trước mà là Miss USA 2023 Savannah Gankiewicz. Hồi tháng 5, Miss Teen USA 2023 - UmaSofia Srivastava, 17 tuổi - đăng Instagram thông báo rút khỏi nhiệm kỳ vì nhận thấy "giá trị cá nhân không còn phù hợp với định hướng của tổ chức", muốn tập trung học văn hóa để chuẩn bị vào đại học. Mẹ của cô - bà BarbaraSrivastava - cho biết trên Good Morning America con gái bị ban tổ chức "đối xử tệ bạc, lợi dụng, bắt nạt và bị dồn vào đường cùng".
+
+                    Ngoài những lùm xùm xung quanh chương trình, cuộc thi năm nay còn gây chú ý khi hai thí sinh trượt ngã khỏi sân khấu khi đang catwalk. Trong phần thi trình diễn trang phục dân tộc, thí sinh Noni Diarra - đại diện bang Pennsylvania - bước hụt xuống khoảng trống khi di chuyển vào trong cánh gà, được nhân viên giúp đứng lên. Trước đó, Olivia Travis - đại diện bang West Virginia - cũng bị ngã trong phần thi thể thao, nhưng nhanh chóng lấy lại tự tin.
+
+                    Thí sinh Olivia Travis ngã khỏi sân khấu trong phần thi trình diễn trang phục thể thao. 
+
+                     Miss Teen USA được tổ chức lần đầu vào năm 1983 nhằm mục đích tôn vinh "nhan sắc, trí tuệ và sự tự tin" của các thiếu nữ từ 14 đến 19 tuổi. Các thí sinh sẽ trải qua những vòng thi trình diễn trang phục dạ hội, thể thao (phần thi này thay thế nội dung áo tắm từ năm 2016), ứng xử trên sân khấu, phỏng vấn với ban giám khảo.
+</value>
+  </data>
+  <data name="Content_PL1" xml:space="preserve">
+    <value>                        CHUYÊN GIA: LUẬT DẪN ĐỘ SẼ GIẢI QUYẾT ĐƯỢC NHIỀU VẤN ĐỀ ĐỐI VỚI TỘI PHẠM
+            Theo các chuyên gia, Luật Dẫn độ có hiệu lực sẽ tác động rất lớn đến việc xử lý tội phạm, đặc biệt là người phạm tội đã bỏ trốn và đang bị truy nã trong các vụ án.
+
+            Bộ Công an đang lấy ý kiến về dự thảo Luật Dẫn độ (LDĐ), nhằm hoàn thiện pháp luật về dẫn độ đồng bộ, hiện đại, chặt chẽ, khả thi, phù hợp với quốc tế; nâng cao hiệu quả truy bắt những người thực hiện hành vi phạm tội rồi bỏ trốn ra nước ngoài, hoặc từ nước ngoài vào Việt Nam.
+
+            Dự thảo nêu 5 nguyên tắc dẫn độ, gồm: tôn trọng độc lập, chủ quyền, toàn vẹn lãnh thổ; không can thiệp vào công việc nội bộ của nhau; bình đẳng và các bên cùng có lợi; phù hợp với Hiến pháp, pháp luật của Việt Nam và điều ước quốc tế mà Việt Nam là thành viên; đảm bảo "không xét xử hai lần về cùng một tội phạm".
+
+NHIỀU ƯU ĐIỂM
+             Theo Tiến sĩ luật Nguyễn Hữu Thế Trạch, dự thảo LDĐ đưa ra nhiều ưu việt nhằm đảm bảo tính hiệu quả, minh bạch và phù hợp với các chuẩn mực quốc tế trong quá trình thực hiện dẫn độ. Trong đó, đặc biệt nhất là việc áp dụng nguyên tắc có đi có lại và các điều kiện chặt chẽ trong việc từ chối hoặc chấp nhận yêu cầu dẫn độ, qua đó bảo vệ quyền lợi quốc gia và cá nhân.
+
+             Theo đó, Việt Nam cam kết thực hiện các yêu cầu dẫn độ từ các quốc gia khác tương tự như cách các quốc gia này thực hiện yêu cầu dẫn độ từ phía Việt Nam; giúp tạo nên một cơ chế công bằng, đảm bảo sự hợp tác quốc tế và nâng cao tính thuyết phục trong việc xử lý các vụ việc dẫn độ. Điều luật này quy định rằng, nếu giữa Việt Nam và quốc gia yêu cầu dẫn độ chưa có điều ước quốc tế về dẫn độ, thì các thủ tục dẫn độ sẽ được thực hiện trên nguyên tắc có đi có lại nhưng phải phù hợp với pháp luật Việt Nam và tập quán quốc tế.
+
+             Dự thảo LDĐ cũng quy định về quy trình và thủ tục thực hiện dẫn độ, từ việc lập hồ sơ yêu cầu dẫn độ đến các bước kiểm tra, xét duyệt và quyết định dẫn độ. Bộ Công an là cơ quan trung ương chịu trách nhiệm chính trong việc tiếp nhận và kiểm tra hồ sơ yêu cầu dẫn độ, đảm bảo tính chính xác và hợp lệ của các thông tin trong hồ sơ.
+
+             Một ưu điểm nữa là việc tăng cường hợp tác quốc tế trong hoạt động dẫn độ thông qua các kênh ngoại giao và các cơ quan đại diện của Việt Nam ở nước ngoài. Điều này giúp nâng cao hiệu quả của các hoạt động dẫn độ và đảm bảo việc thực thi các cam kết quốc tế của Việt Nam.
+
+             "Nhìn chung, dự thảo LDĐ không chỉ bảo vệ quyền lợi quốc gia và cá nhân mà còn tạo ra một cơ chế pháp lý minh bạch, công bằng và hiệu quả, phù hợp với các chuẩn mực quốc tế. LDĐ có hiệu lực sẽ có tác động rất lớn đến việc xử lý tội phạm, đặc biệt là những người phạm tội đã bỏ trốn và đang bị truy nã trong các vụ án lớn", ông Trạch nói.
+
+             Cụ thể, khi LDĐ được ban hành và thực thi, Việt Nam sẽ có cơ sở pháp lý rõ ràng để yêu cầu các quốc gia khác hợp tác trong việc bắt giữ và dẫn độ các tội phạm đang lẩn trốn ra nước ngoài. Điều này đảm bảo rằng, các tội phạm không thể dễ dàng trốn thoát khỏi sự trừng phạt của pháp luật bằng cách di chuyển sang một quốc gia khác.
+
+              "Việc dẫn độ sẽ giúp đưa các tội phạm này trở lại Việt Nam để đối mặt với các cáo buộc và xét xử theo quy định của pháp luật", ông Trạch nói, thêm rằng các nạn nhân, người bị hại trong các vụ án sẽ cảm thấy được bảo vệ và công lý được thực thi khi những kẻ phạm tội bị bắt và đưa ra xét xử. Điều này cũng sẽ giúp củng cố niềm tin của công chúng vào hệ thống pháp luật và cơ quan thực thi pháp luật của Việt Nam. Việc xử lý nghiêm minh các tội phạm sẽ tạo ra một môi trường xã hội an toàn và công bằng hơn.
+
+                Một trong những lợi ích quan trọng khác của LDĐ là khả năng ngăn chặn và giảm thiểu nguy cơ tái phạm của các tội phạm. Bởi khi các tội phạm biết rằng họ không thể thoát khỏi sự trừng phạt bằng cách bỏ trốn ra nước ngoài, họ sẽ cân nhắc kỹ lưỡng trước khi thực hiện các hành vi phạm tội.
+
+                Ngoài ra, việc hợp tác quốc tế trong việc dẫn độ tội phạm sẽ giúp giảm thiểu chi phí và thời gian truy bắt tội phạm. Thay vì phải triển khai các chiến dịch truy bắt phức tạp và tốn kém, các cơ quan chức năng của Việt Nam có thể dựa vào sự hỗ trợ của các quốc gia đối tác để bắt giữ và dẫn độ tội phạm một cách hiệu quả hơn.
+
+                Đồng quan điểm về những "nội dung tiến bộ, mang tính quốc tế", luật sư Nguyễn Văn Hậu, Phó Chủ nhiệm Đoàn Luật sư TP HCM, cho rằng dự thảo LDĐ phù hợp với thực tế Việt Nam đang nâng cao phát triển hội nhập quốc tế và tình trạng tội phạm truy nã xuyên quốc gia ngày càng có dấu hiệu gia tăng. Dự thảo LDĐ cũng có ý nghĩa trong việc tăng cường công tác ngoại giao giữa Việt Nam với nước ngoài và đảm bảo công tác truy cứu trách nhiệm hình sự ngày càng nghiêm minh, không bỏ lọt tội phạm.
+
+CÓ THỂ VƯỚNG MẮT
+                Theo luật sư Hậu, dự thảo LDĐ đưa ra nguyên tắc có qua có lại khi tiến hành dẫn độ với các quốc gia chưa ký điều ước quốc tế với Việt Nam, được áp dụng với điều kiện không trái pháp luật Việt Nam và phù hợp với pháp luật quốc tế và tập quán quốc tế. Tuy nhiên, việc áp dụng nguyên tắc này nếu chỉ hiểu theo quy định hiện hành thì sẽ làm phát sinh nhiều tình huống vướng mắc khó giải quyết trên thực tiễn.
+
+                 Làm rõ hơn về quan điểm này, ông Hậu ví dụ, A là tội phạm nước ngoài bị truy nã bởi hành vi vi phạm pháp luật ở nước AA, khi trốn qua Việt Nam anh ta tiếp tục gây án và bị lực lượng chức năng Việt Nam bắt giữ. Theo quy định của Bộ luật Hình sự thì A vẫn phải bị truy cứu trách nhiệm hình sự về hành vi thực hiện trên lãnh thổ Việt Nam. Thế nhưng, nếu nước AA có yêu cầu dẫn độ A, và giữa Việt Nam với nước này chưa ký kết điều ước quốc tế, thì các bên phải áp dụng nguyên tắc có qua có lại. Việc này sẽ gặp khó khăn nếu hành vi phạm tội trên lãnh thổ Việt Nam được quy định mức án tối đa là tử hình, nhưng nước AA yêu cầu không được tử hình, thì giữa hai quốc gia không thể đi đến được sự thống nhất chung.
+
+                 Một vấn đề khác là, dự thảo LDĐ đang giao trách nhiệm xây dựng trình tự, thủ tục áp dụng nguyên tắc có qua có lại cho Chính phủ chứ chưa quy định rõ trong dự thảo. Nhưng đây là nội dung rất quan trọng, cần phải luật hóa các quy định trong chính các điều khoản của LDĐ để từ đó tạo điều kiện cho việc thi hành pháp luật đạt hiệu quả cao.
+
+                  Bên cạnh đó, dự thảo đã chỉnh sửa và quy định chi tiết về quyền từ chối dẫn độ của Việt Nam hơn so với quy định của Luật Tương trợ tư pháp 2007. Trong đó phân rõ 2 điều khoản quy định về các trường hợp cơ quan có thẩm quyền của Việt Nam "sẽ từ chối" dẫn độ và "có thể từ chối" dẫn độ. Quy định này tạo được tính chủ động cho phía cơ quan có thẩm quyền của Việt Nam trong việc quyết định có dẫn độ theo yêu cầu của nước ngoài hay không.
+
+                   Tuy nhiên, theo ông Hậu, quy định về quyền từ chối dẫn độ vẫn chưa rõ ràng, do quy định hiện nay của dự thảo luật chỉ mới nêu "Cơ quan Trung ương của nước Việt Nam là Bộ Công an ra thông báo từ chối dẫn độ mà không cần Tòa án nhân dân có thẩm quyền xem xét, thụ lý hồ sơ". Nhưng tại điều khoản về tiếp nhận, kiểm tra hồ sơ vẫn chưa quy định về quyền ra thông báo từ chối của Bộ Công an.
+
+               "Đây là điểm cần hoàn thiện để tăng hiệu quả áp dụng pháp luật trên thực tế", ông Hậu góp ý.
+
+                    Tương tự, luật sư Nguyễn Hữu Thế Trạch cũng chỉ ra một số vấn đề có thể phát sinh khi áp dụng LDĐ. Ông cho rằng, việc tách riêng LDĐ khỏi Luật Tương trợ tư pháp có thể gây ra sự không nhất quán trong việc thực thi pháp luật, tạo ra khó khăn cho các cơ quan thực thi trong việc áp dụng đúng quy định pháp luật.
+Quy trình tiếp nhận, kiểm tra, và xử lý hồ sơ yêu cầu dẫn độ phức tạp, đòi hỏi sự phối hợp nhịp nhàng giữa các cơ quan trong nước và quốc tế. Tuy nhiên, dự thảo chưa quy định rõ về trách nhiệm và thẩm quyền của các cơ quan như Bộ Công an, VKSND, TAND có thể dẫn đến việc chồng chéo nhiệm vụ, gây chậm trễ trong quá trình thực hiện dẫn độ.
+
+                     Ngoài ra, dự thảo cũng chưa đề cập cụ thể đến cơ chế giải quyết tranh chấp giữa Việt Nam và nước yêu cầu dẫn độ khi có sự khác biệt về quy định pháp luật hoặc quyền lợi quốc gia. Điều này có thể gây ra khó khăn trong quá trình đàm phán và thực thi dẫn độ. Việc đảm bảo đủ nguồn lực về nhân sự và tài chính để thực hiện các thủ tục dẫn độ cũng là một thách thức...
+
+                     "Những bất cập nêu trên đòi hỏi LDĐ cần được điều chỉnh và hoàn thiện để đảm bảo tính khả thi và hiệu quả trong quá trình thực hiện, đồng thời đảm bảo quyền lợi của các bên liên quan", ông Trạch nói.
+Dự kiến, Bộ Công an sẽ trình Chính phủ dự án LDĐ trong tháng 1/2025.
+</value>
+  </data>
+  <data name="Content_PL2" xml:space="preserve">
+    <value>                         CÔ GÁI TRỐN TRUY NÃ BỊ BẮT KHI VỪA XUỐNG MÁY BAY
+                Trương Thị Hương, 27 tuổi, bị cảnh sát bắt giữ khi vừa đáp chuyến bay từ Thái Lan, nhập cảnh sân bay Tân Sơn Nhất, TP HCM, sau 6 năm trốn thi hành án.
+
+                 Ngày 3/8, Hương bị di lý về Công an tỉnh Đăk Nông để điều tra, sau 6 năm trốn truy nã về tội Trộm cắp tài sản.
+
+                 Hai hôm trước, Phòng Cảnh sát thi hành án hình sự và Hỗ trợ tư pháp Công an tỉnh Đăk Nông phối hợp lực lượng công an sân bay bắt giữ Hương khi vừa nhập cảnh Cảng hàng không Quốc tế Tân Sơn Nhất.
+
+                 Theo hồ sơ vụ án, năm 2018, Hương bị TAND huyện Đăk R'lâp, ra quyết định thi hành án phạt tù về tội Trộm cắp tài sản. Tuy nhiên, trong quá trình chờ đi thi hành án, cô bỏ trốn khỏi địa phương, sau đó xuất cảnh.
+
+                  Ngày 2/8/2018, Hương bị Cơ quan thi hành án hình sự Công an tỉnh Đăk Nông phát lệnh truy nã.</value>
+  </data>
+  <data name="Content_PL3" xml:space="preserve">
+    <value>                 BỊ KHỞI TỐ VÌ GIỚI THIỆU 5 NGƯỜI THÂN CHO NHÓM BUÔN NGƯỜI SANG CAMPUCHIA
+            Phạm Mỹ Nhiên, 31 tuổi, bị cáo buộc môi giới 5 người họ hàng cho nhóm buôn người sang Campuchia làm "việc nhẹ lương cao", để lấy tiền hoa hồng.
+
+            Nhà chức trách cáo buộc, đầu tháng 5, Nhiên giới thiệu 3 con của một người bác ở xã Nguyễn Phích, huyện U Minh, cho một người ở tỉnh Kiên Giang để đưa sang Campuchia bằng đường tiểu ngạch. Các lao động được hứa làm việc với mức lương 20 triệu đồng mỗi tháng.
+
+            Nhiên được nhận tiền hoa hồng từ nhóm người ở Kiên Giang. Một thời gian sau, Nhiên tiếp tục giới thiệu 2 người em họ của mình cho đường dây này.
+
+            Sau khi đến Campuchia, một người gọi về cho gia đình báo tin bị ép làm các công việc lừa gạt người khác thông qua mạng xã hội. Đồng thời, người này cũng cho biết đã bị bán với giá 30 triệu đồng, cầu cứu gia đình gửi tiền chuộc để được về nước.
+
+            Sự việc được trình báo cơ quan chức năng. Công an tỉnh Cà Mau đang mở rộng điều tra.
+
+            Phạm Mỹ Nhiên bị Công an tỉnh Cà Mau khởi tố về hành vi Tổ chức môi giới cho người khác trốn đi nước ngoài, ngày 3/8. Bị can được tại ngoại do đang mang thai.
+</value>
+  </data>
+  <data name="Content_PL4" xml:space="preserve">
+    <value>                NGƯỜI ĐÀN ÔNG CAMPUCHIA BỊ BẮT KHI MANG TÚI VÀNG QUA BIÊN GIỚI
+           Tang Hour, 42 tuổi, lén mang túi vàng nặng 1,2 kg qua cửa khẩu Khánh Bình về Campuchia thì bị lực lượng hải quan bắt giữ.
+
+           Tang Hour khai, hôm 1/8 đã nhận lời người đàn ông Việt Nam tên Trường (hoặc Trưởng), xách thuê túi vàng này về Campuchia giao cho Kong Ji (chưa rõ nhân thân), với tiền công 10 USD. Khi qua cửa khẩu Khánh Bình, Tang Hour định qua mặt hải quan bằng cách trà trộn vào lối đi dành cho phương tiện vận tải xuất cảnh, song bị phát hiện.
+
+           Chi cục Hải quan cửa khẩu Khánh Bình (Cục Hải quan An Giang) cho biết, thấy Tang Hour khả nghi, lực lượng kiểm soát đã mời vào khu vực kiểm tra hành lý, phát hiện trong túi nylon đen người này mang theo có 371 vòng kim loại màu vàng, nặng 1,2 kg. Kết quả giám định là vàng, trị giá khoảng 1,4 tỷ đồng.
+
+           Tang Hour bị bắt, bàn giao cùng tang vật cho Công an tỉnh An Giang điều tra theo thẩm quyền.
+
+</value>
+  </data>
+  <data name="Content_PL5" xml:space="preserve">
+    <value>                                    NHÂN VIÊN KIỂM NGƯ ĐẦU THÚ NHẬN HỐI LỘ
+            Đinh Thành Lập, 42 tuổi, nhân viên tại chi cục kiểm ngư thuộc Sở Nông nghiệp và phát triển nông thôn đã đầu thú hành vi nhận hối lộ.
+
+            Ngày 3/8, Lập trình diện cơ quan điều tra, khai nhận hành vi nhận hối lộ khi là thuyền viên tàu tuần tra, kiểm soát. Một ngư dân ngụ huyện Kiên Lương đã cùng đầu thú với Lập.
+Cả hai khai nhận đã đưa và nhận hối lộ liên quan băng nhóm bảo kê biển do Phạm Minh Quyết, 40 tuổi, cầm đầu. Một năm trước, nhóm Quyết tự ý bao chiếm vùng biển ven bờ từ huyện An Minh đến huyện Kiên Lương.
+ 
+            Quyết sai "đàn em" ép ngư dân phải bán hải sản cho nhóm này với giá thấp, nếu không sẽ bị đuổi đánh, không cho đánh bắt. Tương tự, thương lái vào vùng biển này thu mua cũng bị ngăn cản, đánh đuổi.
+Liên quan vụ án, Trần Thanh Liêm, thanh tra viên thuộc Sở Nông nghiệp và Phát triển nông thông, bị bắt với cáo buộc nhận hối lộ 50 triệu đồng của nhóm bảo kê, sau đó chi phối lực lượng tuần tra, bỏ qua sai phạm.
+
+            Hiện cơ quan điều tra đã bắt 12 người của băng nhóm bảo kê trên biển, về các tội Đưa, nhận và môi giới hối lộ, Cưỡng đoạt tài sản, Cố ý gây thương tích và Gây rối trật tự công cộng.
+Công an kêu gọi những người có liên quan sớm ra đầu thú.</value>
+  </data>
+  <data name="Content_TG1" xml:space="preserve">
+    <value>                         THÁCH THỨC CUNG CẤP VACCINNE COVID-19 CHO TOÀN CẦU
+       Những thách thức trong sản xuất và vận chuyển vaccine Covid-19 cho thấy nhân loại còn cách vạch đích đánh bại đại dịch rất xa.
+
+       Việc các loại vaccine Covid-19 liên tiếp được phê duyệt vào cuối năm 2020 làm dấy lên hy vọng thế giới có thể đánh bại đại dịch vào năm tới. Nhưng những thách thức về sản xuất và vận chuyển vaccine vẫn là bài toán khó.
+
+        Châu Âu hôm 21/12 nối tiếp Anh và Mỹ bật đèn xanh cho vaccine Covid-19 của Pfizer/BioNTech. Giống vaccine của Moderna đã được Mỹ phê duyệt, sản phẩm của Pfizer chứng minh được hiệu quả 95% trong các cuộc thử nghiệm quy mô lớn.
+
+
+        Việc nhanh chóng phê duyệt vaccine chỉ một năm sau khi Covid-19 bùng phát là minh chứng cho nỗ lực toàn cầu nhằm giải quyết đại dịch đã khiến hơn 1,7 triệu người chết, ảnh hưởng nghiêm trọng tới kinh tế và cuộc sống con người.
+
+        Sau khi đại dịch lan khắp toàn cầu, các nhà khoa học xác định những ứng viên vaccine tiềm năng chỉ trong vài tuần, chứ không mất vài năm như thông thường, và đến nay hàng triệu liều vaccine đã được đưa khỏi nhà máy.
+
+        Tuy nhiên, quá trình này diễn ra trong bối cảnh nhiều quốc gia đang chịu đựng một mùa đông ảm đạm, số ca nhiễm gia tăng, biến thể mới của virus xuất hiện tại Anh và nhiều quốc gia đã áp đặt hạn chế mới lên việc đi lại và cuộc sống hàng ngày.
+
+        Loại vaccine thứ ba của AstraZeneca và đại học Oxford cũng chứng minh có thể ngăn ngừa Covid-19, dù câu hỏi về tính hiệu quả của nó khiến nhà phát triển phải nghiên cứu thêm để được các nhà quản lý phê duyệt. Tuy nhiên, nó vẫn đạt được tiến bộ lớn.
+
+        "Chưa bao giờ có ba loại vaccine đầy hứa hẹn được phát triển trong thời gian ngắn như hiện nay", Marcel Tannel, chủ tịch Viện Khoa học và Nghệ thuật Thụy Sĩ, thành viên ủy ban chuyên trách Covid-19 của Thụy Sĩ, nói.
+
+         Anh và Mỹ đã bắt đầu chiến dịch tiêm chủng. Hàng đang được chuyển tới Canada, Israel và Mexico. Các nước EU cho hay sẽ bắt đầu tiêm vaccine vài ngày sau Giáng sinh, trong khi Thụy Sĩ và Qatar sẽ cho phép tiêm vaccine Pfizer vào cuối tuần.
+
+        Tuy vậy, Giám đốc điều hành BioNTech Ugur Sahin hôm 22/12 dự đoán trong thập kỷ tới, "bình thường mới" sẽ là xã hội học cách đối phó với các đợt bùng phát Covid-19 lẻ tẻ, với nhiều loại vaccine giúp tránh việc phải ngừng các hoạt động kinh doanh và bệnh viện lâm vào tình trạng quá tải.
+
+        Hơn 100 loại vaccine khác đang được nghiên cứu và dữ liệu thử nghiệm một số loại sẽ sớm được công bố. Các chuyên gia vaccine cho hay sẽ cần phải có thêm nhều loại để đáp ứng nhu cầu thế giới, từ nước giàu tới nước nghèo.
+
+        Liên đoàn Các nhà Sản xuất và Hiệp hội Dược phẩm Quốc tế dự kiến có tới 10 loại vaccine được phê duyệt vào giữa năm 2021, bao gồm hai loại của Mỹ là Johnson &amp; Johnson và Novavax, một loại của Đức là CureVac.
+
+        Tuy nhiên, nhiều thách thức lớn đang đặt ra, bao gồm cả việc tăng cường sản xuất. Pfizer dự kiến chỉ sản xuất 50 triệu liều năm 2020, bằng một nửa mục tiêu ban đầu, đủ cho 25 triệu người tiêm hai mũi. Moderna cam kết 20 triệu liều cho Mỹ năm nay, đủ cho 10 triệu người.
+
+        Tốc độ sản xuất vaccine sẽ tăng trong năm 2021 với mục tiêu đạt 1,8 tỷ liều. Các công ty khác cũng đặt mục tiêu tương tự, nhưng số lượng này không đủ cho một thế giới đang "đói" vaccine.
+      "Sẽ không đủ vaccine trong một thời gian dài, có lẽ là tới năm 2022", Tom Frieden, cựu giám                          đốc Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Mỹ (CDC), nói.
+
+        Đã có những rắc rối ban đầu liên quan tới lưu trữ và phân phối vaccine của Pfizer, loại cần được trữ lạnh ở nhiệt độ âm hàng chục độ C, cũng như một số nhầm lẫn về liều lượng.
+
+        Một số nhân viên y tế Anh và Mỹ được tiêm vaccine đã xuất hiện phản ứng dị ứng. Dù thử nghiệm trên hàng chục nghìn người cho thấy công nghệ mRNA mới được Pfizer/BioNTech và Moderna sử dụng có vẻ an toàn, vẫn còn rất nhiều người do dự khi đến lượt tiêm.
+
+        Tổ chức Y tế Thế giới (WHO) ước tính cần tiêm phòng cho 60% dân số để đạt được miễn dịch cộng đồng. Các nước đang phát triển hy vọng tiếp cận vaccine thông qua chương trình toàn cầu do WHO hỗ trợ có thể phải chờ đợi, vì các nước giàu đang "găm hàng".
+
+        Tới nay, phương Tây chủ yếu tập trung vào tiêm chủng cho nhân viên y tế tuyến đầu và những người lớn tuổi trong viện dưỡng lão, nơi có khả năng bị ảnh hưởng nặng nề nhất bởi virus. 80% trong số hơn 300.000 ca tử vong vì Covid-19 ở Mỹ là người trên 65 tuổi, theo CDC.
+
+        "Tiêm chủng cho cộng đồng này có thể giải quyết cuộc khủng hoảng y tế do Covid-19 ngay cả khi không đạt được miễn dịch cộng đồng", Christian Muenz, giáo sư về miễn dịch sinh học thuộc Đại học Zurich, nói.
+
+        Nga đã tiêm chủng cho hơn 200.000 người bằng vaccine nội địa Sputnik V, được cho là đạt hiệu quả 91,4%. Nga cũng đã ký hợp đồng sản xuất vaccine với Ấn Độ.
+
+        Tại Trung Quốc, vaccine của Sinovac Biotech và hai loại do Tập đoàn Dược phẩm Quốc gia Trung Quốc (Sinopharm) nghiên cứu đang trong giai đoạn thử nghiệm. Nhân viên y tế và biên phòng đã được tiêm chủng theo chương trình khẩn cấp.
+
+        Sinopharm đã ký hợp đồng cung cấp vaccine với Bharain và Các tiểu vương quốc Arab Saudi, cũng như Ai Cập. Còn Sinovac đã ký với Brazil, Thổ Nhĩ Kỳ và Indonesia.
+
+        Các loại vaccine khác của Trung Quốc như CanSino Biologics đang trong giai đoạn thử nghiệm lâm sàng quy mô lớn. Tuy nhiên, không phải mọi dự án vaccine đều thành công.
+
+        Sanofi và GlaxoSmithKline đã hoãn công bố vaccine do không hiệu quả với người cao tuổi. Một dự án của Australia cũng thất bại. Còn vacine của AstraZeneca, loại có hiệu quả 62% trên những bệnh nhân được tiêm đủ hai liều, vẫn còn nhiều câu hỏi.
+
+        Eric Topol, người sáng lập Viện Dịch thuật Nghiên cứu Scripps có trụ sở tại California, cho hay người ta khó chấp nhận những loại vaccine hiệu quả thấp hơn của Pfizer và Moderna.
+
+                 "Chúng ta không thể chấp nhận loại 62% khi đã có loại 95%", Topol nói. "Nó đã                                                               đủ tốt, không cần thêm loại khác".</value>
+  </data>
+  <data name="Content_TG2" xml:space="preserve">
+    <value>                                OKTOBERFEST - LỄ HỘI BIA ĐỨC LỚN NHẤT THẾ GIỚI
+        Khám phá 5 lễ hội nổi tiếng trên thế giới - Carnival Brazil, Oktoberfest, Holi, Songkran và Lễ hội hoa anh đào Nhật Bản. Tận hưởng sự đa dạng văn hóa và khám phá niềm vui sôi động của những lễ hội đặc sắc này.
+
+                                 Khám Phá Văn Hóa Đa Dạng Qua 5 Lễ Hội Nổi Tiếng Trên Thế Giới
+Carnival Brazil – LỄ HỘI HÓA TRANG LỚN NHẤT THẾ GIỚI
+        Carnival, lễ hội văn hóa đáng chú ý nhất tại Brazil, là một sự kiện thu hút hàng triệu du khách trên khắp thế giới. Với không khí vui tươi và những trang phục lộng lẫy, Carnival là một cuộc diễu hành đặc biệt mà mọi người háo hức chờ đợi.
+
+        Trong suốt những ngày Carnival diễn ra, các thành phố ở Brazil chìm đắm trong âm nhạc, nhảy múa và những màn trình diễn nghệ thuật tuyệt vời. Những nhóm nhảy samba nhiệt huyết và những hoạt động văn hóa độc đáo tạo nên một không gian sống động và phấn khích.
+
+        Carnival không chỉ là một lễ hội văn hóa, mà còn mang đến một thông điệp tích cực về sự đoàn kết và tình yêu. Nó tạo cơ hội cho mọi người cùng nhau thả mình trong niềm vui và quên đi mọi áp lực và lo âu hàng ngày. Carnival là một lễ hội đầy màu sắc và năng lượng, nơi mà mọi người có thể tận hưởng cuộc sống và kết nối với nhau qua âm nhạc và nghệ thuật.
+
+Oktoberfest - LỄ HỘI BIA ĐỨC LỚN NHẤT THẾ GIỚI
+        Oktoberfest, lễ hội bia lớn nhất thế giới, là một sự kiện không thể bỏ qua cho những người yêu thích bia và niềm vui. Được tổ chức tại Munich, Đức, từ cuối tháng 9 đến đầu tháng 10, Oktoberfest thu hút hàng triệu du khách mỗi năm.
+
+        Những người tham gia có thể thưởng thức hơn 30 loại bia khác nhau, được phục vụ trong các cốc bia đặc biệt có dung tích lớn. Các nhà sản xuất bia nổi tiếng của Đức như Paulaner và Spaten cũng góp mặt tại lễ hội này.
+
+        Oktoberfest không chỉ là một lễ hội bia, mà còn có những hoạt động giải trí đa dạng. Các cuộc đua ngựa, trò chơi và cả diễn xiếc đều thu hút sự chú ý của du khách. Oktoberfest là một cơ hội để mọi người tận hưởng niềm vui, thưởng thức ẩm thực và kết nối với nhau trong không khí ấm áp và thân thiện.
+
+Holi - LỄ HỘI MÀU SẮC CỦA ẤN ĐỘ
+        Holi là một trong những lễ hội truyền thống lớn nhất và phổ biến nhất ở Ấn Độ. Được tổ chức vào đầu tháng 3 hàng năm, Holi là một cách để mọi người chào đón mùa xuân và tưởng nhớ câu chuyện về sự chiến thắng của sự tốt đẹp trước tà ác.
+
+        Trong ngày Holi, mọi người tham gia vào cuộc vui bắn màu sắc, nơi mà mọi người ném nhau bột màu và nước màu, tạo nên một cảnh tượng màu sắc và vui nhộn. Lễ hội cũng đi kèm với âm nhạc, nhảy múa và các màn trình diễn nghệ thuật đặc sắc, tạo nên một không khí phấn khích và hào hứng.
+
+        Qua Holi, người Ấn Độ thể hiện tình yêu thương, sự kết nối và lòng hiếu khách. Mọi người quên đi mọi khác biệt và đứng chung nhau dưới một màu sắc chung. Holi là một lễ hội vui nhộn và đáng nhớ, nơi mà mọi người có thể tận hưởng sự tự do và thể hiện niềm vui của mình.
+Songkran - Lễ Hội Té Nước Đón Năm Mới Của Thái Lan.
+
+        Songkran là lễ hội truyền thống để đón chào năm mới của người Thái Lan, thường diễn ra từ ngày 13 đến 15 tháng 4 hàng năm. Đây là một trong những lễ hội nước lớn nhất thế giới, nơi mà mọi người cùng tham gia vào cuộc vui té nước lẫn nhau.
+
+        Trong suốt ba ngày của lễ hội, các con phố ở Thái Lan trở thành “chiến trường nước” khi mọi người mang theo chai nước, bình phun và các công cụ khác để tham gia vào cuộc vui té nước. 
+
+        Nước được coi là biểu tượng của sự thanh tẩy và tinh thần mới mẻ, việc ném nước lẫn nhau cũng có ý nghĩa là loại bỏ những điều xấu xa và mang lại những điều tốt lành cho năm mới.
+
+        Qua Songkran, người Thái Lan thể hiện tình yêu thương và lòng hiếu khách. Lễ hội cũng đi kèm với các hoạt động văn hóa, như các lễ đền thờ và các trò chơi truyền thống, tạo nên một trải nghiệm đáng nhớ cho du khách
+
+LỄ HỘI HOA ANH ĐÀO Ở NHẬT BẢN
+        Lễ hội hoa anh đào ở Nhật Bản là một sự kiện văn hóa đặc biệt và được biết đến trên toàn thế giới. Được tổ chức vào mùa xuân, lễ hội này đánh dấu sự đầu mùa mới và tưởng nhớ sự tinh tế và tạc tượng của hoa anh đào.
+
+        Trong thời gian hoa anh đào nở rộ, khắp Nhật Bản trở nên lung linh và tươi tắn với hàng triệu cánh hoa anh đào màu hồng. Các công viên, đường phố, sông suối và ngôi đền đều được trang trí đặc biệt để tôn vinh vẻ đẹp tuyệt vời của hoa anh đào. Người dân và du khách đổ về các khu vực này để chiêm ngưỡng cảnh quan tuyệt đẹp và tham gia vào các hoạt động lễ hội sôi động.
+
+        Lễ hội hoa anh đào ở Nhật Bản là một dịp để tận hưởng vẻ đẹp thiên nhiên tuyệt đẹp, thể hiện lòng biết ơn và kính trọng với sự sống, và trải nghiệm văn hóa độc đáo của quốc gia này. Đối với du khách, đây là một trải nghiệm đáng nhớ và một cơ hội để thấy rõ sự tinh tế và sự đặc biệt của văn hóa Nhật Bản.
+
+ĐIỂM NHẤN CÁC LỄ HỘI TRÊN THẾ GIỚI
+        Các lễ hội trên thế giới không chỉ mang đến niềm vui và sự thú vị, mà còn là cơ hội để trải nghiệm và khám phá văn hóa đa dạng của các quốc gia. Những lễ hội như Carnival, Oktoberfest, Holi, Songkran và Lễ hội hoa anh đào đều có những điểm nhấn đặc biệt mà thu hút du khách.
+
+        Từ sự sắc màu và hào hứng của Carnival tại Brazil, đến không gian vui tươi và ấm áp của Oktoberfest ở Đức, hay cuộc vui ném màu sắc của Holi ở Ấn Độ, mỗi lễ hội mang đến một trải nghiệm độc đáo và không thể quên.
+
+       Songkran tại Thái Lan mang đến cuộc vui té nước sôi động và tạo nên một không khí vô cùng tươi mát và sảng khoái. Trong khi đó, Lễ hội hoa anh đào ở Nhật Bản gây ấn tượng với việc được hòa mình vào thiên nhiên tươi đẹp.
+
+        Tham gia vào các lễ hội này không chỉ mang đến niềm vui và sự hào hứng, mà còn là cơ hội để tìm hiểu về văn hóa, truyền thống và tinh thần của mỗi quốc gia. Những lễ hội này đánh dấu những sự kiện quan trọng trong lịch sử và đời sống của mỗi nền văn hóa và tạo ra những kỷ niệm đáng nhớ cho người tham gia.
+
+        Với sự kết hợp giữa niềm vui, màu sắc, âm nhạc và sự kết nối với nhau, các lễ hội trên thế giới rất đáng để khám phá và trải nghiệm. Chắc chắn, mỗi lễ hội sẽ mang đến những trải nghiệm độc đáo và khó quên cho du khách, đồng thời tạo ra những kỷ niệm vui vẻ và kết nối con người từ khắp nơi trên thế giới.
+
+        Hãy khám phá ngay những lễ hội thú vị này và tạo ra những kỷ niệm đáng nhớ trong cuộc sống nhé!
+</value>
+  </data>
+  <data name="Content_TG3" xml:space="preserve">
+    <value>         CHIẾN LƯỢC CỦA UKRAINE TẤN CÔNG SÂU VÀO LÃNH THỔ NGA KHIẾN MOSCOW ĐAU ĐẦU
+        Một chuyên gia chiến tranh nhận định với Business Insider rằng Ukraine có thể tấn công sâu bất thường vào bên trong lãnh thổ Nga bởi các hệ thống phòng không của Moscow đã bị kéo căng.
+Chiến lược tấn công sâu của Ukraine
+
+        George Barros, một chuyên gia về Nga tại Viện Nghiên cứu Chiến tranh (ISW) ở Mỹ cho biết, nhiều máy bay không người lái của Ukraine có thể xâm nhập qua vị trí mà lẽ ra hệ thống phòng không của Nga có thể ngăn chặn chúng.
+
+       Ông nói: "Chúng tôi đã nhiều lần chứng kiến Ukraine thâm nhập qua các hệ thống phòng không Nga và sau đó triển khai máy bay đến những vị trí mà nước này thực sự không thể bay sâu vào trong lãnh thổ Nga như vậy". Theo ông: "Lực lượng phòng không Nga đáng lẽ phải bắn hạ chúng một cách dễ dàng".
+
+        Lực lượng phòng không Nga là đối thủ đáng gờm của Ukraine trong xung đột. Họ đã bắn hạ tiêm kích và tên lửa của Kiev, phần lớn ngăn cản Ukraine tiếp cận không phận Nga.
+
+       Hệ thống phòng thủ của Ukraine cũng chứng minh được giá trị của mình khi cản trở lực lượng không quân Nga vốn mạnh hơn nhiều - điều mà các chuyên gia về chiến tranh trên không ca ngợi là một thành quả đáng chú ý do Ukraine gặp bất lợi trên không.
+
+       Điều đó tạo ra tình trạng mà cả hai bên đều bị hạn chế sử dụng chiến đấu cơ của mình trên chính lãnh thổ của mình. Tuy nhiên, chuyên gia Barros cho rằng khả năng phòng thủ của Nga đã bị "kéo căng", mang lại cho Ukraine những cơ hội mới.
+
+       Ông cho biết, Nga đã "phải tạm gác sang một bên việc bảo vệ các khu vực" không nằm ngay cạnh Ukraine. Sau đó, bắt đầu từ mùa xuân năm 2024, Ukraine có thể tấn công hệ thống phòng thủ Nga "một cách có chủ đích". Nhiều hệ thống phòng không Nga bị Ukraine gây hư hại hoặc phá hủy. Ukraine hiện nhắm tới một số hệ thống phòng không mà trước đây họ không thể tiếp cận. Nga đang phải tìm cách bảo vệ chúng.
+
+       Ông Barros cho biết, Nga "đã bố trí các hệ thống phòng không để bảo vệ các khu vực bị đe dọa trên không". Theo ông, nếu Ukraine vượt qua được thách thức này, lực lượng của họ sẽ tiến vào khu vực bên trong nước Nga vốn không được bảo vệ đầy đủ.
+
+       Ông chỉ ra một ví dụ là việc Ukraine tấn công khu vực Tatarstan, cách biên giới với Ukraine hơn 1.400 km. Cuộc tấn công hồi tháng 4 sử dụng phương tiện mà các chuyên gia cho rằng dường như là một máy bay hạng nhẹ được chuyển đổi để bay từ xa.
+
+        "Sự việc này cho thấy Nga có thể đã bố trí lực lượng phòng không của họ để bao phủ tốt ở chiến trường xung quanh Ukraine. Nhưng ngoài khu vực này thì không như vậy", ông Barros đánh giá.
+
+CUỘC CHIẾN PHÒNG KHÔNG GIỮA NGA VÀ UKRAINE
+        Gần đây, Ukraine đã nhận được sự cho phép mới từ các đồng minh để tấn công vào lãnh thổ Nga bằng cách sử dụng các vũ khí được phương Tây tài trợ, nghĩa là Nga có nhiều địa điểm hơn cần phải xem xét bảo vệ.
+ 
+        ISW cho biết trong tháng này rằng, các cuộc tấn công UAV ngày càng leo thang của Ukraine nhắm vào quân đội và các cơ sở dầu mỏ của Nga, đôi khi nằm sâu vài trăm km bên trong lãnh thổ của Moscow, đã kéo căng các khả năng của Nga.
+
+        ISW nhận định, các cuộc tấn công như vậy "tiếp tục gây sức ép lên các hệ thống phòng không của Nga và buộc bộ chỉ huy quân sự Nga phải ưu tiên phân bổ các hệ thống phòng không vốn đã hạn chế để bảo vệ những mục tiêu mà họ cho là có giá trị cao".
+
+        Ukraine đã phá hủy nhiều hệ thống phòng không của Nga, đặc biệt tại bán đảo Crimea. ISW cho biết, tháng trước, các cuộc tấn công của Ukraine nhằm vào phòng tuyến Nga đã ngăn Moscow sử dụng Crimea như một địa điểm triển khai lực lượng.
+
+         Mặc dù mức độ đột phá này là một tin tốt cho Ukraine nhưng bản thân nó khó có thể thay đổi cục diện xung đột. Để làm được điều đó, Ukraine sẽ cần làm suy yếu hơn nữa khả năng phòng thủ của Nga và nhận thêm hệ thống phòng thủ của riêng mình từ các đồng minh, vì kho vũ khí của Kiev bị kéo căng hơn so với kho vũ khí của Moscow.
+
+         Kết hợp với sức mạnh trên không mạnh hơn, chẳng hạn như những tiêm kích F-16 của phương Tây được chuyển đến vào cuối tháng 7 thì lợi thế của Ukraine có thể tăng lên.
+
+         Nhiều chuyên gia xung đột cho rằng cuộc xung đột hiện nay phần lớn trở thành một cuộc chiến phòng không, khiến cả hai nước đều phải cố gắng duy trì kho vũ khí của mình càng mạnh càng tốt.
+
+&gt;&gt; Nga gây áp lực lên trung tâm hậu cần chiến lược Pokrovsk của Ukraine: 24 giờ, giao tranh hơn 100 lần.</value>
+  </data>
+  <data name="Content_TG4" xml:space="preserve">
+    <value>                                 VỤ TRAO ĐỔI TÙ NHÂN LỊCH SỬ: "VŨ KHÍ ĐÀM PHÁN" ĐẶC BIỆT CỦA TRƯỞNG ĐOÀN ĐỨC VÀ ẨN Ý MỞ ĐƯỜNG CỦA NGA
+          Các nhà đàm phán Đức nhìn thấy cơ hội khi phía Nga nói rằng họ muốn kết thúc thỏa thuận trước cuộc bầu cử Mỹ vào tháng 11.
+
+                                                           QUYẾT ĐỊNH CỦA SCHOLZ
+          Rạng sáng, những người lính gác đánh thức các tù binh Nga và dẫn họ lên xe, rồi đưa tới sân bay. Tại đó, họ được các đặc vụ đeo mặt nạ hộ tống lên máy bay mà không hề hay biết điểm đến. Sau 3 chuyến bay, những người này đáp xuống một sân bay nhỏ ở ngoại ô Cologne (Đức) và được chào đón bởi một người đàn ông vận bộ đồ sọc, đứng một mình trên đường băng. Ông giới thiệu mình là Olaf Scholz, Thủ tướng của Đức. Scholz là nhân vật chính trong cuộc đàm phán kéo dài với Điện Kremlin với kết quả cuối cùng là đổi lấy tự do cho 16 tù nhân Nga, Mỹ và Đức, trong đó có phóng viên Evan Gershkovich của WSJ bằng cách trao trả Vadim Krasikov, công dân Nga hiện đang thụ án chung thân trong nhà tù ở Đức sau khi bị kết tội sát hại 1 người đàn ông ở Berlin. 
+
+          Toàn bộ các cơ quan an ninh của Đức, các bộ trưởng hàng đầu, các nhà ngoại giao cao cấp và các luật sư chính phủ đều phản đối quyết định này nhưng cuối cùng, Scholz đã chiến thắng. Ông đảm nhận rủi ro chính trị và pháp lý khi quyết định trả tự do cho Vadim Krasikov.
+
+         Trong tuyên bố phát trên truyền hình, Scholz cho biết, đây không phải quyết định dễ dàng đối với bất kỳ ai nhưng theo ông, lợi ích của Đức trong việc thi hành án phải được cân nhắc với tự do và sự an toàn của những người bị giam giữ ở Nga. Scholz cho hay, sự đoàn kết với Mỹ là động cơ quan trọng đối với quyết định của ông: "Xã hội chúng ta được định hình bởi chủ nghĩa nhân đạo". Tổng thống Biden đã điện đàm gửi lời cảm ơn tới ông Scholz một lần nữa trong khi Thủ tướng Đức chờ chiếc Gulfstream mang theo các tù nhân hạ cánh xuống sân bay quân sự ở Cologne. Scholz và những cộng sự thân cận của ông đã nỗ lực phía sau hậu trường suốt gần một năm để thuyết phục nội các và các quan chức cấp cao, cũng như các lãnh đạo phe đối lập, WSJ dẫn nguồn tin thân cận với chiến dịch cho biết. 
+
+          Hôm 2/8, nhà hoạt động dân chủ Vladimir Kara-Murza đã phát biểu trước những người phê bình Scholz rằng, từ "trao đổi" chỉ là một cách nói giảm nói tránh của việc cứu 16 mạng sống: "Không có gì quan trọng trong một chính phủ bình thường, nhân đạo, dân chủ hơn là cứu mạng người". Khi được Scholz chào đón tại sân bay, Kara-Murza đã nhắc tới một dòng trong kinh Talmud của người Do Thái rằng cứu một mạng người là như cứu cả nhân loại.
+
+                                                THANH SOCOLA TRONG CẶP TÀI LIỆU
+          Quá trình đàm phán căng thẳng bắt đầu hơn 1 năm trước, sau khi phóng viên của WSJ Gershkovich bị bắt giữ. 
+          Cơ quan Tình báo Trung ương Mỹ (CIA) đã xử lý các cuộc đàm phán cho đến khi một thoả thuận được định hình mà Scholz đã sẵn lòng chấp nhận, bao gồm việc thả chính trị gia đối lập Nga Alexei Navalny. Thế nhưng sau khi ông Putin nhận được đề nghị, Navalny đã tử vong trong nhà tù Bắc Cực hồi đầu năm.
+
+          Cái chết của Navalny đã khiến các cuộc đàm phán đổ vỡ nhưng Scholz, người từng khẳng định sẽ hỗ trợ Biden giải phóng các tù nhân Mỹ, đã phát tín hiệu thể hiện sự cam kết vào tiến trình. Nhưng lúc này, ông kiên quyết đưa các nhà thương thuyết của mình tham gia vào các cuộc đàm phán, vốn trước đó do CIA và FSB tiến hành. 
+
+          Nhóm đàm phán của Đức được dẫn dắt bởi phó trưởng cơ quan tình báo nước ngoài (BND)  Philipp Wolff, một cựu công tố viên. Người đàn ông 52 tuổi lịch thiệp này được biết đến như là một "nhà ngoại giao giữa các điệp viên". Wolff có một phương pháp độc đáo để giảm căng thẳng trong đàm phán: Đem socola mang theo trong cặp tài liệu ra mời những người tham gia thương thảo.
+
+                                                NGA MUỐN KẾT THÚC TRƯỚC BẦU CỬ MỸ
+          Các nhà đàm phán Đức nhìn thấy cơ hội khi các đối tác Nga nói rằng họ muốn kết thúc thỏa thuận trước cuộc bầu cử Mỹ vào tháng 11. Theo WSJ, một số quan chức suy luận rằng người Nga hoặc là lo lắng về sự khó đoán của Donald Trump, hoặc họ sợ Scholz sẽ không còn sẵn lòng giúp đỡ trong trường hợp ông Trump giành được chiến thắng. "Sau đó chúng tôi quyết định đẩy nó tới giới hạn", một quan chức cấp cao tham gia vào cuộc đàm phán tiết lộ cho WSJ.
+ 
+          Thế rồi, trong một cuộc họp tại Ả Rập Saudi vào đầu mùa xuân, người Đức lần đầu tiên cho biết, họ sẵn lòng thả Krasikov, nhưng cảnh báo người Nga rằng cái giá sẽ cao hơn nhiều so với mức đã thảo luận trước đây, quan chức này nói. Họ đã loại bỏ chướng ngại vật chính khiến đàm phán trì trệ: quy tắc một - đổi - một. "Chúng tôi nói rõ: Chúng tôi sẵn lòng nhưng chỉ khi giá cả hợp lý", một quan chức cấp cao có liên quan cho biết. Scholz chỉ đạo đoàn đàm phán đưa 4 người Đức vào danh sách trao đổi.
+          Người Nga đưa lời đề nghị của ông về Moscow. Nhiều tuần lễ căng thẳng trôi qua trước khi Điện Kremlin phản hồi: Thỏa thuận được chấp nhận. Nga sẽ thả tất cả những người có trong danh sách của Đức, bao gồm cả trợ lý của Navalny và Kara-Murza. Đổi lại, Nga sẽ nhận được Krasikov và 7 người khác bị giam giữ ở nhiều nước phương Tây.
+
+          Thực ra, bên nhóm đàm phán của Nga cũng có sự thay đổi về nhân sự, một nhân vật cấp cao của Nga tiết lộ cho WSJ.
+
+          Ngày 22/6, Alexey Komkov, một sĩ quan thuộc Tổng cục An ninh Liên bang Nga đã tiếp quản vai trò dẫn dắt đàm phát từ Tướng Sergey Beseda, một cựu chiến binh từ thời Chiến tranh Lạnh. Theo một sĩ quan Nga tham gia vào cuộc đàm phán, ngay sau đó, Komkov đã có cuộc gặp với Tổng thống Putin và hứa hẹn sẽ trở về với Krasikov.
+
+                             CUỘC TRAO ĐỔI PHỨC TẠP NHẤT KỂ TỪ CHIẾN TRANH LẠNH
+          Sau khi đường hướng của thỏa thuận được vạch ra, một số người tham gia nửa đùa nửa thật nhắc tới vụ trao đổi tù nhân Cầu Glienicke (Cầu Gián điệp), vụ trao đổi tù nhân gián điệp lớn nhất trong lịch sử diễn ra tại Berlin hồi 1985. Washington Post nhận định, đây là cuộc trao đổi phức tạp nhất kể từ thời Chiến tranh Lạnh. 
+
+          Arkady Gostev, người đứng đầu Cơ quan Hình sự Liên bang Nga đã tự mình giám sát công tác chuyển giao tù nhân từ khắp cả nước đến một nhà tù của FSB ở Moscow, theo nguồn tin từ quan chức Nga. Bản thân Gostev đã đảm bảo sẽ đưa Kara-Murza, người đang gặp vấn đề về y tế, đến bệnh viện vài tuần trước khi trao đổi. "Chúng tôi không định để ai chết trên máy bay", quan chức Nga nhấn mạnh. Ngày 1/8, tù nhân Nga và phương Tây được đưa đến sân bay Ankara (Thổ Nhĩ Kỳ).
+
+          Tới gần nửa đêm ở Đức, các tù nhân cuối cùng mới rời khỏi máy bay. Hầu hết họ chỉ có vài bộ quần áo trên người, một số còn không có bất kỳ loại giấy tờ nào. Thủ tướng Đức đã yêu cầu đưa máy ảnh, máy quay ra khỏi phòng khi ông ngồi xuống trò chuyện với những người mà ông đã giúp phóng thích.
+          Chánh văn phòng Thủ tướng Đức Wolfgang Schmidt đã đưa điện thoại của mình cho các tù nhân để họ có thể nói chuyện với người thân. "Chúng tôi ổn, mệt mỏi, chúng tôi vừa có cuộc nói chuyện tốt đẹp với một người tử tế ở đây, ông ấy nói ông ấy là Thủ tướng Đức", một trong số họ nói với bạn bè. Khi được hỏi liệu cô có cần thứ gì không, người phụ nữ, sau 4 năm trong tù, nói rằng cô ấy muốn nhuộm tóc.
+
+          Tất cả người Nga sau đó đã được đưa đến một phòng khám quân sự để kiểm tra sức khỏe, và như trường hợp của Kara-Murza, thì để điều trị y tế. Cùng lúc đó ở Moscow, ông Putin đứng trên thảm đỏ trao cho Krasikov một cái ôm. "Tôi muốn cảm ơn anh vì lòng trung thành, sự phục vụ và danh dự của anh", Tổng thống Nga nói.
+
+          Còn tại Căn cứ Không quân Andrews ở Maryland (Mỹ), Gershkovich được chào đón bởi cái ôm của Tổng thống Mỹ Joe Biden và Phó Tổng thống Kamala Harris trước khi quay sang ôm chầm lấy mẹ mình.
+
+&gt;&gt; "Người gác cổng" của TT Zelensky và vị trí bất thường trong bức ảnh tập thể giữa loạt lãnh đạo NATO, EU</value>
+  </data>
+  <data name="Content_TG5" xml:space="preserve">
+    <value>                       TÁC ĐỘNG CỦA TRÍ TUỆ NHÂN TẠO TRONG QUAN HỆ QUỐC TẾ: CƠ HỘI, THÁCH THỨC VÀ ĐỀ XUẤT CHÍNH SÁCH THAM CHIẾU ĐỐI VỚI VIỆT NAM
+          Trí tuệ nhân tạo (AI) được cho là một trong những công nghệ chính trong thế kỷ XXI có tác động mạnh mẽ đến sự vận hành của quan hệ quốc tế. Theo giới phân tích, quốc gia nào trên thế giới có khả năng dẫn dắt sự sáng tạo và kiểm soát được công nghệ AI sẽ nâng cao được sức mạnh quốc gia, năng lực kinh tế, quốc phòng, từ đó làm thay đổi sự cân bằng lực lượng trong môi trường chính trị - kinh tế quốc tế.
+
+          Có thể thấy, AI đang và sẽ là xu hướng có nhiều tác động đa chiều đối với quan hệ quốc tế nói chung và từng quốc gia nói riêng trong tương lai.
+
+          Trên thế giới hiện nay có khá nhiều cách hiểu về công nghệ AI, tuy nhiên, cách tiếp cận công nghệ AI là các hệ thống thiết bị kỹ thuật số có khả năng thực hiện những nhiệm vụ mà bình thường phải cần tới trí thông minh của con người(1), được xem là phổ biến nhất. Đặc trưng của công nghệ AI là năng lực “tự học” của máy tính, do đó có thể tự phán đoán, phân tích trước các dữ liệu mới mà không cần sự hỗ trợ của con người, đồng thời có khả năng xử lý dữ liệu với số lượng rất lớn và tốc độ cao. Hiện mỗi ngày trên toàn cầu có khoảng 2,2 tỷ Gb dữ liệu mới (tương đương 165.000 tỷ trang tài liệu) được tạo ra và được các công ty, như Google, Twitter, Facebook, Amazon, Baidu, Weibo, Tencent hay Alibaba thu thập để tạo thành “dữ liệu lớn” (big data). Giám đốc điều hành của Tập đoàn công nghệ đa quốc gia Google (Mỹ) đánh giá, sự ra đời của công nghệ AI có ý nghĩa to lớn hơn cả việc phát minh ra lửa và điện(2).
+
+           Thế giới hiện có bốn nhóm nước (theo năng lực trình độ công nghệ khác nhau) nghiên cứu về AI: Nhóm thứ nhất, gồm Mỹ và Trung Quốc, là hai quốc gia đi đầu về phát triển AI. Nhóm thứ hai, gồm Đức, Nhật Bản, Ca-na-đa, Anh và các nền kinh tế hội nhập toàn cầu cao, như Hàn Quốc, Xin-ga-po, Thụy Điển, Bỉ..., là những nước có khả năng sáng tạo khoa học - công nghệ và có năng lực mạnh trong ứng dụng AI. Nhóm thứ ba, gồm các nước như Bra-xin, Ấn Độ, I-ta-li-a..., là những nền kinh tế có trình độ công nghệ thấp hơn nhưng có lợi thế trong một số lĩnh vực của công nghệ AI. Nhóm thứ tư là các nền kinh tế với hạ tầng số kém phát triển, năng lực sáng tạo và nguồn lực hạn chế, có khả năng sẽ bị “tụt hậu” nhanh hơn(3).
+
+                                  TÁC ĐỘNG CỦA TRÍ TUỆ NHÂN TẠO TRONG QUAN HỆ QUỐC TẾ
+          Trí tuệ nhân tạo được đánh giá có mức độ tác động rất sâu rộng, làm mờ ranh giới giữa thế giới thực và thế giới ảo, qua đó có thể tạo ra những vấn đề chưa từng có tiền lệ đối với chính trị, an ninh, kinh tế và xã hội của các quốc gia trên thế giới. Theo Chủ tịch nước Trung Quốc Tập Cận Bình, AI là công nghệ chiến lược dẫn đầu cuộc cách mạng khoa học  - công nghệ và chuyển đổi công nghiệp, có thể tạo ra những ảnh hưởng sâu rộng với sức lan tỏa mạnh mẽ... Các tính năng mới của AI đang có tác động lớn và sâu rộng đến phát triển kinh tế, tiến bộ xã hội và cơ cấu kinh tế, chính trị quốc tế(4).
+
+          Về chính trị - đối ngoại: AI được cho là: 
+          1- Có tiềm năng thay đổi cân bằng quyền lực hay định hình lại nền tảng của trật tự toàn cầu nếu các chính phủ triển khai những chiến lược AI không minh bạch và bất thường. Năm 2017, Tổng thống Nga Vla-đi-mia Pu-tin đã nhận định: “AI là tương lai không chỉ cho nước Nga mà đối với tất cả nhân loại. Bất kỳ ai trở thành lãnh đạo trong lĩnh vực này sẽ là người trị vì thế giới”(5). 
+          2- Sẽ thúc đẩy quá trình cạnh tranh Mỹ - Trung Quốc trong quan hệ quốc tế hiện nay. 
+          3- Giúp thu hẹp khoảng cách giao tiếp giữa công chúng nước ngoài và chính phủ của họ bằng cách giảm rào cản ngôn ngữ giữa các quốc gia, hỗ trợ các hoạt động nhân đạo quốc tế thông qua việc giám sát các cuộc bầu cử, củng cố an ninh cho các cơ quan ngoại giao... 
+          4- Có thể đảm nhận các vai trò dự đoán khác liên quan đến địa  - chính trị, như dự báo chính xác hơn về kết quả của các cuộc bầu cử, hoạt động kinh tế và những sự kiện liên quan.
+
+          Về an ninh - quân sự, AI có thể tạo ra những mối đe dọa đến an ninh quốc tế. Nhiều ứng dụng AI hiện nay được sử dụng cho mục đích quân sự hoặc thực hiện tấn công mạng, đôi khi dẫn đến tình trạng “tiến thoái lưỡng nan” về an ninh. Trung Quốc chủ trương “đi tắt đón đầu” về năng lực quân sự, đẩy mạnh đầu tư vào AI, coi đây là cơ hội để tạo ra những bước đột phá trong công nghệ quân sự và được dự báo có khả năng vượt Mỹ(6). Báo cáo NSCAI (tháng 11-2019) trình Quốc hội Mỹ đánh giá sự phổ biến của công nghệ AI tạo ra các thách thức đối với Mỹ; nhấn mạnh các “đối thủ”, như Trung Quốc, Nga, có thể ứng dụng AI làm suy giảm vị thế vượt trội của Mỹ về quân sự. Tháng 3-2021, báo cáo của NSCAI cũng đánh giá Trung Quốc sở hữu sức mạnh, tài năng và tham vọng vượt Mỹ để trở thành quốc gia dẫn đầu thế giới về AI trong thập niên tới nếu các xu hướng hiện nay không thay đổi.
+Ngoài ra, các nước hiện cũng rất quan tâm đến những nguy cơ từ việc sử dụng công nghệ AI trong hỗ trợ chống khủng bố, leo thang xung đột không chú ý cũng như tiến hành chiến tranh dữ liệu. Các chuyên gia dự báo, những tiến bộ trong công nghệ máy bay không người lái được hỗ trợ bởi AI sẽ sớm đưa các loại vũ khí có độ chính xác cao với chi phí thấp vào thực địa để tiến hành xung đột vũ trang mà không gây ra rủi ro về con người. Nhiều chủ thể phi nhà nước, tổ chức cực đoan, như Tổ chức Nhà nước Hồi giáo (IS) tự xưng..., được cho là đã trang bị các loại vũ khí này.
+
+          Về kinh tế - phát triển, các đánh giá nghiên cứu thời gian qua cho thấy: 1- Việc áp dụng AI vào các hoạt động kinh tế mang lại không ít tác động tích cực trong tương lai. Hãng tư vấn Merri Lynch (Mỹ) cho rằng, rô-bốt và AI sẽ giúp tạo ra giá trị tác động từ 14 - 33 nghìn tỷ USD/năm. Năm 2017, Công ty tư vấn quản lý toàn cầu McKinsey (Mỹ) dự đoán tự động hóa sẽ giúp tăng sản lượng tăng trưởng toàn cầu từ 0,8% - 1,4%/năm. Công ty kiểm toán PWC (Anh) dự báo, GDP toàn cầu năm 2030 có thể cao hơn 14% do các công nghệ AI, đóng góp khoảng 15,7 nghìn tỷ USD cho nền kinh tế toàn cầu(7). Nhiều dự báo cho thấy, Trung Quốc là quốc gia thu được nhiều lợi ích nhất từ AI, với mức tăng GDP lên tới 26% vào năm 2030(8). AI sẽ giúp Trung Quốc tăng 12% số lượng việc làm trong hai thập niên tới. 2- Việc tập trung phát triển và ứng dụng AI mang lại lợi thế cạnh tranh gia tăng trong thương mại quốc tế. Đối với một số nước vừa và nhỏ, AI giúp tăng cường khả năng bảo đảm các thỏa thuận thương mại và đầu tư ưu đãi với các quốc gia khác, nâng cao vị thế toàn cầu. 3- AI được sử dụng trong hỗ trợ đàm phán các hiệp định thương mại giữa các nước trong quan hệ quốc tế. Chương trình AI mang tên CTA(9) do Tập đoàn công nghệ máy tính đa quốc gia IBM (Mỹ) phát triển và áp dụng trong đàm phán thương mại giữa Khối Thị trường chung Nam Mỹ (MECOSOUR) và Ca-na-đa, là một trong những minh chứng điển hình. CTA giúp các nhà đàm phán thương mại nắm bắt rõ hơn chiến lược của các đối tác thương mại và tối đa hóa chính sách thương mại trên cơ sở dữ liệu sắp có.
+
+                                                         NHỮNG VẤN ĐỀ ĐẶT RA HIỆN NAY
+          Một là, thách thức về ngăn chặn hiệu quả các nguy cơ phá vỡ cân bằng quyền lực trong quan hệ quốc tế do sự phát triển AI vào những mục đích không minh bạch. Chiến lược phát triển AI của các nước lớn, như Mỹ, Nga và Trung Quốc đang có xu hướng cạnh tranh với nhau và với các quốc gia có thể làm phá vỡ cân bằng quyền lực. Mỹ đánh giá Trung Quốc coi AI sẽ là công cụ chiến lược để nhanh chóng hiện đại hóa các khả năng quốc phòng, vượt qua Mỹ, cũng như phát triển các chiến thuật nhằm vào điểm yếu của Mỹ(10).
+
+          Hai là, xuất hiện những lo ngại về việc hệ thống quân sự tích hợp AI và việc lãnh đạo quân đội có quyền ra quyết định cuối cùng sẽ làm suy yếu các phương pháp tiếp cận hiện có để ngăn chặn và giảm leo thang xung đột. Các thể chế và hiệp ước về giải quyết các vấn đề quốc tế trong thế kỷ XX (như việc kiểm soát vũ khí và không phổ biến vũ khí hủy diệt hàng loạt) chưa đề cập đến vấn đề AI. Sự phát triển của vũ khí sát thương tự động (LAW) được tích hợp AI đã làm dấy lên những quan ngại, tranh cãi đối với an ninh quốc tế và khía cạnh đạo đức trong chiến tranh, đặc biệt là tại Liên hợp quốc trong thời gian qua.
+
+          Ba là, việc thiếu kiến thức về AI có thể gây nguy hiểm cho các quốc gia kém phát triển và đang phát triển, làm tăng khoảng cách về công nghệ khiến các quốc gia này phụ thuộc nhiều hơn vào các quốc gia “thống trị” về AI. Bên cạnh đó, các chính phủ và các nhà ngoại giao cũng chưa có nhiều thông tin về hoạt động của công nghệ vũ khí tích hợp AI và cách tiếp cận cũng như lựa chọn phù hợp để áp dụng ngăn chặn, chống lại những loại vũ khí này. Hiện các chính phủ đã bắt đầu lên kế hoạch và đầu tư cho tương lai AI, nhưng chưa có chính phủ nào đề cập về “giới hạn đỏ” liên quan đến việc sử dụng AI hoặc công nghệ liên quan đến AI được áp dụng, sử dụng theo các tiêu chuẩn của luật pháp quốc tế hiện hành.
+
+          Bốn là, thách thức về sự khác biệt trong cách hiểu, vận dụng và ràng buộc của các quốc gia trong việc tuân thủ các “nguyên tắc đạo đức” và thực hiện “kiểm soát chéo” về phát triển, áp dụng cũng như tích hợp AI trong tất cả các lĩnh vực đời sống của một quốc gia nói riêng và quan hệ quốc tế nói chung. Ngoài ra, vai trò điều hướng công nghệ AI nên thuộc về nhà nước, các chủ thể phi nhà nước hay khối tư nhân(11), cũng là vấn đề cần làm rõ.
+
+          Năm là, ở các nước đang phát triển, thất nghiệp do tự động hóa (có tích hợp AI) sẽ không chỉ làm gia tăng nghèo đói mà còn góp phần vào tình trạng bất ổn chính trị khi các xu hướng mở rộng dịch chuyển kinh tế đình trệ hoặc thậm chí đảo ngược. Nhiều tập đoàn kinh tế lớn trên thế giới đang có kế hoạch nâng cấp các nhà máy trở thành nhà máy “tắt đèn” - nơi các rô-bốt làm việc 24giờ/7 - để sản xuất, đóng gói và vận chuyển sản phẩm mà không cần đến sự giám sát của con người. Nhờ vào việc triển khai lực lượng lao động là những rô-bốt, hãng bán lẻ lớn nhất toàn cầu Amazon đã giảm thời gian “ấn phím để giao hàng” từ 60 - 75 phút xuống còn 15 phút”(12).
+
+          Sáu là, công nghệ AI có thể là phương tiện để tăng cường sự đối nghịch về ý thức hệ, phục vụ việc can thiệp vào các vấn đề chính trị trong nước của quốc gia khác, như can thiệp sâu hơn vào các cuộc bầu cử, bao gồm cả việc cải thiện khả năng nhắm trúng mục tiêu và thuyết phục các nhóm bỏ phiếu cụ thể của đối thủ(13). AI có thể xây dựng và triển khai các chiến dịch thông tin, tin giả nhằm gây ảnh hưởng, chia rẽ nội bộ, ảnh hưởng các cuộc bầu cử (thông qua thuật toán deepfakes...)(14).
+
+              CƠ HỘI, THÁCH THỨC VÀ ĐỀ XUẤT CHÍNH SÁCH THAM CHIẾU ĐỐI VỚI VIỆT NAM
+          Trong bối cảnh phát triển và hội nhập quốc tế ngày càng sâu rộng, cùng với sự phát triển mạnh mẽ của cuộc Cách mạng công nghiệp lần thứ tư (Cách mạng công nghiệp 4.0), việc xây dựng, phát triển và áp dụng AI trong hoạch định chính sách đối ngoại, tham gia quan hệ quốc tế, xử lý quan hệ đối ngoại..., bên cạnh những cơ hội, Việt Nam cũng phải đối mặt với không ít thách thức.
+
+VỀ CƠ HỘI
+          Thứ nhất, việc nghiên cứu và triển khai sử dụng AI trong hoạch định chính sách đối ngoại trong quan hệ quốc tế vẫn đang trong quá trình xây dựng và triển khai giúp Việt Nam có nhiều cơ hội tham gia học hỏi, nghiên cứu, chia sẻ và nắm bắt được xu hướng xây dựng và phát triển AI trong quan hệ quốc tế, nhất là về chính trị, an ninh và kinh tế và không gian mạng. Qua đó, góp phần vào việc giữ gìn môi trường hòa bình, phục vụ phát triển nhanh và bền vững, cũng như đóng góp vào việc thực hiện nhiệm vụ giữ nước từ sớm, từ xa.
+
+          Thứ hai, Việt Nam có cơ hội tham gia, thảo luận, đối thoại ở cấp quốc tế và khu vực với các đối tác cùng chí hướng, qua đó góp phần thúc đẩy lợi ích chung, nhất là về chính sách quản lý liên quan đến AI. Công tác đối ngoại có thể hỗ trợ tăng cường nghiên cứu về AI thông qua thúc đẩy hợp tác xuyên biên giới và hỗ trợ các cơ chế, thể chế hiện có. Ngoài ra, hợp tác khoa học - công nghệ quốc tế về AI góp phần cải thiện, thúc đẩy quan hệ giữa các quốc gia.
+
+          Thứ ba, với môi trường kinh doanh mở và nguồn nhân lực trẻ, nhiệt huyết và đam mê công nghệ, việc ứng dụng AI trong các lĩnh vực đã có bước phát triển mạnh mẽ, nhất là trong lĩnh vực y tế về truy vết, cảnh báo nguy cơ đại dịch COVID-19; các cơ quan phụ trách đối ngoại Việt Nam, nhất là Bộ Ngoại giao, có thể tranh thủ cơ hội này để thu hút những nguồn lực cần thiết để hỗ trợ, hợp tác xây dựng, phát triển công cụ AI phục vụ công tác chính trị, đối ngoại trong thời gian tới. Các đánh giá bổ sung trên cơ sở phân tích, tổng hợp do AI đưa ra có thể hỗ trợ, đóng góp cho công tác hoạch định chính sách đối ngoại, đưa ra kiến nghị, ban hành chính sách(15).
+
+          Thứ tư, cơ hội thúc đẩy các hoạt động kinh tế, đầu tư đối ngoại liên quan đến thu hút hợp tác, đầu tư và chia sẻ về công nghệ AI với các đối tác, tổ chức quốc tế. Việc phát triển công nghệ AI được dự báo giúp GDP của Việt Nam tăng 109 tỷ USD vào năm 2030. Báo cáo Quỹ đầu tư toàn cầu về đổi mới, sáng tạo của Xin-ga-po (EDBI) và Hãng tư vấn Mỹ Kearny năm 2020 cho biết, AI có thể giúp tăng thêm 1 nghìn tỷ USD cho GDP của khu vực Đông Nam Á đến năm 2030 nếu các quốc gia trong khối này bắt kịp tốc độ áp dụng(16).
+
+          Thứ năm, Việt Nam có cơ hội thụ hưởng, tham khảo từ các thành quả về phát triển AI đối với vấn đề quản lý, quản trị trong quan hệ quốc tế. AI hiện đang dần trở thành công cụ chính trong quan hệ quốc tế, nhất là trong lĩnh vực an ninh quốc tế, bởi AI đang được khá nhiều quốc gia ứng dụng, áp dụng trong việc sử dụng hệ thống vũ khí tự động, theo dõi những thỏa thuận hợp tác đã được ký kết, theo dõi sức mạnh quân sự hay những mối đe dọa và chiến tranh(17).
+
+VỀ THÁCH THỨC
+          Một là, so với các nước đi đầu về công nghệ AI, như Mỹ, Trung Quốc, Nhật Bản, Xin-ga-po..., Việt Nam được cho là đi sau khá xa; các nhóm nghiên cứu của Việt Nam trong lĩnh vực công nghệ thông tin chưa kết hợp được với nhau để tạo ra những sản phẩm lõi cho AI. Thêm nữa, tại Việt Nam, mặc dù nhiều cộng đồng AI đã được hình thành, song phần lớn đều do khối tư nhân tự thành lập, phát triển.
+
+         Hai là, mặc dù các sản phẩm AI đã và đang được ứng dụng mạnh mẽ trong nhiều lĩnh vực, như y tế, giáo dục, nông nghiệp, giao thông, thương mại điện tử... nhưng lại chưa có sản phẩm AI công khai nào liên quan đến các lĩnh vực quốc phòng, an ninh và đối ngoại tại Việt Nam. Đây sẽ là thách thức cần sớm có hướng giải quyết trong bối cảnh Việt Nam ngày càng hội nhập quốc tế sâu rộng và toàn diện, đặc biệt là hội nhập quốc tế kỷ nguyên số.
+
+          Ba là, AI có thể đóng góp vào việc làm tăng tốc độ chia sẻ thông tin nhanh chóng, là lợi thế lớn nhưng cũng kèm theo nhiều bất lợi, như tin giả, thông tin sai lệch, độc hại, tấn công mạng, các mối đe dọa tới bảo mật và an ninh an toàn thông tin, thậm chí đe dọa tới an ninh quốc gia(18). Công nghệ AI có thể giúp tạo ra một khối lượng thông tin ảo và phổ biến với tốc độ cao và quy mô lớn trên mạng xã hội, từ đó có thể tạo ra những hiệu ứng bất ổn xã hội, kích động người dân và làm phân hóa sâu sắc hơn các vấn đề xã hội cũng như làm sai lệch công tác thông tin tuyên truyền đối ngoại của Đảng và Nhà nước Việt Nam. Do vậy, làm tăng nguy cơ sử dụng AI can thiệp vào các vấn đề của Việt Nam từ các thế lực nước ngoài.
+
+          Bốn là, thách thức về hạ tầng, công nghệ, cũng như việc phụ thuộc vào linh kiện cao cấp đến từ các nhà cung cấp của Mỹ và phương Tây, như Intel, Qualcom, AMD... trong xây dựng, phát triển các nền tảng liên quan đến AI hoặc tích hợp AI trong các cơ quan nhà nước của Việt Nam, trong đó có các khối cơ quan liên quan đến đối ngoại. Hiện Tập đoàn Intel (Mỹ) chiếm 70% thị phần toàn cầu về bộ xử lý hình ảnh (GPU), còn các doanh nghiệp Mỹ chiếm 90% thị phần chíp toàn cầu.
+
+          Từ năm 2014, AI được đưa vào danh mục công nghệ cao ưu tiên đầu tư phát triển của Việt Nam. Tháng 1-2021, Thủ tướng Chính phủ đã ban hành Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng trí tuệ nhân tạo đến năm 2030; đặt mục tiêu đẩy mạnh nghiên cứu, phát triển và ứng dụng AI, đưa AI trở thành lĩnh vực công nghệ quan trọng của Việt Nam. Đến năm 2030, phấn đấu đưa Việt Nam vào nhóm danh sách bốn nước dẫn đầu trong Hiệp hội các quốc gia Đông Nam Á (ASEAN) và nhóm 50 nước dẫn đầu trên thế giới về nghiên cứu, phát triển và ứng dụng AI; xây dựng được 10 thương hiệu AI có uy tín trong khu vực. Trên thực tế tại Việt Nam, AI cũng bắt đầu được ứng dụng trong nhiều lĩnh vực thực tế, như y tế, giáo dục, nông nghiệp, giao thông và thương mại điện tử..., nhất là trong hệ thống truy vết dịch bệnh COVID-19 phục vụ đắc lực Chính phủ trong phòng, chống dịch bệnh COVID-19.</value>
+  </data>
+  <data name="Content_TT1" xml:space="preserve">
+    <value>                                ÔNG TRUMP XUẤT HIỆN, KHUYÊN KHÔNG BÁN BITCOIN
+        Cựu Tổng thống Mỹ khẳng định nếu được trở lại Nhà Trắng, ông sẽ đảm bảo rằng chính phủ liên bang không bao giờ được bán hết số Bitcoin đang nắm giữ.
+
+        Donald Trump có bài phát biểu quan trọng trong Hội nghị Bitcoin 2024 ở Nashville vào ngày 27/7.
+
+        “Suốt một thời gian dài, chính phủ đã vi phạm quy tắc cơ bản mà mọi nhà đầu tư Bitcoin đều thuộc lòng: Không bao giờ bán Bitcoin của mình”, Trump phát biểu tại Hội nghị Bitcoin 2024 ở Nashville, hội nghị Bitcoin lớn nhất trong năm.
+
+        “Chiều nay, tôi sẽ vạch ra kế hoạch để đảm bảo Mỹ sẽ là thủ đô tiền điện tử của cả hành tinh, là siêu cường Bitcoin của thế giới,” Trump nói thêm.
+
+                                                     Trump "quay xe", ủng hộ Bitcoin
+
+        Trong suốt bài phát biểu, cựu tổng thống liên tục nhấn mạnh sự tương phản giữa đảng Cộng hòa ngày càng ủng hộ tiền điện tử với quy định cứng rắn vốn đặc trưng của chính quyền Biden.
+
+        Trump nói rằng việc chính quyền của Biden-Harris đàn áp tiền điện tử và Bitcoin là sai lầm và rất tệ hại dành cho nước Mỹ. “Nếu họ thắng cuộc bầu cử này, các bạn sẽ ra đi. Họ sẽ hung ác. Họ sẽ tàn nhẫn. Họ sẽ làm những điều mà bạn không thể tin được”, Trump nói tại Hội nghị Bitcoin.
+
+        Trump tiếp tục liệt kê một loạt lời hứa dành cho thị trường tiền điện tử như mơ, kết thúc “cuộc thập tự chinh chống tiền điện tử” của Tổng thống Joe Biden và Phó Tổng thống Kamala Harris. Trump còn tuyên bố sẽ ban hành chính sách thân thiện với tiền điện tử, sa thải Chủ tịch Ủy ban Chứng khoán và Giao dịch (SEC) Gary Gensler và tạo ra một “kho dự trữ Bitcoin chiến lược của quốc gia”. Đây đều là một phần trong lời hứa tranh cử của ông trên đường đua trở lại Nhà Trắng, nhằm khuyến khích sự phát triển của ngành tiền số ở Mỹ.
+
+        Donald Trump muốn biến Mỹ thành siêu cường Bitcoin của thế giới. Ảnh: Bitcoin News.
+
+        “Vào ngày đầu tiên làm tổng thống, tôi sẽ sa thải Gary Gensler”, Trump nói. Song, CNBC cho biết tổng thống không có quyền sa thải các ủy viên được bổ nhiệm. Ngay cả khi ông Trump bổ nhiệm một chủ tịch mới của SEC, Gensler vẫn sẽ là ủy viên của cơ quan độc lập này.
+
+        Cựu Tổng thống Mỹ cũng cam kết thành lập một “hội đồng cố vấn tổng thống về Bitcoin và tiền điện tử”. “Các quy tắc sẽ được viết bởi những người yêu thích tiền số, chứ không phải những kẻ đả đảo chúng”, ông nói.
+
+         “Nếu tiền mã hóa định hình tương lai nhân loại, tôi muốn nó được đào, đúc và sản xuất                                             tại Mỹ”, ông Trump khẳng định tại hội nghị Bitcoin.
+
+        Tuy nhiên, thái độ của Trump dành cho Bitcoin đã “quay ngoắt 180 độ” so với trước đây, CNN nhận định.
+
+        Khi còn là tổng thống, Trump đã tuyên bố Bitcoin “không phải tiền” và chỉ trích nó “rất dễ biến động và dựa trên không khí”. Ông cảnh báo rằng tài sản tiền điện tử đã giúp tạo điều kiện thuận lợi cho các thị trường ngầm bất hợp pháp.
+
+        “Chúng ta chỉ có một loại tiền tệ thực sự ở Mỹ và nó mạnh hơn bao giờ hết. Nó được gọi là USD!”, Trump viết trên Twitter vào năm 2019.
+
+        “Bitcoin có vẻ giống một trò lừa đảo. Tôi không thích nó vì nó là một loại tiền tệ khác đang cạnh tranh với USD. Tôi muốn USD trở thành tiền tệ của thế giới", Trump tiếp tục nhấn mạnh trong cuộc phỏng vấn với Fox năm 2021
+.
+        Kể từ khi Trump lần đầu lên tiếng phản đối Bitcoin vào năm 2019, lĩnh vực đầy biến động này liên tục đối mặt với hàng loạt sóng gió. Đáng chú ý nhất là vụ bắt giữ Sam Bankman-Fried, người sáng lập sàn giao dịch tiền điện tử FTX. Bankman-Fried đã bị kết án 25 năm tù vào tháng 3 vì thực hiện một kế hoạch lừa đảo trị giá hàng tỷ USD thông qua các công ty con của mình.
+
+                                               Bitcoin thành chiến lược trở lại Nhà Trắng
+
+        Nhưng 5 năm sau, ứng cử viên tổng thống của đảng Cộng hòa lại ca ngợi đồng tiền kỹ thuật số tại hội nghị Bitcoin lớn nhất trong năm ở Nashville. “Bitcoin tượng trưng cho tự do, chủ quyền và độc lập khỏi sự ép buộc và kiểm soát của chính phủ”, Trump nói trong bài phát biểu. CNN cho rằng trong cả chiến dịch tranh cử, đội ngũ của ông Trump không làm rõ được nguyên nhân đã khiến cựu tổng thống quay ngoắt 180 độ đối với Bitcoin. Trump cũng chưa giải quyết một trong những lời chỉ trích lớn nhất về tiền tệ kỹ thuật số, đó là thiếu ứng dụng thực tế, ngoài việc là một khoản đầu tư có tính đầu cơ cao.
+
+        Donald Trump trên sân khấu Bitcoin 2024 ở Nashville, Tennessee. Ảnh: Brady Dale/Axios
+
+        Người phát ngôn chiến dịch tranh cử của Trump, Brian Hughes, nói với CNN: “Những người đi đầu trong thị trường tiền điện tử và trong lĩnh vực công nghệ đang bị tấn công”. Do đó, cựu tổng thống Mỹ “sẵn sàng khuyến khích chính phủ Mỹ tham gia lãnh đạo lĩnh vực này và các công nghệ mới nổi khác”.
+
+        Phát biểu tại hội nghị Bitcoin, Thượng nghị sĩ Nam Carolina Tim Scott của đảng Cộng hòa lập luận rằng cựu tổng thống hiểu mối lo ngại của mọi người về tự do tài chính. Đây là điều luôn được nhắc đi nhắc lại trong cộng đồng người chơi tiền điện tử.
+
+        Scott nói: “Chúng tôi muốn mọi người, dù họ yêu thích loại hình tài sản USD hay tài sản kỹ thuật số, đều phải chịu trách nhiệm đưa ra quyết định của mình”.
+
+        Quả thật, việc Trump công khai ủng hộ tiền mã hóa đã có tác dụng. Tỷ phú tiền điện tử Tyler và Cameron Winklevoss mỗi người cam kết quyên góp số Bitcoin trị giá 1 triệu USD cho chiến dịch tranh cử của Trump. Ủy ban bầu cử liên bang đã cho phép các ủy ban chính trị nhận Bitcoin dưới dạng quyên góp kể từ năm 2014. Trong đó, giá trị của bitcoin được xác định theo giá tại thời điểm nhận được khoản đóng góp.
+
+        Tiền điện tử cũng là chủ đề thảo luận trong một đợt gây quỹ rầm rộ gần đây tại Thung lũng Silicon. Tại đây, phó tướng của Trump, Thượng nghị sĩ bang Ohio JD Vance, đã tham gia tổ chức gây quỹ.
+
+        Doanh nhân công nghệ tỷ phú David Sacks cũng tổ chức một buổi gây quỹ tại nhà riêng của mình. “Một trong những điều chúng tôi nghe thấy rất nhiều trong bữa tối đó là khó khăn mà nhiều người chơi tiền số gặp phải dưới thời chính quyền Biden”, Sack nói.
+
+       “Đã đến lúc ‘quân đội tiền số’ gửi thông điệp tới Washington. Việc tấn công chúng tôi là tự sát chính trị”, Tyler Winklevoss viết trong một bài đăng dài trên mạng xã hội nhằm ủng hộ Trump.</value>
+  </data>
+  <data name="Content_TT2" xml:space="preserve">
+    <value>                                TÍNH NHỎ NHẤT CẢ NƯỚC DẪN ĐẦU THU HÚT VỐN FDI
+        Tổng vốn đầu tư nước ngoài đăng ký vào Việt Nam đạt hơn 18 tỷ USD trong 7 tháng đầu năm. Trong đó, Bắc Ninh dẫn đầu cả nước khi thu hút gần 3,2 tỷ USD.
+Bắc Ninh thu hút nhiều nhà đầu tư nước ngoài về mở nhà máy. Ảnh: T.L.
+
+        Theo thống kê từ Bộ Kế hoạch và Đầu tư, tính đến ngày 20/7, tổng vốn đầu tư nước ngoài (FDI) đăng ký cấp mới, điều chỉnh và góp vốn mua cổ phần, mua phần vốn góp tại Việt Nam đã đạt hơn 18 tỷ USD, tăng gần 11% so với cùng kỳ năm 2023.
+
+        Bên cạnh đó, có 734 lượt dự án đăng ký điều chỉnh vốn đầu tư, tổng vốn đăng ký tăng thêm đạt gần 5 tỷ USD, tăng khoảng 20% so với cùng kỳ. Và 1.795 giao dịch góp vốn mua cổ phần của nhà đầu tư nước ngoài với tổng giá trị vốn góp đạt gần 2,3 tỷ USD, giảm 45%.
+
+        Theo đó, các nhà đầu tư nước ngoài đã đầu tư vào 18 ngành trong tổng số 21 ngành kinh tế quốc dân. Ngành công nghiệp chế biến, chế tạo tiếp tục dẫn đầu với tổng vốn đầu tư đạt hơn 12,6 tỷ USD, chiếm 70% tổng vốn đầu tư đăng ký, tăng gần 16% so với cùng kỳ.
+
+        Đáng chú ý, ngành kinh doanh bất động sản duy trì vị trí thứ 2 với tổng vốn đầu tư hơn 2,87 tỷ USD, chiếm gần 16% tổng vốn đầu tư đăng ký, tăng 78%. Tiếp theo lần lượt là các ngành bán buôn bán lẻ và hoạt động chuyên môn, khoa học công nghệ với tổng vốn đăng ký đạt lần lượt gần 740 triệu USD và 490 triệu USD.
+
+        Thống kê cho thấy có 91 quốc gia và vùng lãnh thổ có đầu tư tại Việt Nam trong 7 tháng qua. Trong đó, Singapore dẫn đầu với tổng vốn đầu tư hơn 6,5 tỷ USD (chiếm hơn 36% tổng vốn đầu tư), tăng 79%. Hong Kong (Trung Quốc) đứng thứ 2 với khoảng 2,2 tỷ USD, chiếm 12% tổng vốn đầu tư, tăng hơn gấp đôi so với cùng kỳ. Tiếp theo là Nhật Bản, Trung Quốc đại lục, Hàn Quốc...
+
+        Trong số 48 tỉnh, thành phố trên cả nước thu hút các nhà đầu tư nước ngoài đầu tư, Bắc Ninh dẫn đầu với tổng vốn đầu tư đăng ký gần 3,2 tỷ USD, chiếm gần 18% tổng vốn đầu tư cả nước. Đáng nói, số vốn đầu tư đăng ký này đã tăng hơn 3 lần cùng kỳ. Tiếp theo là Quảng Ninh với hơn 1,56 tỷ USD (chiếm 8,7%), tăng gấp 2,2 lần.
+
+       Trong khi đó, đầu tàu kinh tế cả nước là TP.HCM chỉ đứng thứ 3 với tổng vốn đầu tư FDI đăng ký gần 1,55 tỷ USD, chiếm gần 8,6% tổng vốn đầu tư cả nước. Tiếp theo lần lượt là Bà Rịa - Vũng Tàu, Hà Nội, Hải Phòng...
+
+        Tuy nhiên, nếu xét về dự án, TP.HCM lại dẫn đầu cả nước cả về số dự án mới (chiếm 39%) và góp vốn mua cổ phiếu (chiếm gần 70%). Còn Hà Nội dẫn đầu về số lượt dự án điều chỉnh vốn (chiếm 14%).
+
+        Tính tới ngày 20/7, ước tính các dự án đầu tư nước ngoài đã giải ngân được khoảng 12,55 tỷ USD, tăng 8,4% so với cùng kỳ năm 2023.
+
+        Xuất khẩu kể cả dầu thô ước đạt gần 163 tỷ USD, tăng 13% so với cùng kỳ, chiếm 72% kim ngạch xuất khẩu. Xuất khẩu không kể dầu thô ước đạt gần 162 tỷ USD, tăng 13% so với cùng kỳ, chiếm 72% kim ngạch xuất khẩu cả nước.
+
+        Nhập khẩu của khu vực đầu tư nước ngoạt ước đạt gần 135 tỷ USD, tăng gần 17% so cùng kỳ và chiếm hơn 63% kim ngạch nhập khẩu cả nước.
+
+        Tính chung trong 7 tháng năm 2024, khu vực đầu tư nước ngoài xuất siêu gần 28 tỷ USD kể cả dầu thô và xuất siêu gần 27 tỷ USD không kể dầu thô. Trong khi đó, khu vực doanh nghiệp trong nước nhập siêu hơn 15,5 tỷ USD.
+</value>
+  </data>
+  <data name="Content_TT3" xml:space="preserve">
+    <value>                                 CHÙA CẦU 'TRẺ HÓA' VẪN ĐÚNG MỤC ĐÍCH TRÙNG TU
+        Theo lãnh đạo Sở ngành địa phương cũng như kiến trúc sư, việc trùng tu chùa Cầu nhằm mục đích cấp bách là giữ công trình bền vững trong mùa mưa bão sắp đến.
+Chùa Cầu sau khi được tu sửa nhìn từ trên cao. Ảnh: Linh Huỳnh.
+
+        Trao đổi với Tri Thức - Znews chiều 29/7, ông Nguyễn Thanh Hồng, Giám đốc Sở Văn hóa, Thể thao và Du lịch tỉnh Quảng Nam, cho biết việc trùng tu di tích chùa Cầu (Hội An) đã và đang đi đúng thiết kế dự án đã được phê duyệt, đồng thời đảm bảo các quy định pháp lý về trùng tu di tích.
+
+        Công trình từng được trùng tu nhiều lần trước đây. Tuy nhiên, việc đại trùng tu lần này là cấp bách bởi nếu không, chùa Cầu có nguy cơ sụp đổ khi mùa mưa bão đến. Kế hoạch trùng tu đã được UBND TP Hội An tiến hành kỹ lưỡng về mặt khoa học, lịch sử, văn hóa và các quy trình, thủ tục pháp lý.
+
+        "Đơn vị cũng đã tổ chức nhiều hội nghị, hội thảo trong nước và quốc tế, tham vấn ý kiến cộng đồng, lãnh đạo Hội An qua các thời kỳ, các chuyên gia, nhà khoa học, nhà nghiên cứu và đã được UBND tỉnh, Bộ Văn hóa, Thể thao và Du lịch phê duyệt trên cơ sở thẩm định của các cơ quan chuyên môn", ông Hồng cho hay.
+
+        Cũng theo ông, việc dư luận có ý kiến khác nhau về kết quả trùng tu di tích là việc rất bình thường, qua đó cho thấy rất nhiều người yêu mến chùa Cầu, Hội An và Quảng Nam nói chung.
+
+        "Ngành Văn hóa và TP Hội An luôn cầu thị, lắng nghe, tiếp thu, tham khảo để công tác trùng tu các di tích nói riêng và công tác bảo tồn và phát huy giá trị các di tích tại Hội An cũng như trên địa bàn tỉnh được tốt hơn. Chúng tôi mong muốn tiếp tục nhận được các ý kiến góp ý, gợi mở mang tính xây dựng để tiếp tục nghiên cứu, tham khảo và ứng dụng vào thực tiễn", ông Hồng nói.
+
+        Chùa Cầu trong quá trình đại trùng tu vào tháng 1. Ảnh: Thanh Đức.
+
+        Đồng quan điểm, chia sẻ với Tri Thức - Znews về việc chùa Cầu vấp luồng ý kiến trái chiều khi "quá mới" sau tu bổ, TS. KTS Nguyễn Quốc Tuân, chủ nhiệm Khoa kiến trúc-công trình, Trường Đại học Phương Đông, người có nhiều năm nghiên cứu về việc bảo tồn các công trình kiến trúc, cho biết mục đích quan trọng nhất của việc trùng tu một công trình là gia cố để di tích có thể tồn tại lâu dài hơn, trước những tác động của thời tiết, con người… Cái cần làm rõ là các kết quả so với mục tiêu trùng tu chùa Cầu xác định ban đầu đạt được đến mức nào.
+
+        "Chuyện đưa chùa Cầu về hình ảnh ban đầu (rêu, mốc, cũ kỹ) để dư luận thấy 'quen mắt' có thể không phải là đích đến của công việc trùng tu lần này. Tuy nhiên, nếu dư luận nhạy cảm, cần có sự giải thích rõ hơn của những người thực hiện dự án để cộng đồng hiểu hơn", ông Tuân nói.
+Cũng theo ông Tuân, việc tạo ra hình ảnh cũ kỹ, rêu mốc không khó, vì nhiều dự án trùng tu đã làm, ví dụ Nhà thờ Lớn Hà Nội. Tuy nhiên, đối với trường hợp chùa Cầu, việc cần làm thao tác này hay không có thể xem xét thêm phản ứng từ thị trường du lịch, thông qua thăm dò, khảo sát du khách và cộng đồng. Bên cạnh đó, theo thời gian, chỉ một năm là màu của công trình sẽ nhạt và có rêu như trước.
+
+        Chùa Cầu trước quá trình trùng tu. Ảnh: Thanh Đức.
+
+        Trong khi đó, nhận định về phần tường và các chi tiết trang trí trên mái, ông Phạm Phú Ngọc, Giám đốc Trung tâm quản lý bảo tồn di sản văn hóa Hội An, cho biết đơn vị tiếp nhận nhiều ý kiến cho rằng nên chọn tông màu, sắc thái sao cho gần nhất với hình ảnh trước khi trùng tu, hoặc làm cho chùa Cầu bớt “mới”.
+
+        Tuy nhiên, điều này lại không phù hợp với quan điểm, nguyên tắc “không làm giả” mà dự án đã đề ra, đặc biệt dẫn đến lo ngại sẽ làm sai lệch yếu tố gốc, gây nhầm lẫn, ảnh hưởng đến kết quả của việc nghiên cứu về sau.
+
+        Việc phục hồi màu sắc, dù thế nào cũng không thể tránh làm cho di tích có phần "mới" thêm, nhưng điều quan trọng hơn là đã giữ gìn được tính nguyên gốc, đảm bảo tính nguyên tắc trong tu bổ di tích phù hợp với bản chất vốn có của di tích.
+
+          "Giải pháp tu bổ xuyên suốt dự án là giữ gìn sự nguyên vẹn của tổng thể hình thức kiến trúc và kết cấu, từng bộ phận, cấu kiện, hiện vật nguyên gốc, có giá trị lịch sử. Tất cả được xem xét kỹ lưỡng để gia cường sự chắc chắn của chùa Cầu, từ từng thanh đá, khối xây viên gạch ngói; cấu kiện gỗ hệ khung - dầm - sàn - rui mái đến từng chi tiết con ke, ván vách...", ông Ngọc chia sẻ.
+
+          Hình ảnh trong quá trình trùng tu cho thấy phần mố cầu, trụ cầu bị nứt, nhiều cột và kèo bị hỏng nặng. Nhiều thanh xà gỗ đỡ mái ngói bị nứt nẻ, cong vênh, không thể khớp với nhau. Các phần mố trụ đỡ xuất hiện nhiều vết nứt, bong tróc vôi vữa... Ảnh: Thanh Đức.
+
+          Chùa Cầu là một cây cầu cổ - di tích nằm trong khu phố cổ Hội An, Quảng Nam, tồn tại khoảng 400 năm. Từ khi được xây dựng đến cuối thế kỷ 20, công trình đã được tu bổ ít nhất 7 lần vào các năm 1763, 1817, 1875, 1915, 1962, 1986, 1996, theo Trung tâm Quản lý Bảo tồn Di sản Văn hóa Hội An.
+
+          Tháng 7/1999, chùa Cầu được trùng tu nhưng chỉ dừng lại ở mức gia cố, chống đỡ để tránh nguy cơ sụp đổ di tích (do quan ngại sẽ làm công trình “mới đi và trẻ ra”; và chưa tìm được giải pháp phù hợp nhất cho việc trùng tu công trình mang tính biểu tượng này). Song, di tích vẫn bị xuống cấp một cách trầm trọng.
+
+          Ngày 28/12/2022, chùa cầu chính thức bước vào giai đoạn đại trùng tu. Sau hơn 19 tháng triển khai thi công, cuối tháng 7/2024, công tác tu bổ đã hoàn thành và dự kiến khánh thành vào ngày 3/8.
+
+          Theo giám đốc Trung tâm Quản lý Bảo tồn Di sản Văn hóa Hội An, hồ sơ về quá trình tu bổ di tích chùa Cầu đã được đơn vị tập hợp, biên soạn và xuất bản với tên gọi “Tu bổ di tích chùa Cầu”. Tài liệu sẽ được phát hành vào đúng dịp mừng việc hoàn thành công trình.</value>
+  </data>
+  <data name="Content_TT4" xml:space="preserve">
+    <value>                                   CÁ MẬP "COCAINE" TRÀN NGẬP BỜ BIỂN BRAZIL
+        Các nhà khoa học lo ngại rằng cocaine có trong cơ thể cá mập ngoài khơi bờ biển Brazil và có thể làm thay đổi hành vi của chúng.
+
+        Các nhà sinh vật học biển đã thử nghiệm 13 con cá mập mũi nhọn Brazil, được đánh bắt từ vùng nước ven biển gần Rio de Janeiro, và phát hiện tất cả chúng đều có hàm lượng cocaine cao trong cơ và gan, The Telegraph đưa tin.
+
+        Trong một bài báo đăng trên tạp chí Science of the Total Environment, họ cho biết chất này có thể xuất phát từ nước thải của các phòng thí nghiệm sản xuất cocaine bất hợp pháp, hoặc từ phân của người sử dụng ma túy trong nước thải chưa qua xử lý.
+
+        Thậm chí, nó có thể đến từ việc những con cá mập ăn các kiện cocaine bị thất lạc hoặc bị những kẻ buôn lậu ma túy đổ xuống biển - nhưng nhóm nghiên cứu cho biết khả năng đó thấp hơn.
+
+        Tiến sĩ Rachel Ann Hauser-Davis, một nhà khoa học người Anh và là thành viên của nhóm nghiên cứu từ Quỹ Oswaldo Cruz tại Rio de Janeiro, cho hay: "Kết quả cho thấy sự phơi nhiễm do con người sử dụng cocaine ở Rio de Janeiro và việc xả nước tiểu, phân của con người qua cống thoát nước thải, cũng như từ các phòng thí nghiệm bất hợp pháp".
+
+       Nồng độ cocaine trong cơ thể cá mập vùng biển Brazil cao hơn tới 100 lần so với nồng độ trước đây được phát hiện ở các loài động vật biển khác. Ảnh minh họa: Alamy
+
+        Bà nói với tờ The Telegraph rằng: "Chúng tôi thường không thấy nhiều kiện cocaine bị đổ hoặc trôi dạt trên biển khu vực này, không giống như ở Mexico và Florida, điều đó có nghĩa là rất khó có khả năng cá mập đã ăn những gói hàng bị vứt đi".
+
+        Vị tiến sĩ nói thêm rằng cocaine có thể gây hại cho sức khỏe của động vật. Người ta không biết liệu chất này có ảnh hưởng đến hành vi của chúng, khiến chúng hung dữ và khó đoán hơn hay không.
+
+        Tiến sĩ Enrico Mendes Saggioro, chuyên gia sinh thái học về độc chất từ Viện Oswaldo Cruz, nhận định: "Điều này có thể đúng, vì cocaine tấn công vào não, và hành vi hiếu động thái quá và thất thường đã được ghi nhận ở các loài động vật khác. Đây là một khả năng và cần phải có thêm các nghiên cứu".
+
+        Các nhà nghiên cứu đã lấy những con cá mập nhỏ này từ những chiếc thuyền đánh cá đi lại ở vùng biển ven bờ ngoài khơi Rio de Janeiro. Sau khi mổ xẻ và thử nghiệm, họ phát hiện nồng độ cocaine cao hơn tới 100 lần so với nồng độ trước đây được phát hiện ở các loài động vật biển khác. Các nhà khoa học nói rằng phát hiện của họ là "đáng lo ngại" cho hệ sinh thái biển.
+
+        Một trong những tác động xấu của cocaine có thể gây ra cho sức khỏe của cá mập là ảnh hưởng đến thị lực và khả năng săn mồi của chúng.
+
+        Tiến sĩ Tracy Fanara, chuyên gia về độc chất sinh thái và kỹ thuật môi trường đến từ Đại học Florida, chia sẻ với tờ The Telegraph rằng: "Có thể bắt đầu thấy khả năng sinh sản và tốc độ tăng trưởng của chúng thấp hơn". Bà đồng ý rằng cho đến nay vẫn chưa có bằng chứng nào cho thấy cocaine kích thích hành vi điên cuồng hoặc sự hung dữ ở cá mập.
+
+                         "Cá mập có thể không hung hãn hơn vì cocaine nhưng chất này có thể                                                              làm giảm tuổi thọ của chúng", tiến sĩ Fanara nói.
+
+        "Điều này phản ánh các vấn đề trên toàn thế giới, dù liên quan đến cocaine hay phân bón hay thuốc diệt cỏ. Chúng ta đang thải những hóa chất này ra môi trường và câu hỏi đặt ra là chúng đang ảnh hưởng đến hệ sinh thái như thế nào?", Fanara nói thêm.</value>
+  </data>
+  <data name="Content_TT5" xml:space="preserve">
+    <value>                  XÂY TƯỜNG CAO 2M CHỐNG NGẬP CAO TỐC DẦU GIÂY - PHAN THIẾT
+        Nhà thầu xây tường bêtông dọc cao tốc Dầu Giây - Phan Thiết qua huyện Hàm Tân, giúp chống ngập, không để xảy ra gián đoạn giao thông ở tuyến huyết mạch.
+
+        Bức tường dài hơn 100 m (gồm hai đoạn liền kề) xây bằng đá chẻ, bêtông phía bên phải cao tốc (hướng bắc vào) ở xã Sông Phan. Khu vực này nằm ở vị trí trũng thấp vì hai bên là đầu dốc, dễ bị ngập khi nước sông Phan cách đó hơn 150 m tràn vào.
+
+        Ngoài ra ở đoạn ngập, đơn vị thi công làm thêm hệ thống bơm nước và đào hố sâu để điều hòa, thu nước cạnh tuyến chính. Khi có mưa, nước vẫn thoát tự nhiên như thiết kế ban đầu, nhưng khi xảy ra lũ, mực nước sông Phan dâng cao đột ngột, hệ thống tường và máy bơm sẽ vận hành.
+
+        Cụ thể, khi nước sông dâng cao, hệ thống chống ngập chỉ cho chảy một chiều từ bên trong khu vực dự án ra ngoài. Trong trường hợp khu vực xảy ra lũ, nước sẽ được gom vào hồ điều hòa để máy công suất lớn bơm ra ngoài bức tường, không để cao tốc ngập.
+Theo đại diện Ban điều hành Dự án cao tốc Dầu Giây – Phan Thiết, công trình chống ngập sẽ hoàn thành ngày 15/8 tới.
+
+        Cao tốc Dầu Giây - Phan Thiết dài 99 km, nối hai tỉnh Đồng Nai và Bình Thuận, tổng mức đầu tư hơn 12.500 tỷ đồng, khánh thành 29/4/4023. Sau ba tháng vận hành, sáng 29/7/2023 mưa lũ khiến cao tốc qua xã Sông Phan ngập sâu 0,7 m kéo dài nhiều giờ trên phạm vi 100 m, giao thông ùn tắc.
+
+        Bộ Giao thông Vận tải đã mời các chuyên gia đến khảo sát, bàn giải pháp chống ngập. Trước khi xây tường, lòng sông Phan đã được nạo nét, mở rộng để nước chảy thoát nhanh trong mùa lũ, hạn chế dâng cao và tràn sang khu vực cao tốc.</value>
+  </data>
+  <data name="Content_TT6" xml:space="preserve">
+    <value>                      VIỆT NAM SẼ GIÚP TIMOR LESTE ĐẢM BẢO AN NINH LƯƠNG THỰC
+        Chủ tịch nước Tô Lâm khẳng định Việt Nam sẵn sàng tiếp tục cung cấp gạo, góp phần giúp Timor Leste bảo đảm an ninh lương thực.
+
+        Trong cuộc hội đàm tại Phủ Chủ tịch ngày 1/8, Chủ tịch nước Tô Lâm và Tổng thống Timor Leste Jose Ramos-Horta ghi nhận những bước tiến của quan hệ song phương, trong đó hợp tác kinh tế, thương mại đạt kết quả đáng khích lệ.
+
+        Kim ngạch xuất nhập khẩu hai nước hứa hẹn cao hơn mức 15,9 triệu USD năm 2023. Hoạt động đầu tư, kinh doanh hiệu quả của Tập đoàn Viễn thông Viettel (Telemor) đã đóng góp tích cực phát triển kinh tế, xã hội của Timor Leste, theo thông cáo của Bộ Ngoại giao.
+
+        Hai bên nhất trí tăng cường trao đổi, tiếp xúc cấp cao và các cấp, triển khai hiệu quả Hiệp định khung về Hợp tác Kinh tế và Kỹ thuật. Chủ tịch nước khẳng định Việt Nam sẵn sàng tiếp tục cung cấp gạo, góp phần giúp Timor Leste bảo đảm an ninh lương thực; đề nghị hai bên gia hạn hoặc ký mới Bản ghi nhớ về Thương mại gạo.
+
+        Năm 2023, Việt Nam xuất khẩu 15.320 tấn gạo sang Timor Leste, trị giá gần 8,8 triệu USD. Trong 4 tháng đầu năm nay, Việt Nam xuất khẩu 3.866 tấn gạo sang nước này, trị giá gần 2,6 triệu USD.
+
+        Chủ tịch nước khuyến khích Timor Leste tăng nhập khẩu các mặt hàng chất lượng cao của Việt Nam như dệt may, giày dép, đồ uống, thực phẩm sữa, thực phẩm chế biến, nông thủy sản, đề nghị nước này sớm phê chuẩn hiệp định thương mại song phương ký năm 2013, tạo điều kiện thuận lợi để các doanh nghiệp Việt Nam mở rộng kinh doanh, đầu tư tại địa bàn.
+
+        Tổng thống Jose Ramos-Horta nhất trí phối hợp chặt chẽ nhằm tạo chuyển biến mới trong hợp tác kinh tế, thương mại đầu tư giữa hai nước; mở rộng hợp tác trên các lĩnh vực còn nhiều tiềm năng.
+
+        Ông Ramos-Horta cảm ơn và mong muốn Việt Nam tiếp tục chia sẻ kinh nghiệm, hỗ trợ Timor Leste phát triển nguồn nhân lực, bảo đảm an ninh lương thực, xóa đói giảm nghèo.
+
+        Hai lãnh đạo cũng nhất trí khai thác hiệu quả tiềm năng hợp tác trong các lĩnh vực quan trọng khác, nhất là nông nghiệp, thủy sản, viễn thông, giáo dục, dầu khí, xây dựng hạ tầng, giáo dục, du lịch và giao lưu nhân dân.
+
+        Hai bên nhất trí tiếp tục hợp tác và ủng hộ lẫn nhau tại các tổ chức quốc tế và khu vực. Chủ tịch nước Tô Lâm đánh giá cao quyết tâm và nỗ lực của Timor Leste trong triển khai "Lộ trình Timor Leste trở thành thành viên đầy đủ của ASEAN", khẳng định Việt Nam ủng hộ Timor Leste sớm trở thành thành viên đầy đủ của ASEAN.
+
+        Tổng thống Timor Leste khẳng định hoàn toàn ủng hộ Việt Nam ứng cử vào các cơ chế đa phương, cả Hội đồng Bảo an Liên Hợp Quốc, Hội đồng Nhân quyền Liên Hợp Quốc và các tổ chức quốc tế khác.
+
+        Về vấn đề Biển Đông, hai bên cam kết tiếp tục ủng hộ thượng tôn pháp luật trong duy trì hòa bình, ổn định, bảo đảm an ninh, an toàn và tự do hàng hải và hàng không ở Biển Đông, giải quyết tranh chấp bằng các biện pháp hòa bình trên cơ sở luật pháp quốc tế, Công ước Liên Hợp Quốc về Luật biển năm 1982 (UNCLOS); nghiêm túc thực hiện đầy đủ và hiệu quả Tuyên bố về ứng xử của các bên ở Biển Đông (DOC), đàm phán bộ quy tắc ứng xử của các bên ở Biển Đông (COC), đóng góp vào việc duy trì hòa bình, ổn định và phát triển ở khu vực.
+
+        Sau hội đàm, hai lãnh đạo đã chứng kiến lễ ký Hiệp định miễn thị thực song phương cho người mang hộ chiếu ngoại giao, hộ chiếu công vụ.
+
+        Tổng thống Ramos-Horta thăm cấp nhà nước đến Việt Nam ngày 31/7-3/8. Việt Nam và Timor Leste có quan hệ hữu nghị lâu đời. Việt Nam là một trong những nước đầu tiên công nhận Mặt trận Cách mạng vì một Timor Leste độc lập (FRETILIN) vào tháng 9/1975.
+
+        Kim ngạch xuất nhập khẩu hai nước năm 2023 đạt 15,9 triệu USD, trong đó xuất khẩu từ Việt Nam sang Timor Leste đạt 15,5 triệu USD, nhập khẩu đạt gần 372 nghìn USD.</value>
+  </data>
+  <data name="Content_TT7" xml:space="preserve">
+    <value>                          BẢO TÀNG TRƯỜNG SA CÓ KIẾN THỨC HƯỚNG VỀ PHÍA ĐÔNG
+        Theo thiết kế, bảo tàng được lấy cảm hứng từ khu tưởng niệm chiến sĩ Gạc Ma, với ba hướng nhìn ra Biển Đông.
+
+        Ngày 31/7, UBND tỉnh Khánh Hòa đã có quyết định phê duyệt kết quả thi tuyển phương án kiến trúc, cảnh quan công trình Bảo tàng Trường Sa.
+
+        Giải nhất thuộc về Công ty TNHH HUNI Việt Nam (Huni Architectes) là phương án trúng tuyển thiết kế kiến trúc, cảnh quan công trình Bảo tàng Trường Sa.
+
+        Đơn vị thiết kế cho biết công trình được lấy cảm hứng xuất phát từ khu tưởng niệm chiến sĩ Gạc Ma, nơi không gian ngầm với 64 bông hoa tượng trưng cho các chiến sĩ đã hy sinh vì Tổ quốc.
+ 
+        Hình khối chủ đạo của công trình tạo nên ba hướng nhìn chính về phía đảo Gạc Ma, đảo Trường Sa lớn và hướng về phía Biển Đông. Tổng thể công trình như dòng chảy, tiếp nối liền mạch những giá trị về tinh thần và không gian kiến trúc - cảnh quan của khu tưởng niệm.
+
+        Bên trong bảo tàng, việc bố trí những khoảng thông tầng tăng dần theo độ cao kết hợp với việc thu hẹp và đột ngột mở rộng không gian trưng bày nhằm dẫn dắt hành trình cảm xúc tuyến thăm quan, tạo nên ấn tượng thị giác cho du khách.
+
+        Không gian trưng bày trong bảo tàng riêng biệt và tương ứng với từng loại chủ đề, kết hợp với hiệu ứng chiếu sáng và các công nghệ trình chiếu hiện đại tạo nên không gian bảo tàng hấp dẫn.
+
+       "Để mỗi góc công trình, mỗi mảng tường đều là một hiện vật, để bảo tàng không chỉ là một công trình vô tri xây nên từ gạch đá, mà là một 'nhân chứng sống động' chứa đựng tinh thần, tâm hồn Trường Sa", đại diện đơn vị thiết kế cho biết.
+
+        Chủ tịch UBND tỉnh Khánh Hòa Nguyễn Tấn Tuân đánh giá Bảo tàng Trường Sa có phương án thiết kế đẹp, phù hợp tiêu chí đặt ra. Ngoài ra, nơi đây sẽ là công trình văn hóa, lịch sử, tâm linh và gắn liền với Khu tưởng niệm chiến sĩ Gạc Ma
+
+        "Công trình hứa hẹn sẽ tạo nên một điểm tham quan, tìm hiểu văn hóa, lịch sử để góp phần giáo dục và nâng cao nhận thức về chủ quyền biển, đảo cho các thế hệ, tầng lớp nhân dân", ông Tuân nói
+
+        Công trình Bảo tàng Trường Sa sẽ được xây dựng trên khu đất có diện tích 1,71 ha, tiếp giáp Khu tưởng niệm chiến sĩ Gạc Ma (huyện Cam Lâm). Kinh phí thi tuyển thiết kế và xây dựng do doanh nghiệp tài trợ.
+
+        Khi hoàn thành, Bảo tàng Trường Sa sẽ khớp nối với Khu tưởng niệm Chiến sĩ Gạc Ma (hoạt động từ năm 2017) do Tổng Liên đoàn Lao động Việt Nam xây dựng trên diện tích hơn 20.000 m2, tổng mức đầu tư gần 130 tỷ đồng.</value>
+  </data>
+  <data name="Content_TTH1" xml:space="preserve">
+    <value>                           XẠ THỦ XINH ĐẸP ẤN ĐỘ ĐỔI ĐỜI NHỜ OLYMPIC
+                 Xạ thủ Manu Bhaker được hàng chục nhãn hàng săn đón để ký hợp đồng, sau khi giành hai huy chương Olympic 2024.
+
+                 Từ chỗ không quá nổi tiếng, Bhaker bỗng chốc được săn đón ở quê nhà sau màn trình diễn tại Olympic Paris. Đã có 40 thương hiệu liên hệ với Bhaker để mời cô làm đại sứ, với thù lao tăng gấp sáu đến bảy lần so với trước đây.
+
+                 Bhaker đã giành HC đồng súng ngắn hơi 10m cá nhân và đồng đội nam nữ. Cô cũng cán đích thứ tư ở nội dung súng ngắn 25m cá nhân nữ hôm 3/8. Xạ thủ Ấn Độ là đối thủ của Trịnh Thu Vinh ở hai nội dung cá nhân. Bhaker là VĐV Ấn Độ đầu tiên trong lịch sử giành hai huy chương ở một kỳ Olympic.
+
+                 Neerav Tomar, CEO của IOS Sports &amp; Entertainment - công ty quản lý Bhaker - cho biết: "Chúng tôi đã nhận được khoảng 40 lời đề nghị chỉ trong vòng hai đến ba ngày. Hiện, chúng tôi tập trung vào các thỏa thuận dài hạn và đã ký kết được một vài hợp đồng".
+
+                 Trước Olympic 2024, Bhaker chỉ làm đại sứ cho một thương hiệu duy nhất -Performax Activewear. Còn lúc này, có khoảng sáu thương hiệu đang đàm phán điều khoản hợp đồng với cô. Không chỉ đạt thành tích cao, thần thái xinh đẹp của Bhaker khi thi đấu cũng giúp cô "ghi điểm".
+
+                 "Giá trị thương hiệu của cô ấy đã tăng lên gấp năm. sáu lần. Trước đây, chúng tôi ký hợp đồng với giá khoảng 2 triệu đến 2,5 triệu rupee, còn bây giờ, con số ấy đã tăng lên khoảng 15 triệu rupee (khoảng 4,2 tỷ đồng). Đây là loại hợp đồng độc quyền, có thời hạn một năm", Tomar cho biết thêm.Video Player is loading.
+IOS Sports &amp; Entertainment cũng đang thực hiện hành động pháp lý đối với các thương hiệu đã sử dụng hình ảnh và video của Bhaker để quảng cáo mà không ký thỏa thuận hợp tác.
+
+                  Bhaker mới 22 tuổi và đang cho thấy tiến bộ vượt bậc dưới sự huấn luyện của HLV huyền thoại Jaspal Rana. Cô được đánh giá là tương lai của bắn súng Ấn Độ và các nhà quản lý thể thao nước này đang tính cách đầu tư để giúp Bhaker có thể cạnh tranh HC vàng ở Olympic 2028.
+
+                  Không chỉ có cơ hội kiếm bộn tiền sau Olympic, Bhaker còn vinh dự được chọn là VĐV cầm cờ cho đoàn thể thao Ấn Độ ở lễ bế mạc Olympic vào ngày 11/8. Điều này hứa hẹn sẽ khiến giá trị thương hiệu của cô càng tăng lên.
+</value>
+  </data>
+  <data name="Content_TTH2" xml:space="preserve">
+    <value>                              KATIE LEDECKY BẮT KỊP KỈ LỤC CỦA MICHAEL PHELPS
+              Huyền thoại bơi nữ Katie Ledecky lần thứ tư liên tiếp giành HC vàng bơi 800m tự do ở Olympic, bắt kịp kỷ lục của huyền thoại Michael Phelps.
+
+              Ledecky đã thống trị nội dung này từ Olympic 2012. Chiến thắng ở Paris đồng nghĩa cô và Phelps là hai kình ngư hiếm hoi giành HC vàng Olympic bốn lần ở cùng một nội dung. Trong khi Ledecky vô đối ở cự ly 800m, Phelps đã bốn lần chiến thắng nội dung 200m hỗn hợp cá nhân nam từ Olympic 2004 tới Olympic 2016.
+
+              Sau khi chiến thắng, Ledecky tuyên bố cô sẽ tiếp tục dự Olympic 2028 tại Los Angeles với hy vọng phá kỷ lục này.
+
+              Ở phần thi chung kết hôm qua 3/8, thành tích 8 phút 11 giây 04 giúp Ledecky đánh bại Ariarne Titmus (Australia) và Paige Madden (Mỹ). Cả Titmus và Madden đều đạt thành tích cá nhân tốt nhất, nhưng vẫn không đủ để vượt qua Ledecky. Titmus giành HC bạc với thời gian 8 phút 12 giây 29, trong khi Madden về thứ ba với 8 phút 13 giây 00.
+
+              Sau khi bắt kịp Phelps, Ledecky khiêm tốn: "Tôi không quá để tâm vào những kỷ lục nên nghe tai này ra tai kia mà thôi. Tôi chỉ tập trung vào mục tiêu của riêng mình, vào thời gian, vào kỹ thuật. Báo chí có thể viết về kỷ lục, các bạn có thể tập trung vào vấn đề đó, nhưng cá nhân tôi sẽ chỉ tập trung vào mục tiêu của mình".
+Với chiến thắng này, Ledecky giành HC vàng Olympic thứ chín, nhiều nhất trong lịch sử của một VĐV nữ người Mỹ ở bất kỳ môn thể thao Olympic nào. Thành tích này cũng giúp cô sánh ngang với huyền thoại TDDC người Liên Xô Larisa Latynina về số lượng HC vàng giành được bởi một VĐV nữ trong lịch sử Olympic. Latynina thi đấu tại Olympic 1956, 1960 và 1964.
+
+              Tổng cộng, Ledecky giành 14 huy chương, cũng là con số nhiều nhất từ trước đến nay bởi một VĐV nữ người Mỹ ở bất kỳ môn thể thao Olympic nào. Nội dung 800m nữ cũng khép lại kỳ Olympic 2024 thành công với kình ngư 27 tuổi. Vào ngày thi đấu đầu tiên, cô giành HC đồng 400m tự do, xếp sau Titmus và Summer McIntosh (Canada). Sau đó, cô giành HC vàng 1.500m tự do và HC bạc tiếp sức 4x200m tự do nữ.
+
+</value>
+  </data>
+  <data name="Content_TTH3" xml:space="preserve">
+    <value>                        XÁC ĐỊNH BỐN ĐỘI VÀO BÁN KẾT BÓNG ĐÁ NỮ OLYMPIC 2024
+                 Brazil thắng chủ nhà Pháp, trong khi đương kim vô địch thế giới Tây Ban Nha ngược dòng hạ Colombia để vào bán kết bóng đá nữ Olympic Paris 2024, bên cạnh Mỹ và Đức.
+
+                 Tứ kết bóng đá nữ Olympic 2024 hôm qua diễn ra hấp dẫn, với ba trận bước vào hiệp phụ. Trong đó có hai trận phải giải quyết thắng thua trên loạt luân lưu. Sau cùng, bốn cái tên vào bán kết là Mỹ, Tây Ban Nha, Đức và Brazil.
+
+                 Hai trận bán kết sẽ diễn ra trong ngày 6/8, với Brazil gặp Tây Ban Nha tại Marseille, còn Mỹ gặp Đức trên sân Décines-Charpieu. Trận tranh hạng Ba sẽ diễn ra ngày 9/8 tại Décines-Charpieu, còn chung kết diễn ra tại Paris một ngày sau đó.
+ 
+                 Trận tứ kết hấp dẫn nhất là cuộc đối đầu giữa Tây Ban Nha và Colombia. Tại Décines-Charpieu hôm 3/8, Colombia gây sốc khi dẫn 2-0 nhờ những cú sút cận thành của Mayra Ramirez ở phút 12 và Leicy Santos ở phút 52.
+
+                  Jenni Hermoso nhen nhóm hy vọng cho Tây Ban Nha khi đặt lòng rút ngắn cách biệt ở phút 79. Kịch tính được đẩy lên ở phút bù thứ bảy, khi Salma Paralluelo căng ngang từ biên trái để Irene Paredes băng cắt đá nối quân bình tỷ số 2-2.
+
+                  Hai đội không ghi thêm bàn ở hiệp phụ và phải bước vào loạt luân lưu. Tại đây, Colombia đá hỏng     hai lượt, còn Tây Ban Nha thể hiện bản lĩnh của nhà vô địch World Cup khi thành công cả bốn lượt để             thắng 4-2.
+                   Đương kim vô địch Olympic Canada và Đức cũng cần tới luân lưu để phân định thắng thua ở tứ kết. Tại Marseille hôm qua, Canada áp đảo khi dứt điểm trúng đích bốn lần - so với một của Đức - nhưng không thể ghi bàn qua 120 phút. Trên chấm 11m, Canada đá hỏng hai lượt, còn Đức đá hỏng một lượt để vào bán kết với chiến thắng 4-2.
+
+                    Mỹ và Nhật Bản cũng cần tới hiệp phụ, nhưng không bước vào loạt luân lưu. Sau 90 phút không có bàn, Trinity Rodman tỏa sáng với pha độc diễn, đi bóng từ cánh phải vào trung lộ và cứa lòng về góc cao ở hiệp phụ, giúp Mỹ thắng 1-0.
+
+                    Ở trận tứ kết còn lại, Pháp lỡ cơ hội vượt lên trước Brazil, khi Sakina Karchaoui đá phạt đền sang góc trái bị thủ thành Lorena Leite cản phá. Tới phút 82, Gabi Portilho bứt tốc loại bỏ hai cầu thủ Pháp rồi sút chéo góc hạ nốt Constance Picaud, ấn định chiến thắng 1-0 cho Brazil và khiến Pháp vỡ mộng giành HC vàng trên sân nhà.</value>
+  </data>
+  <data name="Content_TTH4" xml:space="preserve">
+    <value>                         TRỊNH THU VINH ĐỨNG THỨ BẢY Ở CHUNG KẾT 25M SÚNG NGẮN OLYMPIC 2024
+                 Xạ thủ Trịnh Thu Vinh thi đấu đến loạt bắn thứ năm, đạt 16 điểm và đứng thứ bảy chung cuộc, ở chung kết 25m súng ngắn thể thao nữ Olympic Paris 2024. Trịnh Thu Vinh vào chung kết nhờ thành tích 587 điểm ở vòng loại 25m súng ngắn thể thao nữ Olympic Paris 2024. Cô đứng thứ 12 ở bài bắn chậm, nhưng bứt phá với 297 điểm ở bài bắn nhanh.
+
+                 Bước vào chung kết chiều nay 3/8, Trịnh Thu Vinh phải chạm trán những đối thủ khó nhằn. Xạ thủ Việt Nam đứng thứ 29 nội dung này trên bảng Liên đoàn bắn súng thế giới (ISSF), chỉ xếp trên Morgan Katelyn của Mỹ (39) và Manu Bhaker của Ấn Độ (69). Năm cái tên còn lại đều nằm trong top 10, gồm Yang Jiin (Hàn Quốc – thứ hai), Camille Jedrzejewski (Pháp – 3) Major Veronika (Hungary – 7), Zhao Nan (Trung Quốc – 8) và Haniyeh Rostamiyan (Iran – 9).
+
+                  Thể thức chung kết cũng không còn bài bắn chậm sở trường của Thu Vinh, mà chỉ có bắn nhanh. Cách tính điểm cũng khác biệt khi không lấy điểm số trên bia. Các xạ thủ phải bắn đạt 10,2 trở lên mới được tính một điểm, mỗi loạt bắn năm phát. Sau bốn loạt bắn, xạ thủ có điểm số thấp nhất bị loại, rồi đến thứ bảy ở loạt năm, tịnh tiến đến khi loạt 10 chỉ còn hai xạ thủ cao điểm nhất.
+
+                   Trịnh Thu Vinh khởi đầu không tệ khi đạt bốn điểm ở loạt đầu, để cùng dẫn đầu như Camille Jewski. Ở hai loạt kế tiếp, cô giành thêm sáu điểm để cùng xếp nhì như Jewski, Veronika, Zhao Nan và Bhaker.
+
+                    Sau bốn loạt, Morgan Katelyn bị loại khi chỉ có năm điểm. Xạ thủ Việt Nam vẫn duy trì việc bắn trúng ba lần, dẫn đến bị tụt xuống vị trí thứ sáu với 13 điểm, bằng Bhaker, kém Zhao Nan và Rostamiyan một điểm.
+
+                    Đến loạt năm quyết định, Thu Vinh vẫn không thể cải thiện thành tích, trong khi Bhaker bắn trúng cả năm lần, còn Zhao và Rostamiyan cũng bắn trúng ba phát. Chung cuộc, Thu Vinh chỉ đạt 16 điểm và dừng bước.
+
+                    Cuộc cạnh tranh sau đó khép lại bằng HC đồng thuộc về Major Veronika. Trong khi đó, Yang Jiin và Camille Jedrzejewski hoà 37-37 ở loạt cuối, buộc phải vào luân lưu. Tại đây, xạ thủ Hàn Quốc bản lĩnh hơn khi thắng 4-1 sau năm phát bắn, để giành HC vàng.
+
+                    Đây là HC vàng bắn súng thứ ba của Hàn Quốc tại Olympic Paris 2024, sau 10m súng ngắn hơi và 10m súng trường hơi đều của nữ. Trong khi đó, Trung Quốc dẫn đầu với bốn HC vàng, gồm 10m súng ngắn hơi, 10m súng trường hơi và 50m súng trường ba điểm của nam, cùng HC vàng 10m súng trường hơi đồng đội nam, nữ.
+
+                     Trịnh Thu Vinh kết thúc Olympic 2024 với thành tích vào chung kết cả hai nội dung. Cô đứng thứ tư chung kết 10m súng ngắn hơi và thứ bảy 25m súng ngắn thể thao. Cô gái 24 tuổi trở thành xạ thủ thứ hai trong lịch sử Việt Nam vượt qua hai vòng loại ở Olympic, sau Hoàng Xuân Vinh tại Rio 2016 – giành HC vàng 10m và HC bạc 50m súng ngắn hơi nam.</value>
+  </data>
+  <data name="Content_TTH5" xml:space="preserve">
+    <value>                 QUẦN VỢT TRUNG QUỐC LẦN ĐẦU DÀNH HUY CHƯƠNG VÀNG ĐÁNH ĐƠN OLYMPIC
+             Zheng Qinwen mang về HC vàng lịch sử cho quần vợt Trung Quốc, khi thắng Donna Vekic 6-2, 6-3 ở chung kết đơn nữ Olympic Paris hôm 3/8.
+
+              Rất nhiều lá cờ Trung Quốc tung bay trên khán đài sân Philippe Chatrier hôm 3/8. Sau khi đánh bại Vekic ở chung kết đơn nữ, Zheng Qinwen khoác một trong số những lá cờ đó lên đôi vai. Tay vợt 21 tuổi nói rằng cha cô và toàn bộ người hâm mộ Trung Quốc đều xem Olympic quan trọng hơn các giải Grand Slam.
+"Bạn có thể thấy sức mạnh, sự khao khát trong mắt tôi khác với những giải đấu mà tôi tham gia trước đây", Zheng Qinwen nói sau khi giành HC vàng đánh đơn quần vợt đầu tiên cho Trung Quốc trong lịch sử Olympic.
+
+              Trước khi đấu chung kết Olympic, Zheng là chủ nhân bất ngờ lớn nhất ở môn quần vợt tại Paris 2024, khi loại hạt giống số một Iga Swiatek ở bán kết. Thắng tay vợt gần như bất khả chiến bại trên sân đất nện, Zheng nhập cuộc ở chung kết với sự tự tin cao độ. Cô dẫn Vekic 3-0, trước khi thẳng tiến đến set thắng 6-2.
+Vekic có dấu hiệu khớp tâm lý trước cơ hội mang về HC vàng đánh đơn đầu tiên cho Croatia. Tay vợt 27 tuổi có lối đánh giàu sức mạnh, tương đồng với Zheng nhưng không thể hiện được nhiều trong set đầu. Sau đó, cô tiếp tục bị dẫn 0-2 trong set hai.
+
+               Vekic vùng lên từ thời điểm đó, thắng game đỡ bóng để cân bằng tỷ số 2-2. Tuy nhiên, đến game bản lề, cô lại chơi bất ổn. Những pha tấn công hỏng ăn trên lưới khiến tay vợt Croatia để mất game giao bóng, rồi chấp nhận thua 2-6, 3-6 sau 106 phút thi đấu.
+
+               "Cho đến điểm cuối, tôi vẫn lo lắng đến mức hay hai tay còn run", Zheng nói sau trận đấu mà cô xem là quan trọng nhất cuộc đời. "Chưa bao giờ tôi khát khao chiến thắng đến thế. Thật tuyệt khi tôi vượt qua những sức ép và kỳ vọng để mang về vinh quang cho đất nước".
+
+                Trước Zheng, chưa có tay vợt Trung Quốc nào giành HC đánh đơn ở Olympic. 20 năm trước, Trung Quốc từng giành HC vàng Thế vận hội môn quần vợt, nhưng là ở nội dung đôi nữ do công Li Ting và Sun Tiantian.
+
+                Zheng sở hữu chuỗi 11 trận thắng liên tiếp kể từ khi cô trở lại sân đất nện sau Wimbledon. Trước Olympic, Zheng đã bảo vệ thành công danh hiệu WTA 250 Palermo trên sân đất nện. Cô là tay vợt nữ ưa thích của Novak Djokovic - người được xem như vĩ đại nhất lịch sử quần vợt và sẽ gặp Carlos Alcaraz ở chung kết đơn nam lúc 19h hôm nay 4/8, giờ Hà Nội.
+</value>
+  </data>
+  <data name="Content_XH1" xml:space="preserve">
+    <value>                 QUYỀN HẠN CỦA CSGT KHI KIỂM SOÁT TRẬT TỰ AN TOÀN GIAO THÔNG THEO LUẬT MỚI
+          Các lực lượng được phép thực hiện tuần tra, kiểm soát về trật tự an toàn giao thông đường bộ bao gồm: Lực lượng Cảnh sát giao thông; Lực lượng, đơn vị khác trong Công an nhân dân, được huy động tham gia phối hợp với Cảnh sát giao thông thực hiện tuần tra, kiểm soát trong trường hợp cần thiết. Theo đó Lực lượng CSGT có 5 quyền hạn khi thực hiện nhiệm vụ tuần tra, kiểm soát.
+
+          Luật Trật tự an toàn giao thông đường bộ 2024 được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV thông qua tại kỳ họp thứ 7, ngày 27/6/2024. Luật quy định về quy tắc, phương tiện, người tham gia giao thông đường bộ, chỉ huy, điều khiển, tuần tra, kiểm soát, giải quyết tai nạn giao thông đường bộ, trách nhiệm quản lý nhà nước và trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan đến trật tự, an toàn giao thông đường bộ.
+    
+          Theo đó, các lực lượng được phép thực hiện tuần tra, kiểm soát về trật tự an toàn giao thông đường bộ bao gồm: Lực lượng Cảnh sát giao thông; Lực lượng, đơn vị khác trong Công an nhân dân được huy động tham gia phối hợp với Cảnh sát giao thông thực hiện tuần tra, kiểm soát trong trường hợp cần thiết trên cơ sở nhiệm vụ, quyền hạn của lực lượng được huy động theo quy định của pháp luật, quyết định của cấp có thẩm quyền và phù hợp với thực tế nhiệm vụ. 
+
+          QUYỀN HẠN CỦA CSGT KHI TUẦN TRA, KIỂM SOÁT TRẬN TỰ AN TOÀN GIAO THÔNG ĐƯỜNG BỘ
+          Khi thực hiện tuần tra, kiểm soát trật tự an toàn giao thông đường bộ, lực lượng Cảnh sát giao thông sẽ có những quyền hạn như sau:
+- Dừng phương tiện tham gia giao thông đường bộ theo quy định tại Điều 66 Luật Trật tự an toàn giao thông đường bộ 2024 để kiểm tra việc chấp hành các quy định về quy tắc giao thông đường bộ; điều kiện của phương tiện tham gia giao thông đường bộ; điều kiện của người điều khiển phương tiện tham gia giao thông đường bộ; các quy định về bảo đảm trật tự, an toàn giao thông đường bộ theo quy định của Luật Trật tự an toàn giao thông đường bộ 2024 và quy định khác của pháp luật có liên quan;
+- Xử lý vi phạm hành chính về trật tự, an toàn giao thông đường bộ và vi phạm pháp luật khác theo quy định của pháp luật;
+- Huy động người, phương tiện, thiết bị dân sự trong trường hợp cấp bách; di chuyển phương tiện vi phạm dừng, đỗ trên đường bộ gây cản trở, ùn tắc giao thông hoặc nguy cơ dẫn đến tai nạn giao thông đường bộ theo quy định tại Điều 68 và Điều 69 Luật Trật tự an toàn giao thông đường bộ 2024;
+- Vận hành, sử dụng hệ thống, phương tiện, thiết bị, dữ liệu theo quy định tại các khoản 1, 2, 3 và 4 Điều 67 Luật Trật tự an toàn giao thông đường bộ 2024 và vũ khí, công cụ hỗ trợ theo quy định tại Điều 70 Luật Trật tự an toàn giao thông đường bộ 2024;
+- Quyền hạn khác theo quy định của Luật Công an nhân dân 2018 và quy định khác của pháp luật có liên quan.
+
+                  NHIỆM VỤ CỦA CẢNH SÁT GIAO THÔNG TRONG TUẦN TRA, KIỂM SOÁT GIAO THÔNG
+- Quan sát, nắm tình hình người, phương tiện tham gia giao thông đường bộ; tình hình trật tự, an toàn giao thông đường bộ; an ninh, trật tự trên tuyến giao thông đường bộ;
+- Thực hiện quy định tại điểm b và điểm c khoản 1 Điều 65 Luật Trật tự an toàn giao thông đường bộ 2024, gồm: Kiểm tra, kiểm soát người, phương tiện tham gia giao thông đường bộ; Phát hiện, ngăn chặn và xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ và vi phạm pháp luật khác.
+- Hướng dẫn, tuyên truyền, vận động người tham gia giao thông đường bộ chấp hành pháp luật về trật tự, an toàn giao thông đường bộ;
+- Giúp đỡ, hỗ trợ người, phương tiện tham gia giao thông đường bộ khi cần thiết;
+- Chỉ huy, điều khiển giao thông đường bộ;
+- Điều tra, giải quyết tai nạn giao thông đường bộ theo quy định của pháp luật;
+- Đấu tranh phòng, chống tội phạm hoạt động trên tuyến giao thông đường bộ, bảo đảm an ninh, trật tự theo quy định của pháp luật; tham gia phòng, chống khủng bố, biểu tình gây rối, dịch bệnh, thiên tai, hỏa hoạn; tham gia cứu nạn, cứu hộ;
+- Phát hiện những bất cập về đường bộ, tổ chức giao thông đường bộ, nguyên nhân dẫn đến mất trật tự, an toàn giao thông đường bộ, thông báo cho cơ quan chức năng hoặc báo cáo cấp có thẩm quyền kiến nghị với cơ quan chức năng có biện pháp khắc phục;
+- Phối hợp với cơ quan quản lý đường bộ phát hiện, ngăn chặn hành vi vi phạm quy định của pháp luật về bảo vệ công trình đường bộ và hành lang an toàn đường bộ;
+- Nhiệm vụ khác theo quy định của Luật Công an nhân dân và quy định khác của pháp luật có liên quan.
+Khi nào CSGT được dừng xe để kiểm tra, kiểm soát?
+Theo Điều 66 Luật Trật tự an toàn giao thông đường bộ 2024, Cảnh sát giao thông được dừng phương tiện tham gia giao thông đường bộ để kiểm tra, kiểm soát khi có một trong các căn cứ sau đây:
+- Khi phát hiện hành vi vi phạm pháp luật hoặc có căn cứ xác định có hành vi vi phạm pháp luật về trật tự, an toàn giao thông đường bộ hoặc vi phạm pháp luật khác;
+- Thực hiện theo mệnh lệnh, kế hoạch tuần tra, kiểm soát của cấp có thẩm quyền để phát hiện hành vi vi phạm pháp luật về trật tự, an toàn giao thông đường bộ mà buộc phải dừng phương tiện để kiểm tra, kiểm soát mới phát hiện được;
+- Phục vụ bảo vệ an ninh quốc gia, bảo đảm trật tự, an toàn xã hội và đấu tranh phòng, chống tội phạm; phòng, chống thiên tai; phòng cháy, chữa cháy và cứu nạn, cứu hộ; phòng, chống dịch bệnh;
+- Có tin báo, tố giác, phản ánh, kiến nghị, đề nghị của cơ quan, tổ chức, cá nhân về tội phạm, hành vi vi phạm pháp luật khác.
+=&gt; Quy định này có hiệu lực thi hành kể từ ngày 1/1/2025</value>
+  </data>
+  <data name="Content_XH2" xml:space="preserve">
+    <value>                     THI RỚT BẰNG LÁI Ô TÔ, TÀI XẾ CHẠY NGƯỢC CHIỀU TRÊN CAO TỐC
+          Dù chưa có giấy phép lái xe do thi rớt nhưng tài xế tại Ninh Thuận vẫn điều khiển ô tô vào đường cao tốc Cam Lâm – Vĩnh Hảo rồi quay đầu chạy ngược chiều do… nhầm đường!
+
+         Ngày 4-8, Trung tá Hoàng Xuân Ân, Đội trưởng Đội Tuần tra kiểm soát giao thông đường bộ cao tốc số 6, Phòng 8 (Cục CSGT- Bộ Công an), cho biết đã lập biên bản đối với tài xế ô tô quay đầu xe chạy ngược chiều trên tuyến đường cao tốc Cam Lâm – Vĩnh Hảo.
+
+         Theo hình ảnh từ camera ghi lại, khoảng 10 giờ 27 phút, ngày 3-8, ô tô BKS 85A-12117 đang lưu thông trên Km 89+800 tuyến đường cao tốc Cam Lâm – Vĩnh Hảo (hướng Vĩnh Hảo đi Cam Lâm) đoạn gần nút giao Quốc lộ 27 (Ninh Thuận) thì bất ngờ quay đầu xe, để chạy ngược chiều. Quá trình quay xe, ô tô này lấn xe qua 2 làn đường khiến nhiều tài xế điều khiển phía sau hoảng hốt, phải giảm tốc độ để tránh tai nạn. Tài xế ô tô BKS 85A-12117 tiếp tục điều khiển một đoạn ngược chiều trên đường cao tốc Cam Lâm – Vĩnh Hảo để quay về trạm thu phí đặt gần nút giao với Quốc lộ 27. Nhận được thông báo vi phạm từ hệ thống camera thông minh, Đội Tuần tra kiểm soát giao thông đường bộ cao tốc số 6 đã kịp thời có mặt tạm giữ phương tiện và mời tài xế về làm việc.
+
+          Theo thông tin ban đầu, người điều khiển ô tô chạy ngược chiều nói trên là ông H.T.B. (SN 1977, trú phường Mỹ Hải, TP Phan Rang – Tháp Chàm, Ninh Thuận). Theo trình bày của ông B., ông điều khiển ô tô từ nhà đến tỉnh Đồng Nai có việc riêng. Tuy nhiên, khi lưu thông từ Quốc lộ 27 vào nút giao đường cao tốc Cam Lâm – Vĩnh Hảo thì người này chạy nhầm về hướng tỉnh Khánh Hòa. Khi đến Km 89+800 tuyến đường cao tốc Cam Lâm – Vĩnh Hảo, ông B. phát hiện mình chạy sai nên đột ngột quay đầu xe. Đáng chú ý, ông B. điều khiển ô tô trên đường cao tốc mà không có giấy phép lái xe do đã thi sát hạch nhưng chưa đậu.
+
+        Đội Tuần tra kiểm soát giao thông đường bộ cao tốc số 6, Phòng 8 (Cục CSGT- Bộ Công an) đã lập biên bản, tạm giữ phương tiện vi phạm với 2 lỗi: điều khiển xe đi ngược chiều trên đường cao tốc và không có giấy phép lái xe.</value>
+  </data>
+  <data name="Content_XH3" xml:space="preserve">
+    <value>                  TRUNG ĐOÀN 31 - LÁ CHẮN THÉP ĐẢM BẢO AN TOÀN CÁC MỤC TIÊU TRỌNG ĐIỂM
+          Trung đoàn Cảnh sát bảo vệ mục tiêu chính trị, kinh tế, văn hóa xã hội, khoa học kỹ thuật, Bộ Tư lệnh Cảnh sát cơ động vừa trang trọng kỷ niệm 10 năm ngày thành lập, đón nhận Huân chương Chiến công hạng Ba.
+
+          Ngày 4/8, Đảng ủy, Lãnh đạo Bộ Tư lệnh CSCĐ long trọng tổ chức Lễ kỷ niệm 10 năm Ngày thành lập Trung đoàn Cảnh sát bảo vệ mục tiêu Chính trị, kinh tế, văn hóa xã hội, khoa học - kỹ thuật (25/7/2014 - 25/7/2024) và đón nhận Huân chương Chiến công hạng Ba.
+
+          Trung đoàn Cảnh sát bảo vệ mục tiêu chính trị, kinh tế, văn hóa - xã hội, khoa học - kỹ thuật trực thuộc Bộ Tư lệnh Cảnh sát cơ động, là đơn vị nòng cốt trong công tác vũ trang canh gác bảo vệ mục tiêu, có chức năng, nhiệm vụ tổ chức lực lượng, trực tiếp vũ trang canh gác, tuần tra bảo vệ an toàn các mục tiêu quan trọng về chính trị, kinh tế, văn hóa xã hội, khoa học - kỹ thuật; bảo vệ vận chuyển an toàn các chuyến hàng đặc biệt trong phạm vi cả nước; đấu tranh với các hành vi xâm phạm mục tiêu được giao vũ trang canh gác bảo vệ theo quy định pháp luật.
+
+                                            10 NĂM NỖ LỰC HOÀN THÀNH NHIỆM VỤ XUẤT SẮC
+          Tại buổi lễ đại diện lãnh đạo Trung đoàn đã đọc diễn văn kỷ niệm, nêu bật những thành quả xuất sắc của đơn vị trong 10 năm qua.
+
+          Theo đó, Trung đoàn Cảnh sát bảo vệ mục tiêu chính trị, kinh tế, văn hóa - xã hội, khoa học - kỹ thuật trực thuộc Bộ Tư lệnh Cảnh sát cơ động (Bộ Công an), được thành lập ngày 25-7-2014, trên cơ sở tách ra và kế thừa chức năng nhiệm vụ của Trung đoàn Cảnh sát bảo vệ mục tiêu (thuộc Cục Cảnh sát bảo vệ - Tổng cục Cảnh sát).
+
+          Trải qua 10 năm xây dựng, chiến đấu, trưởng thành và phát triển, tiếp bước truyền thống của lực lượng Cảnh sát cơ động, những năm qua cán bộ, chiến sĩ Trung đoàn đã luôn thể hiện được bản lĩnh chính trị vững vàng, không ngại khó khăn gian khổ; đoàn kết một lòng tuyệt đối trung thành với Đảng, với Tổ quốc và Nhân dân; kiên trì phấn đấu thực hiện thắng lợi đường lối, chủ trương của Đảng, chính sách, pháp luật của Nhà nước, Chỉ thị, nghị quyết của Ngành, luôn sẵn sàng nhận và hoàn thành xuất sắc mọi nhiệm vụ được cấp trên giao.
+
+          Với những nỗ lực, cố gắng không ngừng trong suốt 10 năm qua, đơn vị đã tổ chức lực lượng bảo vệ an toàn tuyệt đối các mục tiêu được giao, với gần 1.300 hội nghị lớn, hàng trăm đoàn Lãnh đạo Đảng, Nhà nước, hàng ngàn đoàn khách quốc tế đến thăm và làm việc tại các mục tiêu; hướng dẫn, kiểm soát hàng vạn lượt công dân đến các mục tiêu khiếu kiện đảm bảo trật tự theo đúng quy định. 
+
+          Trung đoàn Cảnh sát bảo vệ mục tiêu chính trị, kinh tế, văn hóa xã hội, khoa học kỹ thuật, Bộ Tư lệnh Cảnh sát cơ động vừa trang trọng kỷ niệm 10 năm ngày thành lập, đón nhận Huân chương Chiến công hạng Ba. Ngày 4/8, Đảng ủy, Lãnh đạo Bộ Tư lệnh CSCĐ long trọng tổ chức Lễ kỷ niệm 10 năm Ngày thành lập Trung đoàn Cảnh sát bảo vệ mục tiêu Chính trị, kinh tế, văn hóa xã hội, khoa học - kỹ thuật (25/7/2014 - 25/7/2024) và đón nhận Huân chương Chiến công hạng Ba. Trung đoàn Cảnh sát bảo vệ mục tiêu chính trị, kinh tế, văn hóa - xã hội, khoa học - kỹ thuật trực thuộc Bộ Tư lệnh Cảnh sát cơ động, là đơn vị nòng cốt trong công tác vũ trang canh gác bảo vệ mục tiêu, có chức năng, nhiệm vụ tổ chức lực lượng, trực tiếp vũ trang canh gác, tuần tra bảo vệ an toàn các mục tiêu quan trọng về chính trị, kinh tế, văn hóa xã hội, khoa học - kỹ thuật; bảo vệ vận chuyển an toàn các chuyến hàng đặc biệt trong phạm vi cả nước; đấu tranh với các hành vi xâm phạm mục tiêu được giao vũ trang canh gác bảo vệ theo quy định pháp luật.
+
+          Bên cạnh đó, đơn vị đã lãnh đạo làm tốt công tác huấn luyện, tổ chức luyện tập điều lệnh quân sự, võ thuật hàng năm. Kỷ niệm các ngày lễ lớn của đất nước, của ngành, Trung đoàn đều chỉ đạo tổ chức tuyển chọn, huấn luyện, tham gia có chất lượng và đạt kết quả cao ở các khối diễu binh, diễu hành, như dịp Kỷ niệm 50 năm Ngày truyền thống lực lượng Cảnh sát cơ động; Kỷ niệm 70 năm Chiến thắng Điện Biên Phủ... 
+
+         Trung đoàn cũng nhiệt tình hưởng ứng, tham gia và đạt thành tích cao các hội thao, hội diễn nhằm tạo khí thế thi đua sôi nổi trong toàn đơn vị, góp phần xây dựng nếp sống văn hóa vui tươi, lành mạnh, bổ ích, để thực hiện thắng lợi nhiệm vụ chính trị được giao.
+
+          Với chức năng, nhiệm vụ của mình, trong 10 năm qua, Trung đoàn Cảnh sát bảo vệ mục tiêu chính trị, kinh tế, văn hóa - xã hội, khoa học - kỹ thuật đã bảo vệ an toàn tuyệt đối các mục tiêu với gần 1.300 hội nghị lớn, hàng trăm đoàn lãnh đạo Đảng, Nhà nước, hàng nghìn đoàn khách quốc tế đến thăm và làm việc tại các mục tiêu; hướng dẫn, kiểm soát hàng vạn lượt công dân đến các mục tiêu để làm việc, đảm bảo trật tự theo đúng quy định. 
+
+          Trong quá trình thực hiện nhiệm vụ, Trung đoàn luôn chủ động phòng ngừa, phát hiện, xử lý kịp thời các hành vi đột nhập, xâm hại mục tiêu. Đã có nhiều tình huống đột xuất, bất ngờ xảy ra, nhưng cán bộ, chiến sĩ của Trung đoàn luôn mưu trí, dũng cảm xử lý tốt các vụ việc, đảm bảo an toàn mục tiêu, góp phần bảo đảm ANTT trên địa bàn.
+
+          Trung đoàn đã tổ chức lực lượng, huy động hàng chục nghìn lượt cán bộ, chiến sĩ phối hợp với Bảo tàng Lịch sử quốc gia, Ngân hàng Nhà nước, Kho bạc Nhà nước, Nhà máy in tiền quốc gia... áp tải bảo vệ an toàn nhiều chuyến hàng vận chuyển các hiện vật, cổ vật tham gia triển lãm quốc tế ở nước ngoài và áp tải đi các địa phương trưng bày; bảo vệ vận chuyển tuyệt đối an toàn trên 10 nghìn chuyến hàng đặc biệt của Nhà nước và của các bộ, ngành với khối lượng hàng trăm nghìn tấn. Trong đó có nhiều chuyến bảo vệ, vận chuyển bằng phương tiện xe lửa với khối lượng, giá trị đặc biệt lớn đi các tỉnh phía Nam và ngược lại. 
+Có những chuyến hàng phải di chuyển qua nhiều địa bàn có tình hình ANTT diễn biến phức tạp, phải di chuyển trên những cung đường hiểm trở; phải vận chuyển trong điều kiện thời tiết khắc nghiệt như mưa bão, lũ lụt, sạt lở bất thường, phải dừng lại nhiều ngày tại khu vực vắng vẻ, heo hút... tiềm ẩn nguy cơ mất an toàn cao và nhiều tình huống phát sinh bất ngờ khác... Song, với sự nỗ lực, đồng tâm hiệp lực, đoàn kết của toàn thể cán bộ, chiến sĩ, trong bất cứ tình huống nào, hoàn cảnh nào, Trung đoàn cũng hoàn thành xuất sắc nhiệm vụ được giao.
+
+XÂY DỰNG TRUNG ĐOÀN 31 TRONG SẠCH, VỮNG MẠNH CHÍNH QUY, TINH NHUỆ, HIỆN ĐẠI
+          Với những thành tích xuất sắc, nhân dịp kỷ niệm 10 năm Ngày thành lập, tập thể Trung đoàn 31 vinh dự được Chủ tịch nước tặng thưởng Huân chương Chiến công hạng Ba vì có thành tích xuất sắc trong chiến đấu và phục vụ chiến đấu, góp phần vào sự nghiệp xây dựng Chủ nghĩa xã hội và bảo vệ Tổ quốc.
+Trong thời gian tới, tình hình thế giới và khu vực còn nhiều diễn biến phức tạp, đất nước ta đã hội nhập rất sâu rộng nên có những thời cơ, thách thức đan xen; nhiệm vụ bảo vệ ANTT của lực lượng CAND nói chung, lực lượng CSCĐ, CSBV mục tiêu nói riêng hết sức nặng nề. 
+
+          Để hoàn thành xuất sắc nhiệm vụ được giao cán bộ, chiến sĩ Trung đoàn 31 phải không ngừng nâng cao bản lĩnh chính trị, tinh thần cảnh giác cách mạng; thường xuyên học tập, rèn luyện nâng cao trình độ chuyên môn, nghiệp vụ, kỹ chiến thuật, sử dụng thành thạo các loại vũ khí, trang bị phương tiện, công cụ hỗ trợ; chủ động xây dựng, thực hành các phương án bảo vệ mục tiêu không để bị động bất ngờ trong mọi tình huống. 
+
+           Luôn đoàn kết thống nhất về ý chí và hành động, phối kết hợp chặt chẽ với các cơ quan, đơn vị có liên quan; tranh thủ sự ủng hộ, giúp đỡ của Nhân dân, của cấp ủy Đảng, chính quyền địa phương, quyết tâm xây dựng Trung đoàn 31 thực sự trong sạch vững mạnh, chính quy, tinh nhuệ, hiện đại, sẵn sàng nhận và hoàn thành xuất sắc mọi nhiệm vụ được giao. 
+
+          Kế thừa và phát huy truyền thống lực lượng CSCĐ anh hùng; tiếp bước các thế hệ cha anh đi trước, cán bộ, chiến sĩ Trung đoàn 31 hôm nay và mai sau sẽ viết tiếp những trang sử vẻ vang; luôn thấm nhuần và thực hiện tốt lời dạy của Chủ tịch Hồ Chí Minh và lời căn dặn, giao nhiệm vụ của đồng chí Tổng Bí thư Nguyễn Phú Trọng đối với lực lượng CAND, đó là: "Gác cho dân vui chơi, thức cho dân ngủ ngon; chỉ biết còn Đảng là còn mình, danh dự là điều thiêng liêng, cao quý nhất"…
+</value>
+  </data>
+  <data name="Content_XH4" xml:space="preserve">
+    <value>               PHÊ CHUẨN KẾT QUẢ BẦU CHỦ TỊCH UBND TỈNH QUẢNG NGÃI NGUYỄN HOÀNG GIANG
+         Thủ tướng quyết định phê chuẩn kết quả bầu chức vụ Chủ tịch UBND tỉnh Quảng Ngãi nhiệm kỳ 2021 - 2026 đối với ông Nguyễn Hoàng Giang.
+         Thủ tướng Phạm Minh Chính ký Quyết định số 766 phê chuẩn kết quả bầu chức vụ Chủ tịch UBND tỉnh Quảng Ngãi nhiệm kỳ 2021 - 2026 đối với ông Nguyễn Hoàng Giang, Phó Bí thư Tỉnh ủy Quảng Ngãi.
+
+         Ngày 2/8, HĐND tỉnh Quảng Ngãi khoá XIII nhiệm kỳ 2021-2026 tổ chức kỳ họp thứ 26 (Kỳ họp chuyện đề) thực hiện công tác nhân sự thuộc thẩm quyền.
+
+         Tại kỳ họp, 45/45 đại biểu có mặt, thống nhất bầu ông Nguyễn Hoàng Giang, Phó Bí thư Tỉnh ủy Quảng Ngãi, giữ chức Chủ tịch UBND tỉnh Quảng Ngãi.
+
+         Tân Chủ tịch UBND tỉnh Quảng Ngãi Nguyễn Hoàng Giang sinh ngày 6/12/1971, quê quán xã Trường Thọ, huyện An Lão, TP Hải Phòng. Ông có trình độ chuyên môn Tiến sĩ kinh tế; Cử nhân lý luận chính trị.
+
+         Quá trình công tác, ông Nguyễn Hoàng Giang từng kinh qua các chức vụ: Phó Giám đốc Sở Thương mại Hải Phòng, Phó Giám đốc Sở Công Thương Hải Phòng; Phó Vụ Trưởng Vụ Kinh tế - Văn phòng Trung ương Đảng; Vụ Trưởng, Thư ký Ủy viên Bộ Chính trị, Chủ nhiệm Ủy ban kiểm tra Trung ương; Ủy viên Ban Thường vụ Tỉnh ủy, Phó Chủ tịch Thường trực UBND tỉnh Thái Bình.
+
+         Tháng 6/2020, Thủ tướng có quyết định điều động, bổ nhiệm ông Nguyễn Hoàng Giang giữ chức Thứ trưởng Bộ Khoa học và Công nghệ.
+
+          Ngày 31/7, Tỉnh ủy Quảng Ngãi tổ chức Hội nghị công bố quyết định của Ban Bí thư Trung ương Đảng về công tác cán bộ. Theo đó, Ban Bí thư quyết định cho ông Nguyễn Hoàng Giang thôi giữ chức Uỷ viên Ban cán sự đảng Bộ Khoa học và Công nghệ; điều động, chỉ định ông tham gia Ban Chấp hành, Ban Thường vụ Tỉnh ủy và giữ chức Phó Bí thư Tỉnh ủy Quảng Ngãi, nhiệm kỳ 2020 - 2025.</value>
+  </data>
+  <data name="Content_XH5" xml:space="preserve">
+    <value>                     TPHCM: XE MÁY VA VÀO DẢI PHÂN CÁCH, NGƯỜI ĐÀN ÔNG TỬ VONG
+          Tối 17/8, Công an TP Thủ Đức, TP.HCM phối hợp cùng Đội CSGT Hàng Xanh vừa tổ chức khám nghiệm hiện trường để điều tra vụ tai nạn xe máy va chạm dải phân cách làm một người tử vong.
+
+          Nạn nhân là anh Lê Đình Lâu (38 tuổi, ngụ quận 7, TP.HCM). Khoảng 17h30 cùng ngày, anh Lâu điều khiển xe máy biển số 95D1-098.60 chạy trên đường Phạm Văn Đồng, hướng từ cầu vượt Linh Xuân đi cầu Bình Lợi.
+
+          Khi còn cách cầu Bình Lợi vài chục mét (thuộc phường Hiệp Bình Chánh, TP Thủ Đức) thì va chạm vào dải phân cách bằng bê tông.
+
+          Va chạm làm anh Lâu húc đầu vào dải phân cách nằm bất động. Mặc dù được đưa đi cấp cứu nhưng nạn nhân đã tử vong trước khi tới bệnh viện.
+
+          Nhận tin báo, công an có mặt điều tiết giao thông, khám nghiệm hiện trường. Nguyên nhân đang được lực lượng chức năng điều tra, làm rõ.
+</value>
+  </data>
 </root>

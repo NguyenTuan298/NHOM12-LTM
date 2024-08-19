@@ -153,35 +153,45 @@ namespace NHOM12_LTM
 
         private void btnCT1_Click(object sender, EventArgs e)
         {
+            string articleContent1 = NHOM12_LTM.Properties.Resources.Content_CT1;
             PictureCT1 cT1 = new PictureCT1(this);
+            cT1.displayContent(articleContent1);
             cT1.Show();
             this.Hide();
         }
 
         private void btnCT2_Click(object sender, EventArgs e)
         {
+            string articleContent2 = NHOM12_LTM.Properties.Resources.Content_CT2;
             PictureCT2 cT2 = new PictureCT2(this);
+            cT2.displayContent(articleContent2);
             cT2.Show();
             this.Hide();
         }
 
         private void btnCT3_Click(object sender, EventArgs e)
         {
+            string articleContent3 = NHOM12_LTM.Properties.Resources.Content_CT3;
             PictureCT3 cT3 = new PictureCT3(this);
+            cT3.displayContent(articleContent3);
             cT3.Show();
             this.Hide();
         }
 
         private void btnCT4_Click(object sender, EventArgs e)
         {
+            string articleContent4 = NHOM12_LTM.Properties.Resources.Content_CT4;
             PictureCT4 cT4 = new PictureCT4(this);
+            cT4.displayContent(articleContent4);
             cT4.Show();
             this.Hide();
         }
 
         private void btnCT5_Click(object sender, EventArgs e)
         {
+            string articleContent5 = NHOM12_LTM.Properties.Resources.Content_CT5;
             PictureCT5 cT5 = new PictureCT5(this);
+            cT5.displayContent(articleContent5);
             cT5.Show();
             this.Hide();
         }

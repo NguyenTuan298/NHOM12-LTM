@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.Cong_Nghe
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtxPictureCN2.Text = content;
+        }
     }
 }

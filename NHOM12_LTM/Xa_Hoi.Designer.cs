@@ -353,7 +353,7 @@
             this.btnXH5.Name = "btnXH5";
             this.btnXH5.Size = new System.Drawing.Size(799, 148);
             this.btnXH5.TabIndex = 9;
-            this.btnXH5.Text = "Hình ảnh phiên bế mạc Hội nghị Ban Chấp hành Trung ương khóa XIII";
+            this.btnXH5.Text = "TP.HCM: Xe máy va vào dải phân cách, người đàn ông tử vong";
             this.btnXH5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.btnXH5.UseVisualStyleBackColor = true;
             this.btnXH5.Click += new System.EventHandler(this.btnXH5_Click);

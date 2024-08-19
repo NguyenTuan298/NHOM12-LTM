@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.Giao_Duc
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtxPictureGD2.Text = content;
+        }
     }
 }

@@ -36,5 +36,9 @@ namespace NHOM12_LTM
             this.previousForm.Show();
             this.Close();
         }
+        public void displayContent(string content)
+        {
+            rtbPicture5.Text = content;
+        }
     }
 }

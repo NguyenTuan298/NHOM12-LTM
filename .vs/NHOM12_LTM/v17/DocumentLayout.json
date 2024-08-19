@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\trang_chu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\trang_chu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Trang_Chu.cs [Design]",
-              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Trang_Chu.cs",
-              "RelativeDocumentMoniker": "NHOM12_LTM\\Trang_Chu.cs",
-              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Trang_Chu.cs [Design]",
-              "RelativeToolTip": "NHOM12_LTM\\Trang_Chu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T15:55:55.023Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Home_News.cs",
               "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
               "RelativeDocumentMoniker": "NHOM12_LTM\\Home_News.cs",
               "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
               "RelativeToolTip": "NHOM12_LTM\\Home_News.cs",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAgwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T14:18:55.586Z",
+              "WhenOpened": "2024-08-18T15:42:39.946Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Properties\\Resources.resx",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Properties\\Resources.resx",
+              "RelativeToolTip": "NHOM12_LTM\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-08-18T16:24:47.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Picture1.cs",
               "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
               "RelativeDocumentMoniker": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
               "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
               "RelativeToolTip": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAEwCIAAAAMAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCMAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:02:05.298Z",
+              "WhenOpened": "2024-08-18T15:40:23.692Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Picture1.cs [Design]",
-              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
-              "RelativeDocumentMoniker": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
-              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs [Design]",
-              "RelativeToolTip": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T10:02:03.214Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

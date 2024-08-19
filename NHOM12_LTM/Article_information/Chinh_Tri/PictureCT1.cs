@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.Chinh_Tri
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtxPictureCT1.Text = content;
+        }
     }
 }

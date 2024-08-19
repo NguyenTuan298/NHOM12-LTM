@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.Giai_Tri
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtxPictureGT3.Text = content;
+        }
     }
 }

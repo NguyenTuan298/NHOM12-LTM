@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
+using NHOM12_LTM.Article_information.Trang_Chu;
+using NHOM12_LTM.Article_information;
 
 namespace NHOM12_LTM
 {
@@ -58,7 +60,9 @@ namespace NHOM12_LTM
             if (imageList.Count > 0 && articleList.Count > 0)                     
             {
                 currentImageIndex = (currentImageIndex + 1) % imageList.Count; 
-                pic1.Image = Image.FromFile(imageList[currentImageIndex]);    
+                pic1.Image = Image.FromFile(imageList[currentImageIndex]);
+                pic1.ImageLocation = imageList[currentImageIndex];
+
                 currentAricleIndex = (currentAricleIndex + 1) % articleList.Count;
                 lblBaiViet.Text = articleList[currentImageIndex].ToString();
             }
@@ -200,6 +204,99 @@ namespace NHOM12_LTM
         {
             Giai_Tri GT = new Giai_Tri();
             GT.Show();
+            this.Hide();
+        }
+
+        private void pic1_Click(object sender, EventArgs e)
+        {
+            if (imageList.Count > 0)
+            {
+                for (int i = 0; i < imageList.Count; i++)
+                {
+                    if (pic1.ImageLocation == imageList[i]) 
+                    {
+                        switch (i)
+                        {
+                            case 0:
+                                Open_Picture1();
+                                break;
+
+                            case 1:
+                                Open_Picture2();
+                                break;
+
+                            case 2:
+                                Open_Picture3();
+                                break;
+
+                            case 3:
+                                Open_Picture4();
+                                break;
+                        }
+                        break;
+                    }
+                }
+            }
+        }
+        private void Open_Picture1()
+        {
+            string articleContent1 = NHOM12_LTM.Properties.Resources.Content_TT1; 
+            Picture1 picture1 = new Picture1(this);
+            picture1.displayContent(articleContent1);
+            picture1.Show();
+            this.Hide();
+        }
+        private void Open_Picture2()
+        {
+            string articleContent2 = NHOM12_LTM.Properties.Resources.Content_TT2;
+            Picture2 picture2 = new Picture2(this);
+            picture2.displayContent(articleContent2);
+            picture2.Show();
+            this.Hide();
+        }
+
+        private void Open_Picture3()
+        {
+            string articleContent3 = NHOM12_LTM.Properties.Resources.Content_TT3;
+            Picture3 picture3 = new Picture3(this);
+            picture3.displayContent(articleContent3);
+            picture3.Show();
+            this.Hide();
+        }
+
+        private void Open_Picture4()
+        {
+            string articleContent4 = NHOM12_LTM.Properties.Resources.Content_TT4;
+            Picture4 picture4 = new Picture4(this);
+            picture4.displayContent(articleContent4);
+            picture4.Show();
+            this.Hide();
+        }
+
+        private void btnA5_Click(object sender, EventArgs e)
+        {
+            string articleContent5 = NHOM12_LTM.Properties.Resources.Content_TT5;
+            Picture5 PT5 = new Picture5(this);
+            PT5.displayContent(articleContent5);
+            PT5.Show();
+            this.Hide();
+        }
+
+        private void btnA6_Click(object sender, EventArgs e)
+        {
+            string articleContent6 = NHOM12_LTM.Properties.Resources.Content_TT6;
+            Picture6 PT6 = new Picture6(this);
+            PT6.displayContent(articleContent6);
+            PT6.Show();
+            this.Hide();
+        }
+
+        private void btnA7_Click(object sender, EventArgs e)
+        {
+            string articleContent7 = NHOM12_LTM.Properties.Resources.Content_TT7;
+            Picture7 PT7 = new Picture7(this);
+            PT7.displayContent(articleContent7);
+            PT7.Show();
             this.Hide();
         }
     }

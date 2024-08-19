@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.The_Thao
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtxPictureTTH4.Text = content;
+        }
     }
 }

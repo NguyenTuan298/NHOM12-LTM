@@ -32,9 +32,13 @@ namespace NHOM12_LTM.Article_information.Chinh_Tri
                     "Thông Báo!",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question
-    );
+                    );
             if (result == DialogResult.Yes)
                 Close();
+        }
+        public void displayContent(string content)
+        {
+            rtxPictureCT2.Text = content;
         }
     }
 }

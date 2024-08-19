@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
 using NHOM12_LTM.Article_information.Xa_Hoi;
+using System.Net.NetworkInformation;
 
 namespace NHOM12_LTM
 {
@@ -153,35 +154,48 @@ namespace NHOM12_LTM
 
         private void btnXH1_Click(object sender, EventArgs e)
         {
+            string articleContent1 = NHOM12_LTM.Properties.Resources.Content_XH1;
             PictureXH1 XH1 = new PictureXH1(this);
+            XH1.displayContent(articleContent1);
             XH1.Show();
             this.Hide();
         }
 
         private void btnXH2_Click(object sender, EventArgs e)
         {
+            string articleContent2 = NHOM12_LTM.Properties.Resources.Content_XH2;
             PictureXH2 XH2 = new PictureXH2(this);
+            XH2.displayContent(articleContent2);
             XH2.Show();
             this.Hide();
         }
 
         private void btnXH3_Click(object sender, EventArgs e)
         {
+            string articleContent3 = NHOM12_LTM.Properties.Resources.Content_XH3;
             PictureXH3 XH3 = new PictureXH3(this);
+            XH3.displayContent(articleContent3);
             XH3.Show();
             this.Hide();
         }
 
         private void btnXH4_Click(object sender, EventArgs e)
         {
+            string articleConten4 = NHOM12_LTM.Properties.Resources.Content_XH4;
             PictureXH4 XH4 = new PictureXH4(this);
+            XH4.displayContent(articleConten4);
             XH4.Show();
             this.Hide();
         }
 
         private void btnXH5_Click(object sender, EventArgs e)
         {
+            string articleContent5 = NHOM12_LTM.Properties.Resources.Content_XH5;
+            //Bitmap iamgeContent1 = NHOM12_LTM.Properties.Resources.XH1;
+
             PictureXH5 XH5 = new PictureXH5(this);
+            XH5.displayContent(articleContent5);
+            //XH5.displayimage(iamgeContent1);
             XH5.Show();
             this.Hide();
         }

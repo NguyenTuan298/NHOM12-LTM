@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.The_Gioi
             this.previousForm.Show();
             this.Close();
         }
+        public void displayContent(string content)
+        {
+            rtbPictureTG3.Text = content;
+        }
     }
 }

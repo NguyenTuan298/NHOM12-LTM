@@ -29,22 +29,13 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Picture3));
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnX = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
+            this.rtbPicture3 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Location = new System.Drawing.Point(27, 161);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1037, 843);
-            this.webBrowser1.TabIndex = 9;
-            this.webBrowser1.Url = new System.Uri("", System.UriKind.Relative);
             // 
             // pictureBox1
             // 
@@ -99,14 +90,25 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // rtbPicture3
+            // 
+            this.rtbPicture3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbPicture3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtbPicture3.Location = new System.Drawing.Point(44, 161);
+            this.rtbPicture3.Name = "rtbPicture3";
+            this.rtbPicture3.ReadOnly = true;
+            this.rtbPicture3.Size = new System.Drawing.Size(1033, 483);
+            this.rtbPicture3.TabIndex = 16;
+            this.rtbPicture3.Text = "";
+            // 
             // Picture3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1089, 1046);
+            this.Controls.Add(this.rtbPicture3);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnBack);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -119,11 +121,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnX;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.RichTextBox rtbPicture3;
     }
 }

@@ -81,8 +81,8 @@ namespace NHOM12_LTM
 
             if (imageList.Count > 0 && articleList.Count > 0)
             {
-                pic1.Image = Image.FromFile(imageList[0]);      
-                lblBaiViet.Text = articleList[0].ToString();
+                pic1.Image = Image.FromFile(imageList[0]);      // đặt hình ảnh đầu tiên khi form Home_News hiển thị 
+                lblBaiViet.Text = articleList[0].ToString();    // đặt têm bài viết đầu tiên khi form hiển thị
             }
         }
         private void btnX_Click(object sender, EventArgs e)
@@ -133,36 +133,48 @@ namespace NHOM12_LTM
 
         private void Open_Picture1()
         {
-            Picture1 picture1 = new Picture1(this);
+            // Lấy nội dung bài viết từ tệp Resources.resx (properties)
+            string articleContent1 = NHOM12_LTM.Properties.Resources.Content_TT1;   // name: Content_TT1
+            Picture1 picture1 = new Picture1(this);    // this như là đối số của form Picture1 ( 'public Picture1(Form previousNewsForm )' )
+            // Truyền nội dung bài viết vào form Picture1 và hiển thị
+            picture1.displayContent(articleContent1);
             picture1.Show();
             this.Hide();
         }
 
         private void Open_Picture2()
         {
+            string articleContent2 = NHOM12_LTM.Properties.Resources.Content_TT2;
             Picture2 picture2 = new Picture2(this);
+            picture2.displayContent(articleContent2);
             picture2.Show();
             this.Hide();
         }
 
         private void Open_Picture3()
         {
+            string articleContent3 = NHOM12_LTM.Properties.Resources.Content_TT3;
             Picture3 picture3 = new Picture3(this);
+            picture3.displayContent(articleContent3);
             picture3.Show();
             this.Hide();
         }
 
         private void Open_Picture4()
         {
+            string articleContent4 = NHOM12_LTM.Properties.Resources.Content_TT4;
             Picture4 picture4 = new Picture4(this);
+            picture4.displayContent(articleContent4);
             picture4.Show();
             this.Hide();
         }
+
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
 
         }
+
 
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
@@ -228,21 +240,27 @@ namespace NHOM12_LTM
 
         private void btnA5_Click(object sender, EventArgs e)
         {
+            string articleContent5 = NHOM12_LTM.Properties.Resources.Content_TT5;
             Picture5 PT5 = new Picture5(this);
+            PT5.displayContent(articleContent5);
             PT5.Show();
             this.Hide();
         }
 
         private void btnA6_Click(object sender, EventArgs e)
         {
+            string articleContent6 = NHOM12_LTM.Properties.Resources.Content_TT6;
             Picture6 PT6 = new Picture6(this);
+            PT6.displayContent(articleContent6);
             PT6.Show();
             this.Hide();
         }
 
         private void btnA7_Click(object sender, EventArgs e)
         {
+            string articleContent7 = NHOM12_LTM.Properties.Resources.Content_TT7;
             Picture7 PT7 = new Picture7(this);
+            PT7.displayContent(articleContent7);
             PT7.Show();
             this.Hide();
         }

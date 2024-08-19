@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.Phap_Luat
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtxPicturePL3.Text = content;
+        }
     }
 }

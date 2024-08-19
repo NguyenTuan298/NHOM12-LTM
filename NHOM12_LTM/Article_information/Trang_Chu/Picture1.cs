@@ -35,5 +35,12 @@ namespace NHOM12_LTM.Article_information.Trang_Chu
             this.previousForm.Show();   // mở lại form trước đó 
             this.Close();               // Đóng form hiện tại
         }
+
+        // Phương thức này nhận nội dung bài viết và hiển thị nó trong rtbPicture1
+        public void displayContent(string content)      
+        {
+            rtbPicture1.Text = content; 
+            //webBrowser1.DocumentText = content;
+        }
     }
 }

@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.Trang_Chu
             this.previousForm.Show();
             this.Close();
         }
+        public void displayContent(string content)
+        {
+            rtbPicture3.Text = content;
+        }
     }
 }

@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.Xa_Hoi
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtxPictureXH3.Text = content;
+        }
     }
 }

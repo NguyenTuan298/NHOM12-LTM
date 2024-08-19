@@ -36,5 +36,14 @@ namespace NHOM12_LTM.Article_information.Xa_Hoi
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtbPicture5.Text = content;
+            //webBrowser1.DocumentText = content;
+        }
+        //public void displayImage(Bitmap bitmap)
+        //{
+        //    rtbPicture5.Image = bitmap;
+        //}
     }
 }

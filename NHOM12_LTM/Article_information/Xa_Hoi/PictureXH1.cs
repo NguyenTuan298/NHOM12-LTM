@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information.Xa_Hoi
             this.previousForm.Show();
             this.Close();
         }
+        public void displayContent(string content)
+        {
+            rtxPictureXH1.Text = content;
+        }
     }
 }

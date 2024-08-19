@@ -36,5 +36,9 @@ namespace NHOM12_LTM.Article_information
             if (result == DialogResult.Yes)
                 Close();
         }
+        public void displayContent(string content)
+        {
+            rtbPicture6.Text = content;
+        }
     }
 }

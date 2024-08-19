@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NHOM12_LTM.Properties
-{
-
-
+namespace NHOM12_LTM.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,647 @@ namespace NHOM12_LTM.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NHOM12_LTM.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                 ĐỐI MẶT LÀN SỐNG CHỈ TRÍCH, GOOGLE GỠ QUẢNG CÁO TẠO OLYMPIC
+        ///               Google dừng phát sóng quảng cáo về Gemini sau khi nhận hàng loạt chỉ trích của cộng đồng vì lạm dụng AI để giúp bé gái viết thư.
+        ///
+        ///              &quot;Gemini, hãy giúp con gái tôi viết thư nói với Sydney rằng cô ấy đã truyền cảm hứng thế nào cho người hâm mộ&quot;, là nội dung quảng cáo của Google phát trên các kênh truyền hình về Olympic Paris 2024 đầu tháng 8. Trong đó, người cha yêu cầu Gemini viết thư cho Sydney McLaughli [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CN1 {
+            get {
+                return ResourceManager.GetString("Content_CN1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to            VÒNG CỔ AI GÂY TRANH CÃI CỦA CHÀNG TRAI 21 TUỔI BỎ HỌC HARVARD
+        ///                Friend, thiết bị AI đeo cổ, lắng nghe người dùng và trò chuyện với họ khi cô đơn, nhưng gây lo ngại vì có thể bị lợi dụng nghe lén.
+        ///
+        ///                Người đứng sau Friend là Avi Schiffman. Anh từng nổi tiếng trong đại dịch khi tạo website theo dõi Covid-19 phổ biến nhất thế giới với 25 triệu lượt xem mỗi ngày. Anh sống trên đảo Mercer gần Seattle, được truyền thông Mỹ đánh giá là tài năng công nghệ khi tự học lập tr [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CN2 {
+            get {
+                return ResourceManager.GetString("Content_CN2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                            TRUNG QUỐC THỬ NGHIỆM XÁC THỰC BẰNG &quot;DANH TÍNH ẢO &quot;
+        ///                 Người dùng Internet tại Trung Quốc có thể tạo ID ảo để dùng dịch vụ nhằm tránh lộ thông tin cá nhân, nhưng gây lo ngại nguy cơ bị kiểm soát.
+        ///
+        ///                 Đề xuất về chương trình thử nghiệm danh tính ảo trên không gian mạng - Cyberspace ID được Bộ Công an và Cục Quản lý Không gian mạng Trung Quốc CAC đưa ra cuối tháng 7, nhưng đang sự chú ý sau khi hàng loạt nền tảng lớn tại nước này bắt đầu thử nghiệm và  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CN3 {
+            get {
+                return ResourceManager.GetString("Content_CN3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                               TRÀN LAN THIẾT BỊ ĐỊNH VỊ GIÁ VÀI CHỤC NGHÌN ĐỒNG
+        ///               Có giá chưa tới 100.000 đồng, các thiết bị định vị tương thích với iPhone dễ mua song chất lượng kém và tiềm ẩn nguy cơ bị lạm dụng
+        ///
+        ///              &quot;Tôi mua 5 chiếc giá 500.000 đồng trên một nhóm Facebook, ban đầu sử dụng thấy hoạt động khá tốt&quot;, Trần Tiến (TP HCM) nói. Anh cho biết đang dùng thiết bị làm móc khóa, để trong túi xách, đeo cho thú cưng và gắn trên xe máy để chống trộm.
+        ///
+        ///
+        ///               Vài thán [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CN4 {
+            get {
+                return ResourceManager.GetString("Content_CN4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                           CÔNG NGHÊ BẤM GIỜ TẠI OLYMPIC ĐÃ THAY ĐỔI NHƯ THẾ NÀO
+        ///                Từ chiếc đồng hồ cơ gắn trên xe đạp, thiết bị bấm giờ tại Olympic tiến hóa mạnh mẽ, hiện cho độ chính xác tới phần triệu giây.
+        ///
+        ///                Thế vận hội hiện đại lần đầu được tổ chức tại Athena, Hy Lạp năm 1896, với việc tính giờ thô sơ. Ví dụ, với môn chạy bộ marathon, vận động viên Spyridon Louis chiến thắng với 2 giờ 58 phút 50 giây. Thời gian được tính thông qua đồng hồ cơ gắn lên xe đạp và chạy trước m [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CN5 {
+            get {
+                return ResourceManager.GetString("Content_CN5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                               TRUNG ƯƠNG CHO THÔI CHỨC MỘT BÍ THƯ, 3 ỦY VIÊN
+        ///         Trung ương đồng ý để ông Lê Minh Khái thôi giữ chức vụ Bí thư Trung ương Đảng, Ủy viên Trung ương Đảng khóa 13; các ông Đặng Quốc Khánh, Nguyễn Xuân Ký, Chẩu Văn Lâm thôi chức Ủy viên Trung ương Đảng khóa 13.
+        ///          Tại thông cáo phát sau hội nghị chiều 3/8, Văn phòng Trung ương Đảng cho biết trên cơ sở báo cáo của Ủy ban Kiểm tra Trung ương và đề nghị của Ban Tổ chức Trung ương, Ban Chấp hành Trung ương Đảng nhận thấ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CT1 {
+            get {
+                return ResourceManager.GetString("Content_CT1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                               LÃNH ĐẠO CÁC NƯỚC CHỨC MỪNG TỔNG BÍ THƯ TÔ LÂM
+        ///           Lãnh đạo Lào, Trung Quốc, Campuchia và Nga gửi điện, thư chúc mừng nhân dịp Chủ tịch nước Tô Lâm được bầu làm Tổng Bí thư.
+        ///          &quot;Thay mặt Ban Chấp hành Trung ương đảng Nhân dân Cách mạng Lào và nhân danh cá nhân, tôi vinh dự và nhiệt liệt chúc mừng đồng chí Tô Lâm đã được bầu giữ chức Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam&quot;, Tổng Bí thư, Chủ tịch nước Lào Thongloun Sisoulith cho biết trong điệ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CT2 {
+            get {
+                return ResourceManager.GetString("Content_CT2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                        VIỆT NAM - ẤN ĐỘ PHẤN ĐẤU TĂNG GẤP ĐÔI KIM NGẠCH THƯƠNG MẠI
+        ///            Thủ tướng Phạm Minh Chính hội đàm với người đồng cấp Ấn Độ, nhất trí tăng kim ngạch thương mại, đầu tư hai chiều lên gấp đôi vào năm 2030, cùng các biện pháp tăng cường hợp tác khác.
+        ///Tại hội đàm trưa 1/8 tại New Delhi, Thủ tướng Phạm Minh Chính và Thủ tướng Ấn Độ Narendra Modi đánh giá kể từ khi xác lập quan hệ Đối tác Chiến lược Toàn diện năm 2016 đến nay, hai nước đã có những bước tiến vượt bậc trong hợp tác t [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CT3 {
+            get {
+                return ResourceManager.GetString("Content_CT3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                     THÁI LAN TREO CỜ RỦ TƯỚNG NHỚ TỔNG BÍ THƯ NGUYỄN PHÚ TRỌNG
+        ///            Thủ tướng Thái Lan yêu cầu các cơ quan chính phủ, doanh nghiệp nhà nước treo cờ rủ trong ngày 1-2/8 để tưởng nhớ Tổng Bí thư Nguyễn Phú Trọng.
+        ///
+        ///            Chai Wachirang, phát ngôn viên Văn phòng Thủ tướng Thái Lan, cho biết quyết định treo cờ rủ trong hai ngày để tưởng nhớ Tổng Bí thư Nguyễn Phú Trọng được Thủ tướng Settha Thavisin thông qua hôm 31/7.
+        ///
+        ///            Thủ tướng Thavisin hôm 20/7 gửi lời chia buồn s [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CT4 {
+            get {
+                return ResourceManager.GetString("Content_CT4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                       QUẢNG NGÃI CÓ TÂN CHỦ TỊCH UBND TỈNH 
+        ///            Ông Nguyễn Hoàng Giang, 53 tuổi, tiến sĩ Kinh tế, nguyên Thứ trưởng Bộ Khoa học và Công nghệ, được bầu làm Chủ tịch UBND tỉnh Quảng Ngãi, sáng 2/8.
+        ///
+        ///            Ông Giang được bầu làm Chủ tịch UBND tỉnh Quảng Ngãi nhiệm kỳ 2021-2026 tại kỳ họp thứ 26 của HĐND tỉnh Quảng Ngãi khóa 13; với 45/45 tổng số phiếu bầu, đạt 100% tổng số đại biểu có mặt.
+        ///
+        ///            Phát biểu sau khi nhận nhiệm vụ, tân chủ tịch UBND tỉnh Qu [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_CT5 {
+            get {
+                return ResourceManager.GetString("Content_CT5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                               HÀNG LOẠT TRƯỜNG MỞ NGÀNH THIẾT KẾ VI MẠCH 
+        ///           Hơn 10 trường đại học thông báo mở chuyên ngành Thiết kế vi mạch, Công nghệ bán dẫn, nhằm đón đầu nhu cầu nhân lực.
+        ///
+        ///           Năm nay là lần đầu tiên Đại học Bách khoa Hà Nội, trường Đại học Công nghệ thông tin và Truyền thông Việt - Hàn và trường Đại học Bách khoa Đà Nẵng, Đại học Cần Thơ, Đại học Quốc tế Sài Gòn (SIU), Phenikaa, FPT tuyển sinh chuyên ngành Thiết kế vi mạch, Vi điện tử - Thiết kế vi mạch. Ngoài ra, Đạ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GD1 {
+            get {
+                return ResourceManager.GetString("Content_GD1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                      TỈNH ĐẦU TIÊN CÔNG BỐ PHƯƠNG ÁN THI LỚP 10 NĂM 2025
+        ///               Quảng Nam tổ chức thi ba môn, kết hợp học bạ THCS để tuyển sinh lớp 10, sau 10 năm chỉ xét tuyển.
+        ///Phương án tuyển sinh vào lớp 10 công lập không chuyên từ năm học 2025-2026 vừa được lãnh đạo tỉnh Quảng Nam phê duyệt. Đây là địa phương công bố phương án thi sớm nhất cả nước.
+        ///
+        ///               Theo đó, việc tuyển sinh vào lớp 10 theo thức kết hợp điểm thi ba môn Ngữ Văn, Toán, Tiếng Anh và kết quả học tập, rèn luyện của  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GD2 {
+            get {
+                return ResourceManager.GetString("Content_GD2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                       MỘT SỐ BÀI THI LỚP 10 Ở HẢI PHONG &apos;CÓ DẤU HIỆU BẤT THƯỜNG&apos;
+        ///                    Thanh tra Bộ Giáo dục kết luận một số bài thi vào lớp 10 ở Hải Phòng có dấu hiệu bất thường, còn Sở cho hay chỉ mang tính kỹ thuật và đã được khắc phục.
+        ///
+        ///                    Kết luận thanh tra đột xuất với công tác chấm thi vào lớp 10 của Hải Phòng, được Bộ Giáo dục và Đào tạo công bố ngày 2/8.
+        ///
+        ///                    Cơ quan chức năng nhận định một số giám khảo chưa nắm vững quy chế, để xảy ra sai sót tro [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GD3 {
+            get {
+                return ResourceManager.GetString("Content_GD3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                ĐƯỜNG ĐẾN HUY CHƯƠNG VÀNG HÓA HỌC QUỐC TẾ CỦA NAM SINH VIÊN TRƯỜNG AMS
+        ///          Được truyền cảm hứng từ những tấm huy chương IChO, Đăng Khôi theo đuổi môn Hóa từ lớp 8 với quyết tâm chinh phục kỳ thi này.
+        ///
+        ///          Trần Đăng Khôi là học sinh lớp Hóa 1, trường THPT Hà Nội - Amsterdam (Ams). Tại Olympic Hóa học quốc tế (IChO) năm nay diễn ra từ ngày 21 đến 30/7 ở Arab Saudi, Khôi giành huy chương vàng, xếp hạng 23 trên hơn 300 thí sinh. Tổng điểm của Khôi là 75,22/100, riêng phần thi lý th [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GD4 {
+            get {
+                return ResourceManager.GetString("Content_GD4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to       THỦ KHOA ĐẦU VÀO ĐH KINH TẾ QUỐC DÂN ĐẠT ĐIỂM SAT GẦN TUYỆT ĐỐI
+        ///                 Với 1590/1600 điểm SAT, Vân Hà trở thành thủ khoa đầu vào Đại học Kinh tế Quốc dân theo diện xét tuyển bằng chứng chỉ SAT/ACT.
+        ///
+        ///                 Đỗ Thị Vân Hà, cựu học sinh lớp chuyên Tiếng Anh, trường THPT chuyên Nguyễn Trãi, Hải Dương, nhận tin hôm 2/8, hai ngày sau khi hết hạn đăng ký xét tuyển đại học. SAT và ACT là bài thi đánh giá năng lực được sử dụng phổ biến trong tuyển sinh đầu vào đại học ở Mỹ và nhiều nước  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GD5 {
+            get {
+                return ResourceManager.GetString("Content_GD5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                    NOO PHƯƠNG THỊNH BẤT NGỜ HÁT CÙNG CẨM LY
+        ///                     Noo Phước Thịnh bất ngờ xuất hiện trên sân khấu kỷ niệm 30 năm ca hát của Cẩm Ly, cùng hát &quot;Em sẽ là người ra đi&quot;.
+        ///
+        ///                      Trong liveshow tối 3/8 tại TP HCM, khi đang hát một vài câu đầu ca khúc do Thái Khang sáng tác, Cẩm Ly ngỡ ngàng khi thấy đàn em bước ra từ phía cánh gà hòa giọng cùng cô bản hit. Khán giả cổ vũ nồng nhiệt cho màn song ca của hai nghệ sĩ. Noo Phước Thịnh nói chính fan của đ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GT1 {
+            get {
+                return ResourceManager.GetString("Content_GT1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                   NGHỆ SĨ TỰ LONG GÂY THÍCH THÚ KHI ĐỌC RAP
+        ///                 NSND Tự Long đọc rap khiến khán giả reo hò trong công diễn hai của &quot;Anh trai vượt ngàn chông gai&quot;, tối 3/8.
+        ///
+        ///                 Nghệ sĩ Tự Long cùng các đồng đội nhóm hát Tinh Tú thể hiện nhạc phẩm Chợt nghe bước em về (Quốc Vượng) ở buổi công diễn thứ hai (tập năm cuộc thi). Nhóm lên ý tưởng thực hiện tiết mục truyền tải thông điệp: Thời gian qua là thứ không bao giờ quay trở lại. Mỗi người nên trân quý những gì x [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GT2 {
+            get {
+                return ResourceManager.GetString("Content_GT2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                  THÚ VUI NẤU ĂN CỦA TRUNG DŨNG TẠI NHÀ VƯỜN
+        ///                  Trung Dũng - diễn viên &quot;Gạo nếp gạo tẻ&quot; - về nhà vườn ở Vĩnh Long nấu món đồng quê, thư giãn sau những ngày làm việc.
+        ///
+        ///                  Nghệ sĩ cho biết thu xếp công việc từ TP HCM về Vĩnh Long hai tuần một lần để thăm mẹ cũng như nghỉ ngơi. Trung Dũng đam mê nấu ăn từ nhỏ, từng muốn trở thành đầu bếp. Mỗi khi về quê, anh thường nấu những món ăn, cùng người thân quây quần bên mâm cơm.
+        ///
+        ///                  Công  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GT3 {
+            get {
+                return ResourceManager.GetString("Content_GT3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                    &quot;TRÙM PHIM KIẾM HIỆP&quot; BỊ PHẠT VÌ TIẾT LỘ ĐỜI TƯ VỢ CŨ
+        ///                   Đạo diễn, nhà sản xuất phim Trương Kỷ Trung bị tòa án phạt tiền vì công khai thông tin cá nhân của vợ cũ.
+        ///
+        ///                   Theo trang Caijing ngày 2/8, tòa án Internet Bắc Kinh xử ông Trương thua kiện bà Phàn Hinh Mạn, yêu cầu ông bồi thường tổn thương tinh thần số tiền 20.000 nhân dân tệ (70 triệu đồng) đồng thời chi trả chi phí kiện tụng, tổng 25.000 tệ (87,5 triệu đồng). Trương Kỷ Trung còn b [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GT4 {
+            get {
+                return ResourceManager.GetString("Content_GT4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                     NỮ SINH 17 TUỔI ĐĂNG QUANG MISS TEEN USA 2024
+        ///                  Addie Carver - đại diện bang Mississippi - đoạt vương miện Miss Teen USA 2024 sau gần ba tháng kể từ khi hoa hậu tiền nhiệm xin trả danh hiệu.
+        ///
+        ///                  Theo CNN, Addie Carver, 17 tuổi, vượt qua 51 thí sinh để giành ngôi vị cao nhất trong chung kết tại nhà hát Peacock, Los Angeles hôm 1/8. Cô hiện là học sinh trường Trung học Phổ thông Lawrence County, có thành tích tốt trong lớp.
+        ///
+        ///              [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_GT5 {
+            get {
+                return ResourceManager.GetString("Content_GT5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                         CHUYÊN GIA: LUẬT DẪN ĐỘ SẼ GIẢI QUYẾT ĐƯỢC NHIỀU VẤN ĐỀ ĐỐI VỚI TỘI PHẠM
+        ///            Theo các chuyên gia, Luật Dẫn độ có hiệu lực sẽ tác động rất lớn đến việc xử lý tội phạm, đặc biệt là người phạm tội đã bỏ trốn và đang bị truy nã trong các vụ án.
+        ///
+        ///            Bộ Công an đang lấy ý kiến về dự thảo Luật Dẫn độ (LDĐ), nhằm hoàn thiện pháp luật về dẫn độ đồng bộ, hiện đại, chặt chẽ, khả thi, phù hợp với quốc tế; nâng cao hiệu quả truy bắt những người thực hiện hành vi phạm tội rồi b [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_PL1 {
+            get {
+                return ResourceManager.GetString("Content_PL1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                          CÔ GÁI TRỐN TRUY NÃ BỊ BẮT KHI VỪA XUỐNG MÁY BAY
+        ///                Trương Thị Hương, 27 tuổi, bị cảnh sát bắt giữ khi vừa đáp chuyến bay từ Thái Lan, nhập cảnh sân bay Tân Sơn Nhất, TP HCM, sau 6 năm trốn thi hành án.
+        ///
+        ///                 Ngày 3/8, Hương bị di lý về Công an tỉnh Đăk Nông để điều tra, sau 6 năm trốn truy nã về tội Trộm cắp tài sản.
+        ///
+        ///                 Hai hôm trước, Phòng Cảnh sát thi hành án hình sự và Hỗ trợ tư pháp Công an tỉnh Đăk Nông phối hợp lực lượng công an sâ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_PL2 {
+            get {
+                return ResourceManager.GetString("Content_PL2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                  BỊ KHỞI TỐ VÌ GIỚI THIỆU 5 NGƯỜI THÂN CHO NHÓM BUÔN NGƯỜI SANG CAMPUCHIA
+        ///            Phạm Mỹ Nhiên, 31 tuổi, bị cáo buộc môi giới 5 người họ hàng cho nhóm buôn người sang Campuchia làm &quot;việc nhẹ lương cao&quot;, để lấy tiền hoa hồng.
+        ///
+        ///            Nhà chức trách cáo buộc, đầu tháng 5, Nhiên giới thiệu 3 con của một người bác ở xã Nguyễn Phích, huyện U Minh, cho một người ở tỉnh Kiên Giang để đưa sang Campuchia bằng đường tiểu ngạch. Các lao động được hứa làm việc với mức lương 20 triệu đồng mỗ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_PL3 {
+            get {
+                return ResourceManager.GetString("Content_PL3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                 NGƯỜI ĐÀN ÔNG CAMPUCHIA BỊ BẮT KHI MANG TÚI VÀNG QUA BIÊN GIỚI
+        ///           Tang Hour, 42 tuổi, lén mang túi vàng nặng 1,2 kg qua cửa khẩu Khánh Bình về Campuchia thì bị lực lượng hải quan bắt giữ.
+        ///
+        ///           Tang Hour khai, hôm 1/8 đã nhận lời người đàn ông Việt Nam tên Trường (hoặc Trưởng), xách thuê túi vàng này về Campuchia giao cho Kong Ji (chưa rõ nhân thân), với tiền công 10 USD. Khi qua cửa khẩu Khánh Bình, Tang Hour định qua mặt hải quan bằng cách trà trộn vào lối đi dành cho phươ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_PL4 {
+            get {
+                return ResourceManager.GetString("Content_PL4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                     NHÂN VIÊN KIỂM NGƯ ĐẦU THÚ NHẬN HỐI LỘ
+        ///            Đinh Thành Lập, 42 tuổi, nhân viên tại chi cục kiểm ngư thuộc Sở Nông nghiệp và phát triển nông thôn đã đầu thú hành vi nhận hối lộ.
+        ///
+        ///            Ngày 3/8, Lập trình diện cơ quan điều tra, khai nhận hành vi nhận hối lộ khi là thuyền viên tàu tuần tra, kiểm soát. Một ngư dân ngụ huyện Kiên Lương đã cùng đầu thú với Lập.
+        ///Cả hai khai nhận đã đưa và nhận hối lộ liên quan băng nhóm bảo kê biển do Phạm Minh Quyết, 40 tuổi,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_PL5 {
+            get {
+                return ResourceManager.GetString("Content_PL5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                          THÁCH THỨC CUNG CẤP VACCINNE COVID-19 CHO TOÀN CẦU
+        ///       Những thách thức trong sản xuất và vận chuyển vaccine Covid-19 cho thấy nhân loại còn cách vạch đích đánh bại đại dịch rất xa.
+        ///
+        ///       Việc các loại vaccine Covid-19 liên tiếp được phê duyệt vào cuối năm 2020 làm dấy lên hy vọng thế giới có thể đánh bại đại dịch vào năm tới. Nhưng những thách thức về sản xuất và vận chuyển vaccine vẫn là bài toán khó.
+        ///
+        ///        Châu Âu hôm 21/12 nối tiếp Anh và Mỹ bật đèn xanh cho vaccine [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TG1 {
+            get {
+                return ResourceManager.GetString("Content_TG1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                 OKTOBERFEST - LỄ HỘI BIA ĐỨC LỚN NHẤT THẾ GIỚI
+        ///        Khám phá 5 lễ hội nổi tiếng trên thế giới - Carnival Brazil, Oktoberfest, Holi, Songkran và Lễ hội hoa anh đào Nhật Bản. Tận hưởng sự đa dạng văn hóa và khám phá niềm vui sôi động của những lễ hội đặc sắc này.
+        ///
+        ///                                 Khám Phá Văn Hóa Đa Dạng Qua 5 Lễ Hội Nổi Tiếng Trên Thế Giới
+        ///Carnival Brazil – LỄ HỘI HÓA TRANG LỚN NHẤT THẾ GIỚI
+        ///        Carnival, lễ hội văn hóa đáng chú ý nhất tại Brazil,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TG2 {
+            get {
+                return ResourceManager.GetString("Content_TG2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to          CHIẾN LƯỢC CỦA UKRAINE TẤN CÔNG SÂU VÀO LÃNH THỔ NGA KHIẾN MOSCOW ĐAU ĐẦU
+        ///        Một chuyên gia chiến tranh nhận định với Business Insider rằng Ukraine có thể tấn công sâu bất thường vào bên trong lãnh thổ Nga bởi các hệ thống phòng không của Moscow đã bị kéo căng.
+        ///Chiến lược tấn công sâu của Ukraine
+        ///
+        ///        George Barros, một chuyên gia về Nga tại Viện Nghiên cứu Chiến tranh (ISW) ở Mỹ cho biết, nhiều máy bay không người lái của Ukraine có thể xâm nhập qua vị trí mà lẽ ra hệ thống phòng khôn [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TG3 {
+            get {
+                return ResourceManager.GetString("Content_TG3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                  VỤ TRAO ĐỔI TÙ NHÂN LỊCH SỬ: &quot;VŨ KHÍ ĐÀM PHÁN&quot; ĐẶC BIỆT CỦA TRƯỞNG ĐOÀN ĐỨC VÀ ẨN Ý MỞ ĐƯỜNG CỦA NGA
+        ///          Các nhà đàm phán Đức nhìn thấy cơ hội khi phía Nga nói rằng họ muốn kết thúc thỏa thuận trước cuộc bầu cử Mỹ vào tháng 11.
+        ///
+        ///                                                           QUYẾT ĐỊNH CỦA SCHOLZ
+        ///          Rạng sáng, những người lính gác đánh thức các tù binh Nga và dẫn họ lên xe, rồi đưa tới sân bay. Tại đó, họ được các đặc vụ đeo mặt nạ hộ tống lên má [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TG4 {
+            get {
+                return ResourceManager.GetString("Content_TG4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                        TÁC ĐỘNG CỦA TRÍ TUỆ NHÂN TẠO TRONG QUAN HỆ QUỐC TẾ: CƠ HỘI, THÁCH THỨC VÀ ĐỀ XUẤT CHÍNH SÁCH THAM CHIẾU ĐỐI VỚI VIỆT NAM
+        ///          Trí tuệ nhân tạo (AI) được cho là một trong những công nghệ chính trong thế kỷ XXI có tác động mạnh mẽ đến sự vận hành của quan hệ quốc tế. Theo giới phân tích, quốc gia nào trên thế giới có khả năng dẫn dắt sự sáng tạo và kiểm soát được công nghệ AI sẽ nâng cao được sức mạnh quốc gia, năng lực kinh tế, quốc phòng, từ đó làm thay đổi sự cân bằng lực lượn [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TG5 {
+            get {
+                return ResourceManager.GetString("Content_TG5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                 ÔNG TRUMP XUẤT HIỆN, KHUYÊN KHÔNG BÁN BITCOIN
+        ///        Cựu Tổng thống Mỹ khẳng định nếu được trở lại Nhà Trắng, ông sẽ đảm bảo rằng chính phủ liên bang không bao giờ được bán hết số Bitcoin đang nắm giữ.
+        ///
+        ///        Donald Trump có bài phát biểu quan trọng trong Hội nghị Bitcoin 2024 ở Nashville vào ngày 27/7.
+        ///
+        ///        “Suốt một thời gian dài, chính phủ đã vi phạm quy tắc cơ bản mà mọi nhà đầu tư Bitcoin đều thuộc lòng: Không bao giờ bán Bitcoin của mình”, Trump phát biểu tạ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TT1 {
+            get {
+                return ResourceManager.GetString("Content_TT1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                 TÍNH NHỎ NHẤT CẢ NƯỚC DẪN ĐẦU THU HÚT VỐN FDI
+        ///        Tổng vốn đầu tư nước ngoài đăng ký vào Việt Nam đạt hơn 18 tỷ USD trong 7 tháng đầu năm. Trong đó, Bắc Ninh dẫn đầu cả nước khi thu hút gần 3,2 tỷ USD.
+        ///Bắc Ninh thu hút nhiều nhà đầu tư nước ngoài về mở nhà máy. Ảnh: T.L.
+        ///
+        ///        Theo thống kê từ Bộ Kế hoạch và Đầu tư, tính đến ngày 20/7, tổng vốn đầu tư nước ngoài (FDI) đăng ký cấp mới, điều chỉnh và góp vốn mua cổ phần, mua phần vốn góp tại Việt Nam đã đạt hơn 18 tỷ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TT2 {
+            get {
+                return ResourceManager.GetString("Content_TT2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                  CHÙA CẦU &apos;TRẺ HÓA&apos; VẪN ĐÚNG MỤC ĐÍCH TRÙNG TU
+        ///        Theo lãnh đạo Sở ngành địa phương cũng như kiến trúc sư, việc trùng tu chùa Cầu nhằm mục đích cấp bách là giữ công trình bền vững trong mùa mưa bão sắp đến.
+        ///Chùa Cầu sau khi được tu sửa nhìn từ trên cao. Ảnh: Linh Huỳnh.
+        ///
+        ///        Trao đổi với Tri Thức - Znews chiều 29/7, ông Nguyễn Thanh Hồng, Giám đốc Sở Văn hóa, Thể thao và Du lịch tỉnh Quảng Nam, cho biết việc trùng tu di tích chùa Cầu (Hội An) đã và đang đi đúng t [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TT3 {
+            get {
+                return ResourceManager.GetString("Content_TT3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                    CÁ MẬP &quot;COCAINE&quot; TRÀN NGẬP BỜ BIỂN BRAZIL
+        ///        Các nhà khoa học lo ngại rằng cocaine có trong cơ thể cá mập ngoài khơi bờ biển Brazil và có thể làm thay đổi hành vi của chúng.
+        ///
+        ///        Các nhà sinh vật học biển đã thử nghiệm 13 con cá mập mũi nhọn Brazil, được đánh bắt từ vùng nước ven biển gần Rio de Janeiro, và phát hiện tất cả chúng đều có hàm lượng cocaine cao trong cơ và gan, The Telegraph đưa tin.
+        ///
+        ///        Trong một bài báo đăng trên tạp chí Science of the To [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TT4 {
+            get {
+                return ResourceManager.GetString("Content_TT4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                   XÂY TƯỜNG CAO 2M CHỐNG NGẬP CAO TỐC DẦU GIÂY - PHAN THIẾT
+        ///        Nhà thầu xây tường bêtông dọc cao tốc Dầu Giây - Phan Thiết qua huyện Hàm Tân, giúp chống ngập, không để xảy ra gián đoạn giao thông ở tuyến huyết mạch.
+        ///
+        ///        Bức tường dài hơn 100 m (gồm hai đoạn liền kề) xây bằng đá chẻ, bêtông phía bên phải cao tốc (hướng bắc vào) ở xã Sông Phan. Khu vực này nằm ở vị trí trũng thấp vì hai bên là đầu dốc, dễ bị ngập khi nước sông Phan cách đó hơn 150 m tràn vào.
+        ///
+        ///        Ngoài ra ở [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TT5 {
+            get {
+                return ResourceManager.GetString("Content_TT5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                       VIỆT NAM SẼ GIÚP TIMOR LESTE ĐẢM BẢO AN NINH LƯƠNG THỰC
+        ///        Chủ tịch nước Tô Lâm khẳng định Việt Nam sẵn sàng tiếp tục cung cấp gạo, góp phần giúp Timor Leste bảo đảm an ninh lương thực.
+        ///
+        ///        Trong cuộc hội đàm tại Phủ Chủ tịch ngày 1/8, Chủ tịch nước Tô Lâm và Tổng thống Timor Leste Jose Ramos-Horta ghi nhận những bước tiến của quan hệ song phương, trong đó hợp tác kinh tế, thương mại đạt kết quả đáng khích lệ.
+        ///
+        ///        Kim ngạch xuất nhập khẩu hai nước hứa hẹn cao h [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TT6 {
+            get {
+                return ResourceManager.GetString("Content_TT6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                           BẢO TÀNG TRƯỜNG SA CÓ KIẾN THỨC HƯỚNG VỀ PHÍA ĐÔNG
+        ///        Theo thiết kế, bảo tàng được lấy cảm hứng từ khu tưởng niệm chiến sĩ Gạc Ma, với ba hướng nhìn ra Biển Đông.
+        ///
+        ///        Ngày 31/7, UBND tỉnh Khánh Hòa đã có quyết định phê duyệt kết quả thi tuyển phương án kiến trúc, cảnh quan công trình Bảo tàng Trường Sa.
+        ///
+        ///        Giải nhất thuộc về Công ty TNHH HUNI Việt Nam (Huni Architectes) là phương án trúng tuyển thiết kế kiến trúc, cảnh quan công trình Bảo tàng Trường Sa.
+        ///
+        ///    [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TT7 {
+            get {
+                return ResourceManager.GetString("Content_TT7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                            XẠ THỦ XINH ĐẸP ẤN ĐỘ ĐỔI ĐỜI NHỜ OLYMPIC
+        ///                 Xạ thủ Manu Bhaker được hàng chục nhãn hàng săn đón để ký hợp đồng, sau khi giành hai huy chương Olympic 2024.
+        ///
+        ///                 Từ chỗ không quá nổi tiếng, Bhaker bỗng chốc được săn đón ở quê nhà sau màn trình diễn tại Olympic Paris. Đã có 40 thương hiệu liên hệ với Bhaker để mời cô làm đại sứ, với thù lao tăng gấp sáu đến bảy lần so với trước đây.
+        ///
+        ///                 Bhaker đã giành HC đồng súng ngắn hơi 10m cá nhân v [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TTH1 {
+            get {
+                return ResourceManager.GetString("Content_TTH1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                               KATIE LEDECKY BẮT KỊP KỈ LỤC CỦA MICHAEL PHELPS
+        ///              Huyền thoại bơi nữ Katie Ledecky lần thứ tư liên tiếp giành HC vàng bơi 800m tự do ở Olympic, bắt kịp kỷ lục của huyền thoại Michael Phelps.
+        ///
+        ///              Ledecky đã thống trị nội dung này từ Olympic 2012. Chiến thắng ở Paris đồng nghĩa cô và Phelps là hai kình ngư hiếm hoi giành HC vàng Olympic bốn lần ở cùng một nội dung. Trong khi Ledecky vô đối ở cự ly 800m, Phelps đã bốn lần chiến thắng nội dung 200m hỗn hợp [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TTH2 {
+            get {
+                return ResourceManager.GetString("Content_TTH2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                         XÁC ĐỊNH BỐN ĐỘI VÀO BÁN KẾT BÓNG ĐÁ NỮ OLYMPIC 2024
+        ///                 Brazil thắng chủ nhà Pháp, trong khi đương kim vô địch thế giới Tây Ban Nha ngược dòng hạ Colombia để vào bán kết bóng đá nữ Olympic Paris 2024, bên cạnh Mỹ và Đức.
+        ///
+        ///                 Tứ kết bóng đá nữ Olympic 2024 hôm qua diễn ra hấp dẫn, với ba trận bước vào hiệp phụ. Trong đó có hai trận phải giải quyết thắng thua trên loạt luân lưu. Sau cùng, bốn cái tên vào bán kết là Mỹ, Tây Ban Nha, Đức và Brazil.
+        ///
+        ///      [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TTH3 {
+            get {
+                return ResourceManager.GetString("Content_TTH3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                          TRỊNH THU VINH ĐỨNG THỨ BẢY Ở CHUNG KẾT 25M SÚNG NGẮN OLYMPIC 2024
+        ///                 Xạ thủ Trịnh Thu Vinh thi đấu đến loạt bắn thứ năm, đạt 16 điểm và đứng thứ bảy chung cuộc, ở chung kết 25m súng ngắn thể thao nữ Olympic Paris 2024. Trịnh Thu Vinh vào chung kết nhờ thành tích 587 điểm ở vòng loại 25m súng ngắn thể thao nữ Olympic Paris 2024. Cô đứng thứ 12 ở bài bắn chậm, nhưng bứt phá với 297 điểm ở bài bắn nhanh.
+        ///
+        ///                 Bước vào chung kết chiều nay 3/8, Trịnh Thu Vi [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TTH4 {
+            get {
+                return ResourceManager.GetString("Content_TTH4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                  QUẦN VỢT TRUNG QUỐC LẦN ĐẦU DÀNH HUY CHƯƠNG VÀNG ĐÁNH ĐƠN OLYMPIC
+        ///             Zheng Qinwen mang về HC vàng lịch sử cho quần vợt Trung Quốc, khi thắng Donna Vekic 6-2, 6-3 ở chung kết đơn nữ Olympic Paris hôm 3/8.
+        ///
+        ///              Rất nhiều lá cờ Trung Quốc tung bay trên khán đài sân Philippe Chatrier hôm 3/8. Sau khi đánh bại Vekic ở chung kết đơn nữ, Zheng Qinwen khoác một trong số những lá cờ đó lên đôi vai. Tay vợt 21 tuổi nói rằng cha cô và toàn bộ người hâm mộ Trung Quốc đều xem Olym [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_TTH5 {
+            get {
+                return ResourceManager.GetString("Content_TTH5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                  QUYỀN HẠN CỦA CSGT KHI KIỂM SOÁT TRẬT TỰ AN TOÀN GIAO THÔNG THEO LUẬT MỚI
+        ///          Các lực lượng được phép thực hiện tuần tra, kiểm soát về trật tự an toàn giao thông đường bộ bao gồm: Lực lượng Cảnh sát giao thông; Lực lượng, đơn vị khác trong Công an nhân dân, được huy động tham gia phối hợp với Cảnh sát giao thông thực hiện tuần tra, kiểm soát trong trường hợp cần thiết. Theo đó Lực lượng CSGT có 5 quyền hạn khi thực hiện nhiệm vụ tuần tra, kiểm soát.
+        ///
+        ///          Luật Trật tự an toàn  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_XH1 {
+            get {
+                return ResourceManager.GetString("Content_XH1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                      THI RỚT BẰNG LÁI Ô TÔ, TÀI XẾ CHẠY NGƯỢC CHIỀU TRÊN CAO TỐC
+        ///          Dù chưa có giấy phép lái xe do thi rớt nhưng tài xế tại Ninh Thuận vẫn điều khiển ô tô vào đường cao tốc Cam Lâm – Vĩnh Hảo rồi quay đầu chạy ngược chiều do… nhầm đường!
+        ///
+        ///         Ngày 4-8, Trung tá Hoàng Xuân Ân, Đội trưởng Đội Tuần tra kiểm soát giao thông đường bộ cao tốc số 6, Phòng 8 (Cục CSGT- Bộ Công an), cho biết đã lập biên bản đối với tài xế ô tô quay đầu xe chạy ngược chiều trên tuyến đường cao tốc Cam L [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_XH2 {
+            get {
+                return ResourceManager.GetString("Content_XH2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                   TRUNG ĐOÀN 31 - LÁ CHẮN THÉP ĐẢM BẢO AN TOÀN CÁC MỤC TIÊU TRỌNG ĐIỂM
+        ///          Trung đoàn Cảnh sát bảo vệ mục tiêu chính trị, kinh tế, văn hóa xã hội, khoa học kỹ thuật, Bộ Tư lệnh Cảnh sát cơ động vừa trang trọng kỷ niệm 10 năm ngày thành lập, đón nhận Huân chương Chiến công hạng Ba.
+        ///
+        ///          Ngày 4/8, Đảng ủy, Lãnh đạo Bộ Tư lệnh CSCĐ long trọng tổ chức Lễ kỷ niệm 10 năm Ngày thành lập Trung đoàn Cảnh sát bảo vệ mục tiêu Chính trị, kinh tế, văn hóa xã hội, khoa học - kỹ thuật (25/7/ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_XH3 {
+            get {
+                return ResourceManager.GetString("Content_XH3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                PHÊ CHUẨN KẾT QUẢ BẦU CHỦ TỊCH UBND TỈNH QUẢNG NGÃI NGUYỄN HOÀNG GIANG
+        ///         Thủ tướng quyết định phê chuẩn kết quả bầu chức vụ Chủ tịch UBND tỉnh Quảng Ngãi nhiệm kỳ 2021 - 2026 đối với ông Nguyễn Hoàng Giang.
+        ///         Thủ tướng Phạm Minh Chính ký Quyết định số 766 phê chuẩn kết quả bầu chức vụ Chủ tịch UBND tỉnh Quảng Ngãi nhiệm kỳ 2021 - 2026 đối với ông Nguyễn Hoàng Giang, Phó Bí thư Tỉnh ủy Quảng Ngãi.
+        ///
+        ///         Ngày 2/8, HĐND tỉnh Quảng Ngãi khoá XIII nhiệm kỳ 2021-2026 tổ chức k [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_XH4 {
+            get {
+                return ResourceManager.GetString("Content_XH4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                      TPHCM: XE MÁY VA VÀO DẢI PHÂN CÁCH, NGƯỜI ĐÀN ÔNG TỬ VONG
+        ///          Tối 17/8, Công an TP Thủ Đức, TP.HCM phối hợp cùng Đội CSGT Hàng Xanh vừa tổ chức khám nghiệm hiện trường để điều tra vụ tai nạn xe máy va chạm dải phân cách làm một người tử vong.
+        ///
+        ///          Nạn nhân là anh Lê Đình Lâu (38 tuổi, ngụ quận 7, TP.HCM). Khoảng 17h30 cùng ngày, anh Lâu điều khiển xe máy biển số 95D1-098.60 chạy trên đường Phạm Văn Đồng, hướng từ cầu vượt Linh Xuân đi cầu Bình Lợi.
+        ///
+        ///          Khi còn cá [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Content_XH5 {
+            get {
+                return ResourceManager.GetString("Content_XH5", resourceCulture);
             }
         }
     }
