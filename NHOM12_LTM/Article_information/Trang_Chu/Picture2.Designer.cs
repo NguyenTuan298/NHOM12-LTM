@@ -110,7 +110,7 @@
             this.rtbPicture2.Location = new System.Drawing.Point(44, 161);
             this.rtbPicture2.Name = "rtbPicture2";
             this.rtbPicture2.ReadOnly = true;
-            this.rtbPicture2.Size = new System.Drawing.Size(1033, 483);
+            this.rtbPicture2.Size = new System.Drawing.Size(1033, 493);
             this.rtbPicture2.TabIndex = 6;
             this.rtbPicture2.Text = "";
             // 
@@ -118,7 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 763);
+            this.ClientSize = new System.Drawing.Size(1089, 740);
             this.Controls.Add(this.rtbPicture2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnBack);

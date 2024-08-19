@@ -92,11 +92,12 @@
             // 
             // rtbPicture7
             // 
+            this.rtbPicture7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtbPicture7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbPicture7.Location = new System.Drawing.Point(44, 161);
             this.rtbPicture7.Name = "rtbPicture7";
             this.rtbPicture7.ReadOnly = true;
-            this.rtbPicture7.Size = new System.Drawing.Size(1033, 483);
+            this.rtbPicture7.Size = new System.Drawing.Size(1033, 493);
             this.rtbPicture7.TabIndex = 36;
             this.rtbPicture7.Text = "";
             // 

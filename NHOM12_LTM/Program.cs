@@ -17,7 +17,7 @@ namespace NHOM12_LTM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home_News());
+            Application.Run(new Login());
         }
     }
 }

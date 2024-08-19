@@ -97,7 +97,7 @@
             this.rtbPictureTG2.Location = new System.Drawing.Point(44, 161);
             this.rtbPictureTG2.Name = "rtbPictureTG2";
             this.rtbPictureTG2.ReadOnly = true;
-            this.rtbPictureTG2.Size = new System.Drawing.Size(1033, 483);
+            this.rtbPictureTG2.Size = new System.Drawing.Size(1033, 493);
             this.rtbPictureTG2.TabIndex = 46;
             this.rtbPictureTG2.Text = "";
             // 
@@ -105,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 1046);
+            this.ClientSize = new System.Drawing.Size(1089, 740);
             this.Controls.Add(this.rtbPictureTG2);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);

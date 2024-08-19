@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\article_information\\trang_chu\\picture1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|c:\\nhom12_ltm\\d\u1EF1 \u00E1n chung\\nhom12-ltm\\nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28B3C4A3-63A4-42DA-BAEC-9A313A3C7DB2}|NHOM12_LTM\\NHOM12_LTM.csproj|solutionrelative:nhom12_ltm\\home_news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home_News.cs",
+              "DocumentIndex": 1,
+              "Title": "Home_News.cs [Design]",
               "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
               "RelativeDocumentMoniker": "NHOM12_LTM\\Home_News.cs",
-              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs",
-              "RelativeToolTip": "NHOM12_LTM\\Home_News.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAgwBsAAAAJAAAA",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Home_News.cs [Design]",
+              "RelativeToolTip": "NHOM12_LTM\\Home_News.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T15:42:39.946Z",
+              "WhenOpened": "2024-08-19T04:29:03.593Z",
               "IsPinned": true,
-              "EditorCaption": ""
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "NHOM12_LTM\\Properties\\Resources.resx",
-              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Properties\\Resources.resx",
-              "RelativeToolTip": "NHOM12_LTM\\Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-08-18T16:24:47.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Picture1.cs",
-              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
-              "RelativeDocumentMoniker": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
-              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
-              "RelativeToolTip": "NHOM12_LTM\\Article_information\\Trang_Chu\\Picture1.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCMAAAA9AAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Program.cs",
+              "RelativeDocumentMoniker": "NHOM12_LTM\\Program.cs",
+              "ToolTip": "C:\\NHOM12_LTM\\D\u1EF0 \u00C1N CHUNG\\NHOM12-LTM\\NHOM12_LTM\\Program.cs",
+              "RelativeToolTip": "NHOM12_LTM\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T15:40:23.692Z",
+              "WhenOpened": "2024-08-19T05:22:56.368Z",
               "EditorCaption": ""
             }
           ]

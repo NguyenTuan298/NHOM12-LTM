@@ -98,7 +98,7 @@
             this.rtxPictureGT4.Location = new System.Drawing.Point(44, 161);
             this.rtxPictureGT4.Name = "rtxPictureGT4";
             this.rtxPictureGT4.ReadOnly = true;
-            this.rtxPictureGT4.Size = new System.Drawing.Size(1033, 483);
+            this.rtxPictureGT4.Size = new System.Drawing.Size(1033, 493);
             this.rtxPictureGT4.TabIndex = 231;
             this.rtxPictureGT4.Text = "";
             // 
@@ -106,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 1046);
+            this.ClientSize = new System.Drawing.Size(1089, 740);
             this.Controls.Add(this.rtxPictureGT4);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);

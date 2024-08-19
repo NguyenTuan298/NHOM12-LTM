@@ -96,7 +96,7 @@
             this.rtbPicture5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbPicture5.Location = new System.Drawing.Point(44, 161);
             this.rtbPicture5.Name = "rtbPicture5";
-            this.rtbPicture5.Size = new System.Drawing.Size(1033, 483);
+            this.rtbPicture5.Size = new System.Drawing.Size(1033, 493);
             this.rtbPicture5.TabIndex = 86;
             this.rtbPicture5.Text = "";
             // 
@@ -104,7 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 1046);
+            this.ClientSize = new System.Drawing.Size(1089, 740);
             this.Controls.Add(this.rtbPicture5);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);

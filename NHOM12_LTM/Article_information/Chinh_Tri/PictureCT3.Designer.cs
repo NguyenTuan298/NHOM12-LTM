@@ -97,7 +97,7 @@
             this.rtxPictureCT3.Location = new System.Drawing.Point(44, 161);
             this.rtxPictureCT3.Name = "rtxPictureCT3";
             this.rtxPictureCT3.ReadOnly = true;
-            this.rtxPictureCT3.Size = new System.Drawing.Size(1033, 483);
+            this.rtxPictureCT3.Size = new System.Drawing.Size(1033, 493);
             this.rtxPictureCT3.TabIndex = 101;
             this.rtxPictureCT3.Text = "";
             // 
@@ -105,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 1046);
+            this.ClientSize = new System.Drawing.Size(1089, 740);
             this.Controls.Add(this.rtxPictureCT3);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);

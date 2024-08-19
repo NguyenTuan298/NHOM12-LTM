@@ -97,7 +97,7 @@
             this.rtbPictureTG4.Location = new System.Drawing.Point(44, 161);
             this.rtbPictureTG4.Name = "rtbPictureTG4";
             this.rtbPictureTG4.ReadOnly = true;
-            this.rtbPictureTG4.Size = new System.Drawing.Size(1033, 483);
+            this.rtbPictureTG4.Size = new System.Drawing.Size(1033, 493);
             this.rtbPictureTG4.TabIndex = 56;
             this.rtbPictureTG4.Text = "";
             // 
@@ -105,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 1046);
+            this.ClientSize = new System.Drawing.Size(1089, 740);
             this.Controls.Add(this.rtbPictureTG4);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);

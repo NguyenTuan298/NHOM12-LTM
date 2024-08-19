@@ -98,7 +98,7 @@
             this.rtxPictureGT2.Location = new System.Drawing.Point(44, 161);
             this.rtxPictureGT2.Name = "rtxPictureGT2";
             this.rtxPictureGT2.ReadOnly = true;
-            this.rtxPictureGT2.Size = new System.Drawing.Size(1033, 483);
+            this.rtxPictureGT2.Size = new System.Drawing.Size(1033, 493);
             this.rtxPictureGT2.TabIndex = 221;
             this.rtxPictureGT2.Text = "";
             // 
@@ -106,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 1046);
+            this.ClientSize = new System.Drawing.Size(1089, 740);
             this.Controls.Add(this.rtxPictureGT2);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);

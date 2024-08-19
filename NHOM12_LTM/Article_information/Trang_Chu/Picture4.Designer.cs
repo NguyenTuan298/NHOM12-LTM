@@ -92,11 +92,12 @@
             // 
             // rtbPicture4
             // 
+            this.rtbPicture4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtbPicture4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbPicture4.Location = new System.Drawing.Point(44, 161);
             this.rtbPicture4.Name = "rtbPicture4";
             this.rtbPicture4.ReadOnly = true;
-            this.rtbPicture4.Size = new System.Drawing.Size(1033, 483);
+            this.rtbPicture4.Size = new System.Drawing.Size(1033, 493);
             this.rtbPicture4.TabIndex = 21;
             this.rtbPicture4.Text = "";
             // 
@@ -104,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1089, 1046);
+            this.ClientSize = new System.Drawing.Size(1089, 740);
             this.Controls.Add(this.rtbPicture4);
             this.Controls.Add(this.btnX);
             this.Controls.Add(this.pictureBox1);
